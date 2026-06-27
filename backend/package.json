@@ -1,0 +1,26 @@
+{
+  "name": "teevo-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node ./node_modules/typescript/bin/tsc",
+    "package:lambda": "node package-lambda.mjs",
+    "seed": "node scripts/seed.mjs",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.826.0",
+    "@aws-sdk/lib-dynamodb": "^3.826.0",
+    "@aws-sdk/client-s3": "^3.826.0",
+    "@aws-sdk/s3-request-presigner": "^3.826.0",
+    "jose": "^6.0.11",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.149",
+    "@types/node": "^22.15.0",
+    "archiver": "^7.0.1",
+    "typescript": "~5.8.3"
+  }
+}

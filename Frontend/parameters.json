@@ -1,0 +1,14 @@
+[
+  {
+    "ParameterKey": "EnvironmentName",
+    "ParameterValue": "teevo"
+  },
+  {
+    "ParameterKey": "CustomDomainName",
+    "ParameterValue": ""
+  },
+  {
+    "ParameterKey": "AcmCertificateArn",
+    "ParameterValue": ""
+  }
+]

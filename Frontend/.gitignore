@@ -1,0 +1,20 @@
+node_modules
+dist
+*.local
+.DS_Store
+.env
+.env.*
+
+# Launchpad preview runtime (do not commit)
+ecosystem.preview.cjs
+.platform/
+preview.log
+ecosystem.preview.js
+.preview-package.sha256
+.platform/
+preview.log
+.launchpad/
+.launchpad/**
+node_modules/
+dist/
+build/

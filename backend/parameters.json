@@ -1,0 +1,18 @@
+[
+  {
+    "ParameterKey": "EnvironmentName",
+    "ParameterValue": "teevo"
+  },
+  {
+    "ParameterKey": "LambdaCodeS3Bucket",
+    "ParameterValue": "teevo-lambda-artifacts-placeholder"
+  },
+  {
+    "ParameterKey": "LambdaCodeS3Key",
+    "ParameterValue": "api/lambda.zip"
+  },
+  {
+    "ParameterKey": "CorsOrigins",
+    "ParameterValue": "http://localhost:5173"
+  }
+]

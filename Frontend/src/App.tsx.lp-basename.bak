@@ -1,0 +1,13 @@
+import { BrowserRouter } from 'react-router-dom';
+import { TeevoProvider } from '@/store/TeevoContext';
+import { AppRoutes } from '@/routes/AppRoutes';
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <TeevoProvider>
+        <AppRoutes />
+      </TeevoProvider>
+    </BrowserRouter>
+  );
+}

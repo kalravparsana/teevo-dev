@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="Pine Valley Golf Club">
+  <rect width="64" height="64" rx="12" fill="#1B4332"/>
+  <path d="M32 12c-8 14-18 22-18 32a18 18 0 0 0 36 0c0-10-10-18-18-32Z" fill="#52B788"/>
+  <path d="M32 28v24" stroke="#D8F3DC" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="32" cy="20" r="3" fill="#95D5B2"/>
+</svg>

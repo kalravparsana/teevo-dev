@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="Oak Ridge Country Club">
+  <rect width="64" height="64" rx="12" fill="#5C4033"/>
+  <ellipse cx="32" cy="42" rx="22" ry="8" fill="#8B6914" opacity="0.5"/>
+  <path d="M32 14c-6 8-14 12-14 20 0 6 6 10 14 10s14-4 14-10c0-8-8-12-14-20Z" fill="#C9A227"/>
+  <path d="M26 34h12M32 28v12" stroke="#F5E6C8" stroke-width="2" stroke-linecap="round"/>
+</svg>
