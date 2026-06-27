@@ -1,0 +1,303 @@
+[
+  {
+    "id": "layer:documentation",
+    "name": "Documentation",
+    "description": "README files, plans, and project documentation.",
+    "nodeIds": [
+      "document:Frontend/README.md",
+      "document:Frontend/playwright-report/data/50f4ee6310f457f5f70cb7e20718ac5eb98be812.md",
+      "document:Frontend/playwright-report/data/99b06b9c2cfc65293d299fbbd8692ed7947e12aa.md",
+      "document:Frontend/playwright-report/data/c989902b0b9131a9ae726d5e8398374272720ceb.md",
+      "document:Frontend/playwright-report/data/e617bec164287fa661a20105f18fdaeffb277c02.md",
+      "document:backend/plan/backend-vR1-release1-0-0.md",
+      "document:Frontend/test-results/login-login.form-Login-—-F-0c166-il-shows-browser-validation-chromium/error-context.md",
+      "document:Frontend/test-results/login-login.form-Login-—-F-28617-cked-by-required-validation-chromium/error-context.md",
+      "document:Frontend/test-results/login-login.form-Login-—-F-ade2e-n-email-shows-error-message-chromium/error-context.md",
+      "document:Frontend/test-results/login-login.form-Login-—-F-e3390-email-signs-in-successfully-chromium/error-context.md",
+      "document:README.md"
+    ]
+  },
+  {
+    "id": "layer:configuration",
+    "name": "Configuration",
+    "description": "Package manifests, TypeScript configs, and environment settings.",
+    "nodeIds": [
+      "config:Frontend/cloudformation-template.yaml",
+      "config:Frontend/package.json",
+      "config:Frontend/parameters.json",
+      "config:Frontend/tsconfig.app.json",
+      "config:Frontend/tsconfig.json",
+      "config:Frontend/tsconfig.node.json",
+      "config:backend/cloudformation-template.yaml",
+      "config:backend/package.json",
+      "config:backend/parameters.json",
+      "config:backend/tsconfig.json",
+      "config:.understand-anything/config.json",
+      "config:Frontend/test-results/.last-run.json"
+    ]
+  },
+  {
+    "id": "layer:frontend-core",
+    "name": "Frontend Core",
+    "description": "React application entry points, routing shell, and global styles.",
+    "nodeIds": [
+      "file:Frontend/src/data/seed.ts",
+      "file:Frontend/src/types/entities.ts",
+      "file:Frontend/src/App.tsx",
+      "file:Frontend/src/launchpadEmbedBasename.js",
+      "file:Frontend/src/main.tsx",
+      "file:Frontend/src/routes/AppRoutes.tsx",
+      "file:Frontend/index.html",
+      "file:Frontend/.cursor/rules/playwright-automation.mdc",
+      "file:Frontend/.cursor/rules/playwright-spec-templates.mdc",
+      "file:Frontend/.cursor/skills/playwrightConfig.mdc",
+      "file:Frontend/.cursorignore",
+      "file:Frontend/assets/index-ByMylzQP.js",
+      "file:Frontend/assets/index-CzqLfKrO.css",
+      "file:Frontend/eslint.config.js",
+      "file:Frontend/playwright-report/index.html",
+      "file:Frontend/playwright.config.ts",
+      "file:Frontend/src/App.tsx.lp-basename.bak",
+      "file:Frontend/src/index.css",
+      "file:Frontend/src/launchpadEmbedBasename.d.ts",
+      "file:Frontend/src/test/setup.ts",
+      "file:Frontend/src/vite-env.d.ts",
+      "file:Frontend/vite.config.ts"
+    ]
+  },
+  {
+    "id": "layer:frontend-pages",
+    "name": "Frontend Pages",
+    "description": "Route-level page components for dashboard, clubs, tournaments, bookings, and admin.",
+    "nodeIds": [
+      "file:Frontend/src/pages/DashboardPage.tsx",
+      "file:Frontend/src/pages/BookingsPage.tsx",
+      "file:Frontend/src/pages/ClubDetailPage.tsx",
+      "file:Frontend/src/pages/ClubsPage.tsx",
+      "file:Frontend/src/pages/LoginPage.tsx",
+      "file:Frontend/src/pages/ScorecardsPage.tsx",
+      "file:Frontend/src/pages/TournamentDetailPage.tsx",
+      "file:Frontend/src/pages/TournamentsPage.tsx",
+      "file:Frontend/src/pages/UserManagementPage.tsx",
+      "file:Frontend/src/pages/AuthCallbackPage.tsx"
+    ]
+  },
+  {
+    "id": "layer:frontend-components",
+    "name": "Frontend Components",
+    "description": "Reusable UI components including layout, auth gates, and feature panels.",
+    "nodeIds": [
+      "file:Frontend/src/components/dashboard/DashboardPanel.tsx",
+      "file:Frontend/src/components/dashboard/SuperadminDashboard.tsx",
+      "file:Frontend/src/components/dashboard/TeamRoleCounts.tsx",
+      "file:Frontend/src/components/tournaments/TournamentGroupEditor.tsx",
+      "file:Frontend/src/components/ui/StatCard.tsx",
+      "file:Frontend/src/components/auth/ProtectedRoute.tsx",
+      "file:Frontend/src/components/auth/RoleGate.tsx",
+      "file:Frontend/src/components/clubs/ClubLogo.tsx",
+      "file:Frontend/src/components/layout/AppShell.tsx",
+      "file:Frontend/src/components/layout/PageHeader.tsx",
+      "file:Frontend/src/components/tournaments/TournamentRegistrationsPanel.tsx",
+      "file:Frontend/src/components/ui/Alert.tsx",
+      "file:Frontend/src/components/ui/Badge.tsx",
+      "file:Frontend/src/components/ui/Button.tsx",
+      "file:Frontend/src/components/ui/Card.tsx",
+      "file:Frontend/src/components/ui/EmptyState.tsx",
+      "file:Frontend/src/components/ui/ImageUpload.tsx",
+      "file:Frontend/src/components/ui/Input.tsx",
+      "file:Frontend/src/components/ui/Modal.tsx",
+      "file:Frontend/src/components/ui/Select.tsx"
+    ]
+  },
+  {
+    "id": "layer:frontend-state",
+    "name": "Frontend State",
+    "description": "React context and store modules managing application state and actions.",
+    "nodeIds": [
+      "file:Frontend/src/store/actions.test.ts",
+      "file:Frontend/src/store/actions.ts",
+      "file:Frontend/src/store/TeevoContext.tsx"
+    ]
+  },
+  {
+    "id": "layer:frontend-api-client",
+    "name": "API Client Layer",
+    "description": "HTTP client modules connecting the frontend to the Teevo backend API.",
+    "nodeIds": [
+      "file:Frontend/src/lib/api/client.ts",
+      "file:Frontend/src/lib/api/config.ts",
+      "file:Frontend/src/lib/api/teevoApi.ts"
+    ]
+  },
+  {
+    "id": "layer:frontend-utilities",
+    "name": "Frontend Utilities",
+    "description": "Shared helpers for dates, validation, permissions, tournaments, and copy text.",
+    "nodeIds": [
+      "file:Frontend/src/lib/copy/bookingsPage.test.ts",
+      "file:Frontend/src/lib/copy/bookingsPage.ts",
+      "file:Frontend/src/lib/copy/clubsPage.test.ts",
+      "file:Frontend/src/lib/copy/clubsPage.ts",
+      "file:Frontend/src/lib/copy/dashboardPage.test.ts",
+      "file:Frontend/src/lib/copy/dashboardPage.ts",
+      "file:Frontend/src/lib/copy/scorecardsPage.test.ts",
+      "file:Frontend/src/lib/copy/scorecardsPage.ts",
+      "file:Frontend/src/lib/copy/tournamentsPage.test.ts",
+      "file:Frontend/src/lib/copy/tournamentsPage.ts",
+      "file:Frontend/src/lib/dashboard/platformMetrics.test.ts",
+      "file:Frontend/src/lib/dashboard/platformMetrics.ts",
+      "file:Frontend/src/lib/greetings.test.ts",
+      "file:Frontend/src/lib/greetings.ts",
+      "file:Frontend/src/lib/id.ts",
+      "file:Frontend/src/lib/storage.ts",
+      "file:Frontend/src/lib/teeTimes.test.ts",
+      "file:Frontend/src/lib/teeTimes.ts",
+      "file:Frontend/src/lib/tournaments/bookingBlock.ts",
+      "file:Frontend/src/lib/tournaments/groups.ts",
+      "file:Frontend/src/lib/tournaments/normalize.ts",
+      "file:Frontend/src/lib/clubs/holeCount.test.ts",
+      "file:Frontend/src/lib/clubs/holeCount.ts",
+      "file:Frontend/src/lib/cn.ts",
+      "file:Frontend/src/lib/dates.ts",
+      "file:Frontend/src/lib/images/readImageFile.test.ts",
+      "file:Frontend/src/lib/images/readImageFile.ts",
+      "file:Frontend/src/lib/permissions.ts",
+      "file:Frontend/src/lib/tournaments/constants.ts",
+      "file:Frontend/src/lib/validation/schemas.ts",
+      "file:Frontend/src/lib/auth/cognito.ts",
+      "file:Frontend/src/lib/auth/tokenStorage.ts"
+    ]
+  },
+  {
+    "id": "layer:backend-api",
+    "name": "Backend API Handlers",
+    "description": "AWS Lambda entry points and request routing for REST API endpoints.",
+    "nodeIds": [
+      "file:backend/src/handlers/api.ts",
+      "file:backend/src/handlers/router.ts"
+    ]
+  },
+  {
+    "id": "layer:backend-domain",
+    "name": "Backend Domain Services",
+    "description": "Business logic and repository layer for users, clubs, tournaments, and bookings.",
+    "nodeIds": [
+      "file:backend/src/services/domain.ts",
+      "file:backend/src/services/repository.ts"
+    ]
+  },
+  {
+    "id": "layer:backend-core",
+    "name": "Backend Core Libraries",
+    "description": "Auth, DynamoDB access, configuration, error handling, and response utilities.",
+    "nodeIds": [
+      "file:backend/src/lib/auth.ts",
+      "file:backend/src/lib/config.ts",
+      "file:backend/src/lib/dynamodb.ts",
+      "file:backend/src/lib/errors.ts",
+      "file:backend/src/lib/response.ts",
+      "file:backend/src/lib/types.ts",
+      "file:backend/package-lambda.mjs",
+      "file:backend/scripts/seed.mjs"
+    ]
+  },
+  {
+    "id": "layer:e2e-tests",
+    "name": "E2E Tests",
+    "description": "Playwright end-to-end test suites covering major application flows.",
+    "nodeIds": [
+      "file:Frontend/automation-tests/bookings/bookings.accessibility.spec.ts",
+      "file:Frontend/automation-tests/bookings/bookings.api.spec.ts",
+      "file:Frontend/automation-tests/bookings/bookings.edge.spec.ts",
+      "file:Frontend/automation-tests/bookings/bookings.error.spec.ts",
+      "file:Frontend/automation-tests/bookings/bookings.form.spec.ts",
+      "file:Frontend/automation-tests/bookings/bookings.mobile.spec.ts",
+      "file:Frontend/automation-tests/bookings/bookings.smoke.spec.ts",
+      "file:Frontend/automation-tests/bookings/bookings.ui.spec.ts",
+      "file:Frontend/automation-tests/club-detail/club-detail.accessibility.spec.ts",
+      "file:Frontend/automation-tests/club-detail/club-detail.api.spec.ts",
+      "file:Frontend/automation-tests/club-detail/club-detail.edge.spec.ts",
+      "file:Frontend/automation-tests/club-detail/club-detail.error.spec.ts",
+      "file:Frontend/automation-tests/club-detail/club-detail.form.spec.ts",
+      "file:Frontend/automation-tests/club-detail/club-detail.mobile.spec.ts",
+      "file:Frontend/automation-tests/club-detail/club-detail.smoke.spec.ts",
+      "file:Frontend/automation-tests/club-detail/club-detail.ui.spec.ts",
+      "file:Frontend/automation-tests/clubs/clubs.accessibility.spec.ts",
+      "file:Frontend/automation-tests/clubs/clubs.api.spec.ts",
+      "file:Frontend/automation-tests/clubs/clubs.edge.spec.ts",
+      "file:Frontend/automation-tests/clubs/clubs.error.spec.ts",
+      "file:Frontend/automation-tests/clubs/clubs.form.spec.ts",
+      "file:Frontend/automation-tests/clubs/clubs.mobile.spec.ts",
+      "file:Frontend/automation-tests/clubs/clubs.smoke.spec.ts",
+      "file:Frontend/automation-tests/clubs/clubs.ui.spec.ts",
+      "file:Frontend/automation-tests/dashboard/dashboard.accessibility.spec.ts",
+      "file:Frontend/automation-tests/dashboard/dashboard.api.spec.ts",
+      "file:Frontend/automation-tests/dashboard/dashboard.edge.spec.ts",
+      "file:Frontend/automation-tests/dashboard/dashboard.error.spec.ts",
+      "file:Frontend/automation-tests/dashboard/dashboard.form.spec.ts",
+      "file:Frontend/automation-tests/dashboard/dashboard.mobile.spec.ts",
+      "file:Frontend/automation-tests/dashboard/dashboard.smoke.spec.ts",
+      "file:Frontend/automation-tests/dashboard/dashboard.ui.spec.ts",
+      "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "file:Frontend/automation-tests/index.ts",
+      "file:Frontend/automation-tests/login/login.accessibility.spec.ts",
+      "file:Frontend/automation-tests/login/login.api.spec.ts",
+      "file:Frontend/automation-tests/login/login.edge.spec.ts",
+      "file:Frontend/automation-tests/login/login.error.spec.ts",
+      "file:Frontend/automation-tests/login/login.form.spec.ts",
+      "file:Frontend/automation-tests/login/login.mobile.spec.ts",
+      "file:Frontend/automation-tests/login/login.smoke.spec.ts",
+      "file:Frontend/automation-tests/login/login.ui.spec.ts",
+      "file:Frontend/automation-tests/scorecards/scorecards.accessibility.spec.ts",
+      "file:Frontend/automation-tests/scorecards/scorecards.api.spec.ts",
+      "file:Frontend/automation-tests/scorecards/scorecards.edge.spec.ts",
+      "file:Frontend/automation-tests/scorecards/scorecards.error.spec.ts",
+      "file:Frontend/automation-tests/scorecards/scorecards.form.spec.ts",
+      "file:Frontend/automation-tests/scorecards/scorecards.mobile.spec.ts",
+      "file:Frontend/automation-tests/scorecards/scorecards.smoke.spec.ts",
+      "file:Frontend/automation-tests/scorecards/scorecards.ui.spec.ts",
+      "file:Frontend/automation-tests/tournament-detail/tournament-detail.accessibility.spec.ts",
+      "file:Frontend/automation-tests/tournament-detail/tournament-detail.api.spec.ts",
+      "file:Frontend/automation-tests/tournament-detail/tournament-detail.edge.spec.ts",
+      "file:Frontend/automation-tests/tournament-detail/tournament-detail.error.spec.ts",
+      "file:Frontend/automation-tests/tournament-detail/tournament-detail.form.spec.ts",
+      "file:Frontend/automation-tests/tournament-detail/tournament-detail.mobile.spec.ts",
+      "file:Frontend/automation-tests/tournament-detail/tournament-detail.smoke.spec.ts",
+      "file:Frontend/automation-tests/tournament-detail/tournament-detail.ui.spec.ts",
+      "file:Frontend/automation-tests/tournaments/tournaments.accessibility.spec.ts",
+      "file:Frontend/automation-tests/tournaments/tournaments.api.spec.ts",
+      "file:Frontend/automation-tests/tournaments/tournaments.edge.spec.ts",
+      "file:Frontend/automation-tests/tournaments/tournaments.error.spec.ts",
+      "file:Frontend/automation-tests/tournaments/tournaments.form.spec.ts",
+      "file:Frontend/automation-tests/tournaments/tournaments.mobile.spec.ts",
+      "file:Frontend/automation-tests/tournaments/tournaments.smoke.spec.ts",
+      "file:Frontend/automation-tests/tournaments/tournaments.ui.spec.ts",
+      "file:Frontend/automation-tests/users/users.accessibility.spec.ts",
+      "file:Frontend/automation-tests/users/users.api.spec.ts",
+      "file:Frontend/automation-tests/users/users.edge.spec.ts",
+      "file:Frontend/automation-tests/users/users.error.spec.ts",
+      "file:Frontend/automation-tests/users/users.form.spec.ts",
+      "file:Frontend/automation-tests/users/users.mobile.spec.ts",
+      "file:Frontend/automation-tests/users/users.smoke.spec.ts",
+      "file:Frontend/automation-tests/users/users.ui.spec.ts"
+    ]
+  },
+  {
+    "id": "layer:project-root",
+    "name": "Project Root",
+    "description": "Top-level repository metadata and shared configuration.",
+    "nodeIds": [
+      "file:.gitmodules",
+      "file:deploy.sh"
+    ]
+  },
+  {
+    "id": "layer:tooling",
+    "name": "Analysis Tooling",
+    "description": "Understand-Anything graph artifacts and ignore configuration.",
+    "nodeIds": [
+      "file:.understand-anything/.understandignore"
+    ]
+  }
+]

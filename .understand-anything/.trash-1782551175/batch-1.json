@@ -1,0 +1,2388 @@
+{
+  "nodes": [
+    {
+      "id": "file:Frontend/src/components/dashboard/DashboardPanel.tsx",
+      "type": "file",
+      "name": "DashboardPanel.tsx",
+      "filePath": "Frontend/src/components/dashboard/DashboardPanel.tsx",
+      "summary": "Reusable UI component (DashboardPanel.tsx) used across application views.",
+      "tags": [
+        "component",
+        "ui",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/components/dashboard/DashboardPanel.tsx:DashboardPanel",
+      "type": "function",
+      "name": "DashboardPanel",
+      "filePath": "Frontend/src/components/dashboard/DashboardPanel.tsx",
+      "summary": "Function DashboardPanel in DashboardPanel.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/components/dashboard/SuperadminDashboard.tsx",
+      "type": "file",
+      "name": "SuperadminDashboard.tsx",
+      "filePath": "Frontend/src/components/dashboard/SuperadminDashboard.tsx",
+      "summary": "Reusable UI component (SuperadminDashboard.tsx) used across application views.",
+      "tags": [
+        "component",
+        "ui",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:Frontend/src/components/dashboard/SuperadminDashboard.tsx:PanelLink",
+      "type": "function",
+      "name": "PanelLink",
+      "filePath": "Frontend/src/components/dashboard/SuperadminDashboard.tsx",
+      "summary": "Function PanelLink in SuperadminDashboard.tsx.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/components/dashboard/SuperadminDashboard.tsx:QuickActionLink",
+      "type": "function",
+      "name": "QuickActionLink",
+      "filePath": "Frontend/src/components/dashboard/SuperadminDashboard.tsx",
+      "summary": "Function QuickActionLink in SuperadminDashboard.tsx.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/components/dashboard/SuperadminDashboard.tsx:SuperadminDashboard",
+      "type": "function",
+      "name": "SuperadminDashboard",
+      "filePath": "Frontend/src/components/dashboard/SuperadminDashboard.tsx",
+      "summary": "Function SuperadminDashboard in SuperadminDashboard.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:Frontend/src/components/dashboard/TeamRoleCounts.tsx",
+      "type": "file",
+      "name": "TeamRoleCounts.tsx",
+      "filePath": "Frontend/src/components/dashboard/TeamRoleCounts.tsx",
+      "summary": "Reusable UI component (TeamRoleCounts.tsx) used across application views.",
+      "tags": [
+        "component",
+        "ui",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/components/dashboard/TeamRoleCounts.tsx:TeamRoleCounts",
+      "type": "function",
+      "name": "TeamRoleCounts",
+      "filePath": "Frontend/src/components/dashboard/TeamRoleCounts.tsx",
+      "summary": "Function TeamRoleCounts in TeamRoleCounts.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/components/tournaments/TournamentGroupEditor.tsx",
+      "type": "file",
+      "name": "TournamentGroupEditor.tsx",
+      "filePath": "Frontend/src/components/tournaments/TournamentGroupEditor.tsx",
+      "summary": "Reusable UI component (TournamentGroupEditor.tsx) used across application views.",
+      "tags": [
+        "component",
+        "ui",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:Frontend/src/components/tournaments/TournamentGroupEditor.tsx:TournamentGroupEditor",
+      "type": "function",
+      "name": "TournamentGroupEditor",
+      "filePath": "Frontend/src/components/tournaments/TournamentGroupEditor.tsx",
+      "summary": "Function TournamentGroupEditor in TournamentGroupEditor.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:Frontend/src/components/ui/StatCard.tsx",
+      "type": "file",
+      "name": "StatCard.tsx",
+      "filePath": "Frontend/src/components/ui/StatCard.tsx",
+      "summary": "Reusable UI component (StatCard.tsx) used across application views.",
+      "tags": [
+        "component",
+        "ui",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/components/ui/StatCard.tsx:StatCard",
+      "type": "function",
+      "name": "StatCard",
+      "filePath": "Frontend/src/components/ui/StatCard.tsx",
+      "summary": "Function StatCard in StatCard.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/data/seed.ts",
+      "type": "file",
+      "name": "seed.ts",
+      "filePath": "Frontend/src/data/seed.ts",
+      "summary": "Source file (seed.ts) contributing to the Teevo golf management platform.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:Frontend/src/data/seed.ts:seedData",
+      "type": "function",
+      "name": "seedData",
+      "filePath": "Frontend/src/data/seed.ts",
+      "summary": "Function seedData in seed.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:Frontend/src/lib/copy/bookingsPage.test.ts",
+      "type": "file",
+      "name": "bookingsPage.test.ts",
+      "filePath": "Frontend/src/lib/copy/bookingsPage.test.ts",
+      "summary": "Automated test suite (bookingsPage.test.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/lib/copy/bookingsPage.ts",
+      "type": "file",
+      "name": "bookingsPage.ts",
+      "filePath": "Frontend/src/lib/copy/bookingsPage.ts",
+      "summary": "Shared library module (bookingsPage.ts) providing utilities or API clients.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/copy/bookingsPage.ts:getBookingsPageDescription",
+      "type": "function",
+      "name": "getBookingsPageDescription",
+      "filePath": "Frontend/src/lib/copy/bookingsPage.ts",
+      "summary": "Function getBookingsPageDescription in bookingsPage.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/lib/copy/clubsPage.test.ts",
+      "type": "file",
+      "name": "clubsPage.test.ts",
+      "filePath": "Frontend/src/lib/copy/clubsPage.test.ts",
+      "summary": "Automated test suite (clubsPage.test.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/lib/copy/clubsPage.ts",
+      "type": "file",
+      "name": "clubsPage.ts",
+      "filePath": "Frontend/src/lib/copy/clubsPage.ts",
+      "summary": "Shared library module (clubsPage.ts) providing utilities or API clients.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/copy/clubsPage.ts:getClubsPageDescription",
+      "type": "function",
+      "name": "getClubsPageDescription",
+      "filePath": "Frontend/src/lib/copy/clubsPage.ts",
+      "summary": "Function getClubsPageDescription in clubsPage.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/lib/copy/dashboardPage.test.ts",
+      "type": "file",
+      "name": "dashboardPage.test.ts",
+      "filePath": "Frontend/src/lib/copy/dashboardPage.test.ts",
+      "summary": "Automated test suite (dashboardPage.test.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/lib/copy/dashboardPage.ts",
+      "type": "file",
+      "name": "dashboardPage.ts",
+      "filePath": "Frontend/src/lib/copy/dashboardPage.ts",
+      "summary": "Shared library module (dashboardPage.ts) providing utilities or API clients.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/copy/dashboardPage.ts:getDashboardPageDescription",
+      "type": "function",
+      "name": "getDashboardPageDescription",
+      "filePath": "Frontend/src/lib/copy/dashboardPage.ts",
+      "summary": "Function getDashboardPageDescription in dashboardPage.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/lib/copy/scorecardsPage.test.ts",
+      "type": "file",
+      "name": "scorecardsPage.test.ts",
+      "filePath": "Frontend/src/lib/copy/scorecardsPage.test.ts",
+      "summary": "Automated test suite (scorecardsPage.test.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/lib/copy/scorecardsPage.ts",
+      "type": "file",
+      "name": "scorecardsPage.ts",
+      "filePath": "Frontend/src/lib/copy/scorecardsPage.ts",
+      "summary": "Shared library module (scorecardsPage.ts) providing utilities or API clients.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/copy/scorecardsPage.ts:getScorecardsPageDescription",
+      "type": "function",
+      "name": "getScorecardsPageDescription",
+      "filePath": "Frontend/src/lib/copy/scorecardsPage.ts",
+      "summary": "Function getScorecardsPageDescription in scorecardsPage.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/lib/copy/tournamentsPage.test.ts",
+      "type": "file",
+      "name": "tournamentsPage.test.ts",
+      "filePath": "Frontend/src/lib/copy/tournamentsPage.test.ts",
+      "summary": "Automated test suite (tournamentsPage.test.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/lib/copy/tournamentsPage.ts",
+      "type": "file",
+      "name": "tournamentsPage.ts",
+      "filePath": "Frontend/src/lib/copy/tournamentsPage.ts",
+      "summary": "Shared library module (tournamentsPage.ts) providing utilities or API clients.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/copy/tournamentsPage.ts:getTournamentsPageDescription",
+      "type": "function",
+      "name": "getTournamentsPageDescription",
+      "filePath": "Frontend/src/lib/copy/tournamentsPage.ts",
+      "summary": "Function getTournamentsPageDescription in tournamentsPage.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/lib/dashboard/platformMetrics.test.ts",
+      "type": "file",
+      "name": "platformMetrics.test.ts",
+      "filePath": "Frontend/src/lib/dashboard/platformMetrics.test.ts",
+      "summary": "Automated test suite (platformMetrics.test.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:Frontend/src/lib/dashboard/platformMetrics.ts",
+      "type": "file",
+      "name": "platformMetrics.ts",
+      "filePath": "Frontend/src/lib/dashboard/platformMetrics.ts",
+      "summary": "Shared library module (platformMetrics.ts) providing utilities or API clients.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:Frontend/src/lib/dashboard/platformMetrics.ts:countUsersByRole",
+      "type": "function",
+      "name": "countUsersByRole",
+      "filePath": "Frontend/src/lib/dashboard/platformMetrics.ts",
+      "summary": "Function countUsersByRole in platformMetrics.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/dashboard/platformMetrics.ts:countTournamentsByStatus",
+      "type": "function",
+      "name": "countTournamentsByStatus",
+      "filePath": "Frontend/src/lib/dashboard/platformMetrics.ts",
+      "summary": "Function countTournamentsByStatus in platformMetrics.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/dashboard/platformMetrics.ts:getClubSummaries",
+      "type": "function",
+      "name": "getClubSummaries",
+      "filePath": "Frontend/src/lib/dashboard/platformMetrics.ts",
+      "summary": "Function getClubSummaries in platformMetrics.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/dashboard/platformMetrics.ts:getActiveTournaments",
+      "type": "function",
+      "name": "getActiveTournaments",
+      "filePath": "Frontend/src/lib/dashboard/platformMetrics.ts",
+      "summary": "Function getActiveTournaments in platformMetrics.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/dashboard/platformMetrics.ts:getUpcomingBookings",
+      "type": "function",
+      "name": "getUpcomingBookings",
+      "filePath": "Frontend/src/lib/dashboard/platformMetrics.ts",
+      "summary": "Function getUpcomingBookings in platformMetrics.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/dashboard/platformMetrics.ts:getRecentScorecards",
+      "type": "function",
+      "name": "getRecentScorecards",
+      "filePath": "Frontend/src/lib/dashboard/platformMetrics.ts",
+      "summary": "Function getRecentScorecards in platformMetrics.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/dashboard/platformMetrics.ts:getPlatformActivity",
+      "type": "function",
+      "name": "getPlatformActivity",
+      "filePath": "Frontend/src/lib/dashboard/platformMetrics.ts",
+      "summary": "Function getPlatformActivity in platformMetrics.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/lib/greetings.test.ts",
+      "type": "file",
+      "name": "greetings.test.ts",
+      "filePath": "Frontend/src/lib/greetings.test.ts",
+      "summary": "Automated test suite (greetings.test.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/lib/greetings.ts",
+      "type": "file",
+      "name": "greetings.ts",
+      "filePath": "Frontend/src/lib/greetings.ts",
+      "summary": "Shared library module (greetings.ts) providing utilities or API clients.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/greetings.ts:getTimeOfDay",
+      "type": "function",
+      "name": "getTimeOfDay",
+      "filePath": "Frontend/src/lib/greetings.ts",
+      "summary": "Function getTimeOfDay in greetings.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/greetings.ts:getTimeOfDayGreeting",
+      "type": "function",
+      "name": "getTimeOfDayGreeting",
+      "filePath": "Frontend/src/lib/greetings.ts",
+      "summary": "Function getTimeOfDayGreeting in greetings.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/greetings.ts:formatDashboardGreeting",
+      "type": "function",
+      "name": "formatDashboardGreeting",
+      "filePath": "Frontend/src/lib/greetings.ts",
+      "summary": "Function formatDashboardGreeting in greetings.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/lib/id.ts",
+      "type": "file",
+      "name": "id.ts",
+      "filePath": "Frontend/src/lib/id.ts",
+      "summary": "Shared library module (id.ts) providing utilities or API clients.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/id.ts:createId",
+      "type": "function",
+      "name": "createId",
+      "filePath": "Frontend/src/lib/id.ts",
+      "summary": "Function createId in id.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/lib/storage.ts",
+      "type": "file",
+      "name": "storage.ts",
+      "filePath": "Frontend/src/lib/storage.ts",
+      "summary": "Shared library module (storage.ts) providing utilities or API clients.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:Frontend/src/lib/storage.ts:normalizeData",
+      "type": "function",
+      "name": "normalizeData",
+      "filePath": "Frontend/src/lib/storage.ts",
+      "summary": "Function normalizeData in storage.ts.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/storage.ts:loadData",
+      "type": "function",
+      "name": "loadData",
+      "filePath": "Frontend/src/lib/storage.ts",
+      "summary": "Function loadData in storage.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/storage.ts:saveData",
+      "type": "function",
+      "name": "saveData",
+      "filePath": "Frontend/src/lib/storage.ts",
+      "summary": "Function saveData in storage.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/storage.ts:loadSession",
+      "type": "function",
+      "name": "loadSession",
+      "filePath": "Frontend/src/lib/storage.ts",
+      "summary": "Function loadSession in storage.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/storage.ts:saveSession",
+      "type": "function",
+      "name": "saveSession",
+      "filePath": "Frontend/src/lib/storage.ts",
+      "summary": "Function saveSession in storage.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/storage.ts:resetData",
+      "type": "function",
+      "name": "resetData",
+      "filePath": "Frontend/src/lib/storage.ts",
+      "summary": "Function resetData in storage.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/lib/teeTimes.test.ts",
+      "type": "file",
+      "name": "teeTimes.test.ts",
+      "filePath": "Frontend/src/lib/teeTimes.test.ts",
+      "summary": "Automated test suite (teeTimes.test.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/lib/teeTimes.ts",
+      "type": "file",
+      "name": "teeTimes.ts",
+      "filePath": "Frontend/src/lib/teeTimes.ts",
+      "summary": "Shared library module (teeTimes.ts) providing utilities or API clients.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:Frontend/src/lib/teeTimes.ts:generateTeeTimeSlots",
+      "type": "function",
+      "name": "generateTeeTimeSlots",
+      "filePath": "Frontend/src/lib/teeTimes.ts",
+      "summary": "Function generateTeeTimeSlots in teeTimes.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/teeTimes.ts:teeTimeToIso",
+      "type": "function",
+      "name": "teeTimeToIso",
+      "filePath": "Frontend/src/lib/teeTimes.ts",
+      "summary": "Function teeTimeToIso in teeTimes.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/teeTimes.ts:getBookedTimesForDate",
+      "type": "function",
+      "name": "getBookedTimesForDate",
+      "filePath": "Frontend/src/lib/teeTimes.ts",
+      "summary": "Function getBookedTimesForDate in teeTimes.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/teeTimes.ts:isTeeTimeWithinClubHours",
+      "type": "function",
+      "name": "isTeeTimeWithinClubHours",
+      "filePath": "Frontend/src/lib/teeTimes.ts",
+      "summary": "Function isTeeTimeWithinClubHours in teeTimes.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/lib/tournaments/bookingBlock.ts",
+      "type": "file",
+      "name": "bookingBlock.ts",
+      "filePath": "Frontend/src/lib/tournaments/bookingBlock.ts",
+      "summary": "Shared library module (bookingBlock.ts) providing utilities or API clients.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/tournaments/bookingBlock.ts:isCasualBookingBlocked",
+      "type": "function",
+      "name": "isCasualBookingBlocked",
+      "filePath": "Frontend/src/lib/tournaments/bookingBlock.ts",
+      "summary": "Function isCasualBookingBlocked in bookingBlock.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/tournaments/bookingBlock.ts:hasActiveBookingBlock",
+      "type": "function",
+      "name": "hasActiveBookingBlock",
+      "filePath": "Frontend/src/lib/tournaments/bookingBlock.ts",
+      "summary": "Function hasActiveBookingBlock in bookingBlock.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/lib/tournaments/groups.ts",
+      "type": "file",
+      "name": "groups.ts",
+      "filePath": "Frontend/src/lib/tournaments/groups.ts",
+      "summary": "Shared library module (groups.ts) providing utilities or API clients.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/tournaments/groups.ts:isHandicapInGroup",
+      "type": "function",
+      "name": "isHandicapInGroup",
+      "filePath": "Frontend/src/lib/tournaments/groups.ts",
+      "summary": "Function isHandicapInGroup in groups.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/tournaments/groups.ts:eligibleGroupsForHandicap",
+      "type": "function",
+      "name": "eligibleGroupsForHandicap",
+      "filePath": "Frontend/src/lib/tournaments/groups.ts",
+      "summary": "Function eligibleGroupsForHandicap in groups.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/tournaments/groups.ts:formatGroupLabel",
+      "type": "function",
+      "name": "formatGroupLabel",
+      "filePath": "Frontend/src/lib/tournaments/groups.ts",
+      "summary": "Function formatGroupLabel in groups.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/lib/tournaments/normalize.ts",
+      "type": "file",
+      "name": "normalize.ts",
+      "filePath": "Frontend/src/lib/tournaments/normalize.ts",
+      "summary": "Shared library module (normalize.ts) providing utilities or API clients.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:Frontend/src/lib/tournaments/normalize.ts:normalizeGroups",
+      "type": "function",
+      "name": "normalizeGroups",
+      "filePath": "Frontend/src/lib/tournaments/normalize.ts",
+      "summary": "Function normalizeGroups in normalize.ts.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/tournaments/normalize.ts:normalizeTournament",
+      "type": "function",
+      "name": "normalizeTournament",
+      "filePath": "Frontend/src/lib/tournaments/normalize.ts",
+      "summary": "Function normalizeTournament in normalize.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/tournaments/normalize.ts:createDefaultGroups",
+      "type": "function",
+      "name": "createDefaultGroups",
+      "filePath": "Frontend/src/lib/tournaments/normalize.ts",
+      "summary": "Function createDefaultGroups in normalize.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/pages/DashboardPage.tsx",
+      "type": "file",
+      "name": "DashboardPage.tsx",
+      "filePath": "Frontend/src/pages/DashboardPage.tsx",
+      "summary": "Route page component (DashboardPage.tsx) rendering a primary application screen.",
+      "tags": [
+        "component",
+        "routing",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:Frontend/src/pages/DashboardPage.tsx:DashboardPage",
+      "type": "function",
+      "name": "DashboardPage",
+      "filePath": "Frontend/src/pages/DashboardPage.tsx",
+      "summary": "Function DashboardPage in DashboardPage.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:Frontend/src/store/actions.test.ts",
+      "type": "file",
+      "name": "actions.test.ts",
+      "filePath": "Frontend/src/store/actions.test.ts",
+      "summary": "Automated test suite (actions.test.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "state-management",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:Frontend/src/store/actions.ts",
+      "type": "file",
+      "name": "actions.ts",
+      "filePath": "Frontend/src/store/actions.ts",
+      "summary": "Application state module (actions.ts) managing client-side data and actions.",
+      "tags": [
+        "state-management",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:Frontend/src/store/actions.ts:createUser",
+      "type": "function",
+      "name": "createUser",
+      "filePath": "Frontend/src/store/actions.ts",
+      "summary": "Function createUser in actions.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/store/actions.ts:updateUser",
+      "type": "function",
+      "name": "updateUser",
+      "filePath": "Frontend/src/store/actions.ts",
+      "summary": "Function updateUser in actions.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/store/actions.ts:deleteUser",
+      "type": "function",
+      "name": "deleteUser",
+      "filePath": "Frontend/src/store/actions.ts",
+      "summary": "Function deleteUser in actions.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/store/actions.ts:createClub",
+      "type": "function",
+      "name": "createClub",
+      "filePath": "Frontend/src/store/actions.ts",
+      "summary": "Function createClub in actions.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/store/actions.ts:updateClub",
+      "type": "function",
+      "name": "updateClub",
+      "filePath": "Frontend/src/store/actions.ts",
+      "summary": "Function updateClub in actions.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/store/actions.ts:deleteClub",
+      "type": "function",
+      "name": "deleteClub",
+      "filePath": "Frontend/src/store/actions.ts",
+      "summary": "Function deleteClub in actions.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/store/actions.ts:createTournament",
+      "type": "function",
+      "name": "createTournament",
+      "filePath": "Frontend/src/store/actions.ts",
+      "summary": "Function createTournament in actions.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/store/actions.ts:updateTournament",
+      "type": "function",
+      "name": "updateTournament",
+      "filePath": "Frontend/src/store/actions.ts",
+      "summary": "Function updateTournament in actions.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/store/actions.ts:deleteTournament",
+      "type": "function",
+      "name": "deleteTournament",
+      "filePath": "Frontend/src/store/actions.ts",
+      "summary": "Function deleteTournament in actions.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/store/actions.ts:registerForTournament",
+      "type": "function",
+      "name": "registerForTournament",
+      "filePath": "Frontend/src/store/actions.ts",
+      "summary": "Function registerForTournament in actions.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:Frontend/src/store/actions.ts:reviewRegistration",
+      "type": "function",
+      "name": "reviewRegistration",
+      "filePath": "Frontend/src/store/actions.ts",
+      "summary": "Function reviewRegistration in actions.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:Frontend/src/store/actions.ts:createBooking",
+      "type": "function",
+      "name": "createBooking",
+      "filePath": "Frontend/src/store/actions.ts",
+      "summary": "Function createBooking in actions.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:Frontend/src/store/actions.ts:updateBookingStatus",
+      "type": "function",
+      "name": "updateBookingStatus",
+      "filePath": "Frontend/src/store/actions.ts",
+      "summary": "Function updateBookingStatus in actions.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/store/actions.ts:createOrUpdateScorecard",
+      "type": "function",
+      "name": "createOrUpdateScorecard",
+      "filePath": "Frontend/src/store/actions.ts",
+      "summary": "Function createOrUpdateScorecard in actions.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/store/actions.ts:joinClub",
+      "type": "function",
+      "name": "joinClub",
+      "filePath": "Frontend/src/store/actions.ts",
+      "summary": "Function joinClub in actions.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/types/entities.ts",
+      "type": "file",
+      "name": "entities.ts",
+      "filePath": "Frontend/src/types/entities.ts",
+      "summary": "Source file (entities.ts) contributing to the Teevo golf management platform.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:Frontend/src/components/dashboard/DashboardPanel.tsx",
+      "target": "file:Frontend/src/components/ui/Card.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/dashboard/DashboardPanel.tsx",
+      "target": "file:Frontend/src/lib/cn.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/dashboard/DashboardPanel.tsx",
+      "target": "function:Frontend/src/components/dashboard/DashboardPanel.tsx:DashboardPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/components/dashboard/DashboardPanel.tsx",
+      "target": "function:Frontend/src/components/dashboard/DashboardPanel.tsx:DashboardPanel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/components/dashboard/SuperadminDashboard.tsx",
+      "target": "file:Frontend/src/components/dashboard/DashboardPanel.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/dashboard/SuperadminDashboard.tsx",
+      "target": "file:Frontend/src/components/dashboard/TeamRoleCounts.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/dashboard/SuperadminDashboard.tsx",
+      "target": "file:Frontend/src/components/layout/PageHeader.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/dashboard/SuperadminDashboard.tsx",
+      "target": "file:Frontend/src/components/ui/Badge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/dashboard/SuperadminDashboard.tsx",
+      "target": "file:Frontend/src/components/ui/StatCard.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/dashboard/SuperadminDashboard.tsx",
+      "target": "file:Frontend/src/lib/copy/dashboardPage.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/dashboard/SuperadminDashboard.tsx",
+      "target": "file:Frontend/src/lib/dashboard/platformMetrics.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/dashboard/SuperadminDashboard.tsx",
+      "target": "file:Frontend/src/lib/dates.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/dashboard/SuperadminDashboard.tsx",
+      "target": "file:Frontend/src/lib/greetings.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/dashboard/SuperadminDashboard.tsx",
+      "target": "file:Frontend/src/types/entities.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/dashboard/SuperadminDashboard.tsx",
+      "target": "function:Frontend/src/components/dashboard/SuperadminDashboard.tsx:PanelLink",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/components/dashboard/SuperadminDashboard.tsx",
+      "target": "function:Frontend/src/components/dashboard/SuperadminDashboard.tsx:QuickActionLink",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/components/dashboard/SuperadminDashboard.tsx",
+      "target": "function:Frontend/src/components/dashboard/SuperadminDashboard.tsx:SuperadminDashboard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/components/dashboard/SuperadminDashboard.tsx",
+      "target": "function:Frontend/src/components/dashboard/SuperadminDashboard.tsx:SuperadminDashboard",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/components/dashboard/TeamRoleCounts.tsx",
+      "target": "file:Frontend/src/types/entities.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/dashboard/TeamRoleCounts.tsx",
+      "target": "function:Frontend/src/components/dashboard/TeamRoleCounts.tsx:TeamRoleCounts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/components/dashboard/TeamRoleCounts.tsx",
+      "target": "function:Frontend/src/components/dashboard/TeamRoleCounts.tsx:TeamRoleCounts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/components/tournaments/TournamentGroupEditor.tsx",
+      "target": "file:Frontend/src/components/ui/Input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/tournaments/TournamentGroupEditor.tsx",
+      "target": "file:Frontend/src/lib/id.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/tournaments/TournamentGroupEditor.tsx",
+      "target": "file:Frontend/src/types/entities.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/tournaments/TournamentGroupEditor.tsx",
+      "target": "function:Frontend/src/components/tournaments/TournamentGroupEditor.tsx:TournamentGroupEditor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/components/tournaments/TournamentGroupEditor.tsx",
+      "target": "function:Frontend/src/components/tournaments/TournamentGroupEditor.tsx:TournamentGroupEditor",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/components/ui/StatCard.tsx",
+      "target": "file:Frontend/src/components/ui/Card.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/ui/StatCard.tsx",
+      "target": "function:Frontend/src/components/ui/StatCard.tsx:StatCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/components/ui/StatCard.tsx",
+      "target": "function:Frontend/src/components/ui/StatCard.tsx:StatCard",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/data/seed.ts",
+      "target": "file:Frontend/src/types/entities.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/data/seed.ts",
+      "target": "function:Frontend/src/data/seed.ts:seedData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/data/seed.ts",
+      "target": "function:Frontend/src/data/seed.ts:seedData",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/copy/bookingsPage.test.ts",
+      "target": "file:Frontend/src/lib/copy/bookingsPage.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/lib/copy/bookingsPage.ts",
+      "target": "file:Frontend/src/lib/copy/bookingsPage.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/src/lib/copy/bookingsPage.ts",
+      "target": "file:Frontend/src/types/entities.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/lib/copy/bookingsPage.ts",
+      "target": "function:Frontend/src/lib/copy/bookingsPage.ts:getBookingsPageDescription",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/copy/bookingsPage.ts",
+      "target": "function:Frontend/src/lib/copy/bookingsPage.ts:getBookingsPageDescription",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/copy/clubsPage.test.ts",
+      "target": "file:Frontend/src/lib/copy/clubsPage.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/lib/copy/clubsPage.ts",
+      "target": "file:Frontend/src/lib/copy/clubsPage.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/src/lib/copy/clubsPage.ts",
+      "target": "file:Frontend/src/types/entities.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/lib/copy/clubsPage.ts",
+      "target": "function:Frontend/src/lib/copy/clubsPage.ts:getClubsPageDescription",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/copy/clubsPage.ts",
+      "target": "function:Frontend/src/lib/copy/clubsPage.ts:getClubsPageDescription",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/copy/dashboardPage.test.ts",
+      "target": "file:Frontend/src/lib/copy/dashboardPage.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/lib/copy/dashboardPage.ts",
+      "target": "file:Frontend/src/lib/copy/dashboardPage.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/src/lib/copy/dashboardPage.ts",
+      "target": "file:Frontend/src/types/entities.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/lib/copy/dashboardPage.ts",
+      "target": "function:Frontend/src/lib/copy/dashboardPage.ts:getDashboardPageDescription",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/copy/dashboardPage.ts",
+      "target": "function:Frontend/src/lib/copy/dashboardPage.ts:getDashboardPageDescription",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/copy/scorecardsPage.test.ts",
+      "target": "file:Frontend/src/lib/copy/scorecardsPage.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/lib/copy/scorecardsPage.ts",
+      "target": "file:Frontend/src/lib/copy/scorecardsPage.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/src/lib/copy/scorecardsPage.ts",
+      "target": "file:Frontend/src/types/entities.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/lib/copy/scorecardsPage.ts",
+      "target": "function:Frontend/src/lib/copy/scorecardsPage.ts:getScorecardsPageDescription",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/copy/scorecardsPage.ts",
+      "target": "function:Frontend/src/lib/copy/scorecardsPage.ts:getScorecardsPageDescription",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/copy/tournamentsPage.test.ts",
+      "target": "file:Frontend/src/lib/copy/tournamentsPage.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/lib/copy/tournamentsPage.ts",
+      "target": "file:Frontend/src/lib/copy/tournamentsPage.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/src/lib/copy/tournamentsPage.ts",
+      "target": "file:Frontend/src/types/entities.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/lib/copy/tournamentsPage.ts",
+      "target": "function:Frontend/src/lib/copy/tournamentsPage.ts:getTournamentsPageDescription",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/copy/tournamentsPage.ts",
+      "target": "function:Frontend/src/lib/copy/tournamentsPage.ts:getTournamentsPageDescription",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/dashboard/platformMetrics.test.ts",
+      "target": "file:Frontend/src/data/seed.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/lib/dashboard/platformMetrics.test.ts",
+      "target": "file:Frontend/src/lib/dashboard/platformMetrics.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/data/seed.ts",
+      "target": "file:Frontend/src/lib/dashboard/platformMetrics.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/src/lib/dashboard/platformMetrics.ts",
+      "target": "file:Frontend/src/lib/dashboard/platformMetrics.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/src/lib/dashboard/platformMetrics.ts",
+      "target": "file:Frontend/src/types/entities.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/lib/dashboard/platformMetrics.ts",
+      "target": "function:Frontend/src/lib/dashboard/platformMetrics.ts:countUsersByRole",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/dashboard/platformMetrics.ts",
+      "target": "function:Frontend/src/lib/dashboard/platformMetrics.ts:countUsersByRole",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/dashboard/platformMetrics.ts",
+      "target": "function:Frontend/src/lib/dashboard/platformMetrics.ts:countTournamentsByStatus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/dashboard/platformMetrics.ts",
+      "target": "function:Frontend/src/lib/dashboard/platformMetrics.ts:countTournamentsByStatus",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/dashboard/platformMetrics.ts",
+      "target": "function:Frontend/src/lib/dashboard/platformMetrics.ts:getClubSummaries",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/dashboard/platformMetrics.ts",
+      "target": "function:Frontend/src/lib/dashboard/platformMetrics.ts:getClubSummaries",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/dashboard/platformMetrics.ts",
+      "target": "function:Frontend/src/lib/dashboard/platformMetrics.ts:getActiveTournaments",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/dashboard/platformMetrics.ts",
+      "target": "function:Frontend/src/lib/dashboard/platformMetrics.ts:getActiveTournaments",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/dashboard/platformMetrics.ts",
+      "target": "function:Frontend/src/lib/dashboard/platformMetrics.ts:getUpcomingBookings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/dashboard/platformMetrics.ts",
+      "target": "function:Frontend/src/lib/dashboard/platformMetrics.ts:getUpcomingBookings",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/dashboard/platformMetrics.ts",
+      "target": "function:Frontend/src/lib/dashboard/platformMetrics.ts:getRecentScorecards",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/dashboard/platformMetrics.ts",
+      "target": "function:Frontend/src/lib/dashboard/platformMetrics.ts:getRecentScorecards",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/dashboard/platformMetrics.ts",
+      "target": "function:Frontend/src/lib/dashboard/platformMetrics.ts:getPlatformActivity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/dashboard/platformMetrics.ts",
+      "target": "function:Frontend/src/lib/dashboard/platformMetrics.ts:getPlatformActivity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/greetings.test.ts",
+      "target": "file:Frontend/src/lib/greetings.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/lib/greetings.ts",
+      "target": "file:Frontend/src/lib/greetings.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/src/lib/greetings.ts",
+      "target": "function:Frontend/src/lib/greetings.ts:getTimeOfDay",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/greetings.ts",
+      "target": "function:Frontend/src/lib/greetings.ts:getTimeOfDay",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/greetings.ts",
+      "target": "function:Frontend/src/lib/greetings.ts:getTimeOfDayGreeting",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/greetings.ts",
+      "target": "function:Frontend/src/lib/greetings.ts:getTimeOfDayGreeting",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/greetings.ts",
+      "target": "function:Frontend/src/lib/greetings.ts:formatDashboardGreeting",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/greetings.ts",
+      "target": "function:Frontend/src/lib/greetings.ts:formatDashboardGreeting",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/id.ts",
+      "target": "function:Frontend/src/lib/id.ts:createId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/id.ts",
+      "target": "function:Frontend/src/lib/id.ts:createId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/storage.ts",
+      "target": "file:Frontend/src/data/seed.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/lib/storage.ts",
+      "target": "file:Frontend/src/lib/clubs/holeCount.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/lib/storage.ts",
+      "target": "file:Frontend/src/lib/tournaments/normalize.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/lib/storage.ts",
+      "target": "file:Frontend/src/types/entities.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/lib/storage.ts",
+      "target": "function:Frontend/src/lib/storage.ts:normalizeData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/storage.ts",
+      "target": "function:Frontend/src/lib/storage.ts:loadData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/storage.ts",
+      "target": "function:Frontend/src/lib/storage.ts:loadData",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/storage.ts",
+      "target": "function:Frontend/src/lib/storage.ts:saveData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/storage.ts",
+      "target": "function:Frontend/src/lib/storage.ts:saveData",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/storage.ts",
+      "target": "function:Frontend/src/lib/storage.ts:loadSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/storage.ts",
+      "target": "function:Frontend/src/lib/storage.ts:loadSession",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/storage.ts",
+      "target": "function:Frontend/src/lib/storage.ts:saveSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/storage.ts",
+      "target": "function:Frontend/src/lib/storage.ts:saveSession",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/storage.ts",
+      "target": "function:Frontend/src/lib/storage.ts:resetData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/storage.ts",
+      "target": "function:Frontend/src/lib/storage.ts:resetData",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/teeTimes.test.ts",
+      "target": "file:Frontend/src/lib/teeTimes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/lib/teeTimes.test.ts",
+      "target": "file:Frontend/src/types/entities.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/lib/teeTimes.ts",
+      "target": "file:Frontend/src/lib/teeTimes.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/src/types/entities.ts",
+      "target": "file:Frontend/src/lib/teeTimes.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/src/lib/teeTimes.ts",
+      "target": "file:Frontend/src/types/entities.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/lib/teeTimes.ts",
+      "target": "function:Frontend/src/lib/teeTimes.ts:generateTeeTimeSlots",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/teeTimes.ts",
+      "target": "function:Frontend/src/lib/teeTimes.ts:generateTeeTimeSlots",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/teeTimes.ts",
+      "target": "function:Frontend/src/lib/teeTimes.ts:teeTimeToIso",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/teeTimes.ts",
+      "target": "function:Frontend/src/lib/teeTimes.ts:teeTimeToIso",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/teeTimes.ts",
+      "target": "function:Frontend/src/lib/teeTimes.ts:getBookedTimesForDate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/teeTimes.ts",
+      "target": "function:Frontend/src/lib/teeTimes.ts:getBookedTimesForDate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/teeTimes.ts",
+      "target": "function:Frontend/src/lib/teeTimes.ts:isTeeTimeWithinClubHours",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/teeTimes.ts",
+      "target": "function:Frontend/src/lib/teeTimes.ts:isTeeTimeWithinClubHours",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/tournaments/bookingBlock.ts",
+      "target": "file:Frontend/src/types/entities.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/lib/tournaments/bookingBlock.ts",
+      "target": "function:Frontend/src/lib/tournaments/bookingBlock.ts:isCasualBookingBlocked",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/tournaments/bookingBlock.ts",
+      "target": "function:Frontend/src/lib/tournaments/bookingBlock.ts:isCasualBookingBlocked",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/tournaments/bookingBlock.ts",
+      "target": "function:Frontend/src/lib/tournaments/bookingBlock.ts:hasActiveBookingBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/tournaments/bookingBlock.ts",
+      "target": "function:Frontend/src/lib/tournaments/bookingBlock.ts:hasActiveBookingBlock",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/tournaments/groups.ts",
+      "target": "file:Frontend/src/types/entities.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/lib/tournaments/groups.ts",
+      "target": "function:Frontend/src/lib/tournaments/groups.ts:isHandicapInGroup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/tournaments/groups.ts",
+      "target": "function:Frontend/src/lib/tournaments/groups.ts:isHandicapInGroup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/tournaments/groups.ts",
+      "target": "function:Frontend/src/lib/tournaments/groups.ts:eligibleGroupsForHandicap",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/tournaments/groups.ts",
+      "target": "function:Frontend/src/lib/tournaments/groups.ts:eligibleGroupsForHandicap",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/tournaments/groups.ts",
+      "target": "function:Frontend/src/lib/tournaments/groups.ts:formatGroupLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/tournaments/groups.ts",
+      "target": "function:Frontend/src/lib/tournaments/groups.ts:formatGroupLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/tournaments/normalize.ts",
+      "target": "file:Frontend/src/lib/id.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/lib/tournaments/normalize.ts",
+      "target": "file:Frontend/src/lib/tournaments/constants.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/lib/tournaments/normalize.ts",
+      "target": "file:Frontend/src/types/entities.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/lib/tournaments/normalize.ts",
+      "target": "function:Frontend/src/lib/tournaments/normalize.ts:normalizeGroups",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/tournaments/normalize.ts",
+      "target": "function:Frontend/src/lib/tournaments/normalize.ts:normalizeTournament",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/tournaments/normalize.ts",
+      "target": "function:Frontend/src/lib/tournaments/normalize.ts:normalizeTournament",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/tournaments/normalize.ts",
+      "target": "function:Frontend/src/lib/tournaments/normalize.ts:createDefaultGroups",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/tournaments/normalize.ts",
+      "target": "function:Frontend/src/lib/tournaments/normalize.ts:createDefaultGroups",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/pages/DashboardPage.tsx",
+      "target": "file:Frontend/src/components/dashboard/DashboardPanel.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/DashboardPage.tsx",
+      "target": "file:Frontend/src/components/dashboard/SuperadminDashboard.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/DashboardPage.tsx",
+      "target": "file:Frontend/src/components/layout/PageHeader.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/DashboardPage.tsx",
+      "target": "file:Frontend/src/components/ui/StatCard.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/DashboardPage.tsx",
+      "target": "file:Frontend/src/lib/copy/dashboardPage.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/DashboardPage.tsx",
+      "target": "file:Frontend/src/lib/dates.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/DashboardPage.tsx",
+      "target": "file:Frontend/src/lib/greetings.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/DashboardPage.tsx",
+      "target": "file:Frontend/src/lib/permissions.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/DashboardPage.tsx",
+      "target": "file:Frontend/src/store/TeevoContext.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/DashboardPage.tsx",
+      "target": "function:Frontend/src/pages/DashboardPage.tsx:DashboardPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/pages/DashboardPage.tsx",
+      "target": "function:Frontend/src/pages/DashboardPage.tsx:DashboardPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/store/actions.test.ts",
+      "target": "file:Frontend/src/data/seed.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/store/actions.test.ts",
+      "target": "file:Frontend/src/store/actions.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/data/seed.ts",
+      "target": "file:Frontend/src/store/actions.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "file:Frontend/src/store/actions.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "file:Frontend/src/lib/dates.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "file:Frontend/src/lib/id.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "file:Frontend/src/lib/teeTimes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "file:Frontend/src/lib/tournaments/bookingBlock.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "file:Frontend/src/lib/tournaments/groups.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "file:Frontend/src/types/entities.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "function:Frontend/src/store/actions.ts:createUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "function:Frontend/src/store/actions.ts:createUser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "function:Frontend/src/store/actions.ts:updateUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "function:Frontend/src/store/actions.ts:updateUser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "function:Frontend/src/store/actions.ts:deleteUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "function:Frontend/src/store/actions.ts:deleteUser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "function:Frontend/src/store/actions.ts:createClub",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "function:Frontend/src/store/actions.ts:createClub",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "function:Frontend/src/store/actions.ts:updateClub",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "function:Frontend/src/store/actions.ts:updateClub",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "function:Frontend/src/store/actions.ts:deleteClub",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "function:Frontend/src/store/actions.ts:deleteClub",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "function:Frontend/src/store/actions.ts:createTournament",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "function:Frontend/src/store/actions.ts:createTournament",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "function:Frontend/src/store/actions.ts:updateTournament",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "function:Frontend/src/store/actions.ts:updateTournament",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "function:Frontend/src/store/actions.ts:deleteTournament",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "function:Frontend/src/store/actions.ts:deleteTournament",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "function:Frontend/src/store/actions.ts:registerForTournament",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "function:Frontend/src/store/actions.ts:registerForTournament",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "function:Frontend/src/store/actions.ts:reviewRegistration",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "function:Frontend/src/store/actions.ts:reviewRegistration",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "function:Frontend/src/store/actions.ts:createBooking",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "function:Frontend/src/store/actions.ts:createBooking",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "function:Frontend/src/store/actions.ts:updateBookingStatus",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "function:Frontend/src/store/actions.ts:updateBookingStatus",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "function:Frontend/src/store/actions.ts:createOrUpdateScorecard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "function:Frontend/src/store/actions.ts:createOrUpdateScorecard",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "function:Frontend/src/store/actions.ts:joinClub",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/store/actions.ts",
+      "target": "function:Frontend/src/store/actions.ts:joinClub",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

@@ -1,0 +1,1031 @@
+{
+  "nodes": [
+    {
+      "id": "file:Frontend/automation-tests/scorecards/scorecards.ui.spec.ts",
+      "type": "file",
+      "name": "scorecards.ui.spec.ts",
+      "filePath": "Frontend/automation-tests/scorecards/scorecards.ui.spec.ts",
+      "summary": "Automated test suite (scorecards.ui.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/tournament-detail/tournament-detail.accessibility.spec.ts",
+      "type": "file",
+      "name": "tournament-detail.accessibility.spec.ts",
+      "filePath": "Frontend/automation-tests/tournament-detail/tournament-detail.accessibility.spec.ts",
+      "summary": "Automated test suite (tournament-detail.accessibility.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/tournament-detail/tournament-detail.api.spec.ts",
+      "type": "file",
+      "name": "tournament-detail.api.spec.ts",
+      "filePath": "Frontend/automation-tests/tournament-detail/tournament-detail.api.spec.ts",
+      "summary": "Automated test suite (tournament-detail.api.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/tournament-detail/tournament-detail.edge.spec.ts",
+      "type": "file",
+      "name": "tournament-detail.edge.spec.ts",
+      "filePath": "Frontend/automation-tests/tournament-detail/tournament-detail.edge.spec.ts",
+      "summary": "Automated test suite (tournament-detail.edge.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/tournament-detail/tournament-detail.error.spec.ts",
+      "type": "file",
+      "name": "tournament-detail.error.spec.ts",
+      "filePath": "Frontend/automation-tests/tournament-detail/tournament-detail.error.spec.ts",
+      "summary": "Automated test suite (tournament-detail.error.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/tournament-detail/tournament-detail.form.spec.ts",
+      "type": "file",
+      "name": "tournament-detail.form.spec.ts",
+      "filePath": "Frontend/automation-tests/tournament-detail/tournament-detail.form.spec.ts",
+      "summary": "Automated test suite (tournament-detail.form.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/tournament-detail/tournament-detail.mobile.spec.ts",
+      "type": "file",
+      "name": "tournament-detail.mobile.spec.ts",
+      "filePath": "Frontend/automation-tests/tournament-detail/tournament-detail.mobile.spec.ts",
+      "summary": "Automated test suite (tournament-detail.mobile.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/tournament-detail/tournament-detail.smoke.spec.ts",
+      "type": "file",
+      "name": "tournament-detail.smoke.spec.ts",
+      "filePath": "Frontend/automation-tests/tournament-detail/tournament-detail.smoke.spec.ts",
+      "summary": "Automated test suite (tournament-detail.smoke.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/tournament-detail/tournament-detail.ui.spec.ts",
+      "type": "file",
+      "name": "tournament-detail.ui.spec.ts",
+      "filePath": "Frontend/automation-tests/tournament-detail/tournament-detail.ui.spec.ts",
+      "summary": "Automated test suite (tournament-detail.ui.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/tournaments/tournaments.accessibility.spec.ts",
+      "type": "file",
+      "name": "tournaments.accessibility.spec.ts",
+      "filePath": "Frontend/automation-tests/tournaments/tournaments.accessibility.spec.ts",
+      "summary": "Automated test suite (tournaments.accessibility.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/tournaments/tournaments.api.spec.ts",
+      "type": "file",
+      "name": "tournaments.api.spec.ts",
+      "filePath": "Frontend/automation-tests/tournaments/tournaments.api.spec.ts",
+      "summary": "Automated test suite (tournaments.api.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/tournaments/tournaments.edge.spec.ts",
+      "type": "file",
+      "name": "tournaments.edge.spec.ts",
+      "filePath": "Frontend/automation-tests/tournaments/tournaments.edge.spec.ts",
+      "summary": "Automated test suite (tournaments.edge.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/tournaments/tournaments.error.spec.ts",
+      "type": "file",
+      "name": "tournaments.error.spec.ts",
+      "filePath": "Frontend/automation-tests/tournaments/tournaments.error.spec.ts",
+      "summary": "Automated test suite (tournaments.error.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/tournaments/tournaments.form.spec.ts",
+      "type": "file",
+      "name": "tournaments.form.spec.ts",
+      "filePath": "Frontend/automation-tests/tournaments/tournaments.form.spec.ts",
+      "summary": "Automated test suite (tournaments.form.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/tournaments/tournaments.mobile.spec.ts",
+      "type": "file",
+      "name": "tournaments.mobile.spec.ts",
+      "filePath": "Frontend/automation-tests/tournaments/tournaments.mobile.spec.ts",
+      "summary": "Automated test suite (tournaments.mobile.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/tournaments/tournaments.smoke.spec.ts",
+      "type": "file",
+      "name": "tournaments.smoke.spec.ts",
+      "filePath": "Frontend/automation-tests/tournaments/tournaments.smoke.spec.ts",
+      "summary": "Automated test suite (tournaments.smoke.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/tournaments/tournaments.ui.spec.ts",
+      "type": "file",
+      "name": "tournaments.ui.spec.ts",
+      "filePath": "Frontend/automation-tests/tournaments/tournaments.ui.spec.ts",
+      "summary": "Automated test suite (tournaments.ui.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/users/users.accessibility.spec.ts",
+      "type": "file",
+      "name": "users.accessibility.spec.ts",
+      "filePath": "Frontend/automation-tests/users/users.accessibility.spec.ts",
+      "summary": "Automated test suite (users.accessibility.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/users/users.api.spec.ts",
+      "type": "file",
+      "name": "users.api.spec.ts",
+      "filePath": "Frontend/automation-tests/users/users.api.spec.ts",
+      "summary": "Automated test suite (users.api.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/users/users.edge.spec.ts",
+      "type": "file",
+      "name": "users.edge.spec.ts",
+      "filePath": "Frontend/automation-tests/users/users.edge.spec.ts",
+      "summary": "Automated test suite (users.edge.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/users/users.error.spec.ts",
+      "type": "file",
+      "name": "users.error.spec.ts",
+      "filePath": "Frontend/automation-tests/users/users.error.spec.ts",
+      "summary": "Automated test suite (users.error.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/users/users.form.spec.ts",
+      "type": "file",
+      "name": "users.form.spec.ts",
+      "filePath": "Frontend/automation-tests/users/users.form.spec.ts",
+      "summary": "Automated test suite (users.form.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/users/users.mobile.spec.ts",
+      "type": "file",
+      "name": "users.mobile.spec.ts",
+      "filePath": "Frontend/automation-tests/users/users.mobile.spec.ts",
+      "summary": "Automated test suite (users.mobile.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/users/users.smoke.spec.ts",
+      "type": "file",
+      "name": "users.smoke.spec.ts",
+      "filePath": "Frontend/automation-tests/users/users.smoke.spec.ts",
+      "summary": "Automated test suite (users.smoke.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/users/users.ui.spec.ts",
+      "type": "file",
+      "name": "users.ui.spec.ts",
+      "filePath": "Frontend/automation-tests/users/users.ui.spec.ts",
+      "summary": "Automated test suite (users.ui.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:Frontend/automation-tests/scorecards/scorecards.ui.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/scorecards/scorecards.ui.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/scorecards/scorecards.ui.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/scorecards/scorecards.ui.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournament-detail/tournament-detail.accessibility.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournament-detail/tournament-detail.accessibility.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/tournament-detail/tournament-detail.accessibility.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/tournament-detail/tournament-detail.accessibility.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournament-detail/tournament-detail.api.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournament-detail/tournament-detail.api.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/tournament-detail/tournament-detail.api.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/tournament-detail/tournament-detail.api.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournament-detail/tournament-detail.edge.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournament-detail/tournament-detail.edge.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/tournament-detail/tournament-detail.edge.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/tournament-detail/tournament-detail.edge.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournament-detail/tournament-detail.error.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournament-detail/tournament-detail.error.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/tournament-detail/tournament-detail.error.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/tournament-detail/tournament-detail.error.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournament-detail/tournament-detail.form.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournament-detail/tournament-detail.form.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/tournament-detail/tournament-detail.form.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/tournament-detail/tournament-detail.form.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournament-detail/tournament-detail.mobile.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournament-detail/tournament-detail.mobile.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/tournament-detail/tournament-detail.mobile.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/tournament-detail/tournament-detail.mobile.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournament-detail/tournament-detail.smoke.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournament-detail/tournament-detail.smoke.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/tournament-detail/tournament-detail.smoke.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/tournament-detail/tournament-detail.smoke.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournament-detail/tournament-detail.ui.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournament-detail/tournament-detail.ui.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/tournament-detail/tournament-detail.ui.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/tournament-detail/tournament-detail.ui.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournaments/tournaments.accessibility.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournaments/tournaments.accessibility.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/tournaments/tournaments.accessibility.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/tournaments/tournaments.accessibility.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournaments/tournaments.api.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournaments/tournaments.api.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/tournaments/tournaments.api.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/tournaments/tournaments.api.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournaments/tournaments.edge.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournaments/tournaments.edge.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/tournaments/tournaments.edge.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/tournaments/tournaments.edge.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournaments/tournaments.error.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournaments/tournaments.error.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/tournaments/tournaments.error.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/tournaments/tournaments.error.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournaments/tournaments.form.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournaments/tournaments.form.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/tournaments/tournaments.form.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/tournaments/tournaments.form.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournaments/tournaments.mobile.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournaments/tournaments.mobile.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/tournaments/tournaments.mobile.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/tournaments/tournaments.mobile.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournaments/tournaments.smoke.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournaments/tournaments.smoke.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/tournaments/tournaments.smoke.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/tournaments/tournaments.smoke.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournaments/tournaments.ui.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/tournaments/tournaments.ui.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/tournaments/tournaments.ui.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/tournaments/tournaments.ui.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/users/users.accessibility.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/users/users.accessibility.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/users/users.accessibility.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/users/users.accessibility.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/users/users.api.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/users/users.api.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/users/users.api.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/users/users.api.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/users/users.edge.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/users/users.edge.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/users/users.edge.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/users/users.edge.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/users/users.error.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/users/users.error.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/users/users.error.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/users/users.error.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/users/users.form.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/users/users.form.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/users/users.form.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/users/users.form.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/users/users.mobile.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/users/users.mobile.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/users/users.mobile.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/users/users.mobile.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/users/users.smoke.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/users/users.smoke.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/users/users.smoke.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/users/users.smoke.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/users/users.ui.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/users/users.ui.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/users/users.ui.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/users/users.ui.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    }
+  ]
+}

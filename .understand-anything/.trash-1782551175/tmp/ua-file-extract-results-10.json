@@ -1,0 +1,131 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 4,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "Frontend/playwright-report/data/50f4ee6310f457f5f70cb7e20718ac5eb98be812.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 42,
+      "nonEmptyLines": 37,
+      "sections": [
+        {
+          "heading": "Instructions",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Test info",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "Error details",
+          "level": 1,
+          "line": 12
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "Frontend/playwright-report/data/99b06b9c2cfc65293d299fbbd8692ed7947e12aa.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 42,
+      "nonEmptyLines": 37,
+      "sections": [
+        {
+          "heading": "Instructions",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Test info",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "Error details",
+          "level": 1,
+          "line": 12
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "Frontend/playwright-report/data/c989902b0b9131a9ae726d5e8398374272720ceb.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 42,
+      "nonEmptyLines": 37,
+      "sections": [
+        {
+          "heading": "Instructions",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Test info",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "Error details",
+          "level": 1,
+          "line": 12
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "Frontend/playwright-report/data/e617bec164287fa661a20105f18fdaeffb277c02.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 42,
+      "nonEmptyLines": 37,
+      "sections": [
+        {
+          "heading": "Instructions",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Test info",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "Error details",
+          "level": 1,
+          "line": 12
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    }
+  ]
+}

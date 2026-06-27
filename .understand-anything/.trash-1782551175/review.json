@@ -1,0 +1,61 @@
+{
+  "issues": [],
+  "warnings": [
+    "Node 'file:Frontend/index.html' has no edges (orphan)",
+    "Node 'config:Frontend/parameters.json' has no edges (orphan)",
+    "Node 'config:Frontend/tsconfig.app.json' has no edges (orphan)",
+    "Node 'config:Frontend/tsconfig.json' has no edges (orphan)",
+    "Node 'config:Frontend/tsconfig.node.json' has no edges (orphan)",
+    "Node 'document:Frontend/playwright-report/data/50f4ee6310f457f5f70cb7e20718ac5eb98be812.md' has no edges (orphan)",
+    "Node 'document:Frontend/playwright-report/data/99b06b9c2cfc65293d299fbbd8692ed7947e12aa.md' has no edges (orphan)",
+    "Node 'document:Frontend/playwright-report/data/c989902b0b9131a9ae726d5e8398374272720ceb.md' has no edges (orphan)",
+    "Node 'document:Frontend/playwright-report/data/e617bec164287fa661a20105f18fdaeffb277c02.md' has no edges (orphan)",
+    "Node 'config:backend/package.json' has no edges (orphan)",
+    "Node 'config:backend/parameters.json' has no edges (orphan)",
+    "Node 'config:backend/tsconfig.json' has no edges (orphan)",
+    "Node 'file:.gitmodules' has no edges (orphan)",
+    "Node 'file:.understand-anything/.understandignore' has no edges (orphan)",
+    "Node 'config:.understand-anything/config.json' has no edges (orphan)",
+    "Node 'file:backend/package-lambda.mjs' has no edges (orphan)",
+    "Node 'document:backend/plan/backend-vR1-release1-0-0.md' has no edges (orphan)",
+    "Node 'file:Frontend/.cursor/rules/playwright-automation.mdc' has no edges (orphan)",
+    "Node 'file:Frontend/.cursor/rules/playwright-spec-templates.mdc' has no edges (orphan)",
+    "Node 'file:Frontend/.cursor/skills/playwrightConfig.mdc' has no edges (orphan)",
+    "Node 'file:Frontend/.cursorignore' has no edges (orphan)",
+    "Node 'file:Frontend/assets/index-CzqLfKrO.css' has no edges (orphan)",
+    "Node 'file:Frontend/eslint.config.js' has no edges (orphan)",
+    "Node 'file:Frontend/playwright-report/index.html' has no edges (orphan)",
+    "Node 'file:Frontend/playwright.config.ts' has no edges (orphan)",
+    "Node 'file:Frontend/src/App.tsx.lp-basename.bak' has no edges (orphan)",
+    "Node 'file:Frontend/src/launchpadEmbedBasename.d.ts' has no edges (orphan)",
+    "Node 'file:Frontend/src/test/setup.ts' has no edges (orphan)",
+    "Node 'file:Frontend/src/vite-env.d.ts' has no edges (orphan)",
+    "Node 'config:Frontend/test-results/.last-run.json' has no edges (orphan)",
+    "Node 'document:Frontend/test-results/login-login.form-Login-—-F-0c166-il-shows-browser-validation-chromium/error-context.md' has no edges (orphan)",
+    "Node 'document:Frontend/test-results/login-login.form-Login-—-F-28617-cked-by-required-validation-chromium/error-context.md' has no edges (orphan)",
+    "Node 'document:Frontend/test-results/login-login.form-Login-—-F-ade2e-n-email-shows-error-message-chromium/error-context.md' has no edges (orphan)",
+    "Node 'document:Frontend/test-results/login-login.form-Login-—-F-e3390-email-signs-in-successfully-chromium/error-context.md' has no edges (orphan)"
+  ],
+  "stats": {
+    "totalNodes": 423,
+    "totalEdges": 1000,
+    "totalLayers": 14,
+    "tourSteps": 10,
+    "nodeTypes": {
+      "file": 180,
+      "function": 189,
+      "class": 31,
+      "document": 11,
+      "config": 12
+    },
+    "edgeTypes": {
+      "imports": 455,
+      "contains": 220,
+      "exports": 170,
+      "tested_by": 150,
+      "documents": 2,
+      "deploys": 2,
+      "configures": 1
+    }
+  }
+}

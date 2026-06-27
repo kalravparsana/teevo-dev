@@ -1,0 +1,1094 @@
+{
+  "nodes": [
+    {
+      "id": "file:Frontend/src/App.tsx",
+      "type": "file",
+      "name": "App.tsx",
+      "filePath": "Frontend/src/App.tsx",
+      "summary": "Root React application component wiring routes and global providers.",
+      "tags": [
+        "entry-point",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/App.tsx:App",
+      "type": "function",
+      "name": "App",
+      "filePath": "Frontend/src/App.tsx",
+      "summary": "Function App in App.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/components/auth/ProtectedRoute.tsx",
+      "type": "file",
+      "name": "ProtectedRoute.tsx",
+      "filePath": "Frontend/src/components/auth/ProtectedRoute.tsx",
+      "summary": "Reusable UI component (ProtectedRoute.tsx) used across application views.",
+      "tags": [
+        "component",
+        "ui",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/components/auth/ProtectedRoute.tsx:ProtectedRoute",
+      "type": "function",
+      "name": "ProtectedRoute",
+      "filePath": "Frontend/src/components/auth/ProtectedRoute.tsx",
+      "summary": "Function ProtectedRoute in ProtectedRoute.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/components/auth/RoleGate.tsx",
+      "type": "file",
+      "name": "RoleGate.tsx",
+      "filePath": "Frontend/src/components/auth/RoleGate.tsx",
+      "summary": "Reusable UI component (RoleGate.tsx) used across application views.",
+      "tags": [
+        "component",
+        "ui",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/components/auth/RoleGate.tsx:RoleGate",
+      "type": "function",
+      "name": "RoleGate",
+      "filePath": "Frontend/src/components/auth/RoleGate.tsx",
+      "summary": "Function RoleGate in RoleGate.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/components/clubs/ClubLogo.tsx",
+      "type": "file",
+      "name": "ClubLogo.tsx",
+      "filePath": "Frontend/src/components/clubs/ClubLogo.tsx",
+      "summary": "Reusable UI component (ClubLogo.tsx) used across application views.",
+      "tags": [
+        "component",
+        "ui",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:Frontend/src/components/clubs/ClubLogo.tsx:ClubLogo",
+      "type": "function",
+      "name": "ClubLogo",
+      "filePath": "Frontend/src/components/clubs/ClubLogo.tsx",
+      "summary": "Function ClubLogo in ClubLogo.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/components/layout/AppShell.tsx",
+      "type": "file",
+      "name": "AppShell.tsx",
+      "filePath": "Frontend/src/components/layout/AppShell.tsx",
+      "summary": "Reusable UI component (AppShell.tsx) used across application views.",
+      "tags": [
+        "component",
+        "ui",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:Frontend/src/components/layout/AppShell.tsx:AppShell",
+      "type": "function",
+      "name": "AppShell",
+      "filePath": "Frontend/src/components/layout/AppShell.tsx",
+      "summary": "Function AppShell in AppShell.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:Frontend/src/components/layout/PageHeader.tsx",
+      "type": "file",
+      "name": "PageHeader.tsx",
+      "filePath": "Frontend/src/components/layout/PageHeader.tsx",
+      "summary": "Reusable UI component (PageHeader.tsx) used across application views.",
+      "tags": [
+        "component",
+        "ui",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/components/layout/PageHeader.tsx:PageHeader",
+      "type": "function",
+      "name": "PageHeader",
+      "filePath": "Frontend/src/components/layout/PageHeader.tsx",
+      "summary": "Function PageHeader in PageHeader.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/components/tournaments/TournamentRegistrationsPanel.tsx",
+      "type": "file",
+      "name": "TournamentRegistrationsPanel.tsx",
+      "filePath": "Frontend/src/components/tournaments/TournamentRegistrationsPanel.tsx",
+      "summary": "Reusable UI component (TournamentRegistrationsPanel.tsx) used across application views.",
+      "tags": [
+        "component",
+        "ui",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:Frontend/src/components/tournaments/TournamentRegistrationsPanel.tsx:RegistrationRow",
+      "type": "function",
+      "name": "RegistrationRow",
+      "filePath": "Frontend/src/components/tournaments/TournamentRegistrationsPanel.tsx",
+      "summary": "Function RegistrationRow in TournamentRegistrationsPanel.tsx.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:Frontend/src/components/tournaments/TournamentRegistrationsPanel.tsx:TournamentRegistrationsPanel",
+      "type": "function",
+      "name": "TournamentRegistrationsPanel",
+      "filePath": "Frontend/src/components/tournaments/TournamentRegistrationsPanel.tsx",
+      "summary": "Function TournamentRegistrationsPanel in TournamentRegistrationsPanel.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:Frontend/src/components/ui/Alert.tsx",
+      "type": "file",
+      "name": "Alert.tsx",
+      "filePath": "Frontend/src/components/ui/Alert.tsx",
+      "summary": "Reusable UI component (Alert.tsx) used across application views.",
+      "tags": [
+        "component",
+        "ui",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/components/ui/Alert.tsx:Alert",
+      "type": "function",
+      "name": "Alert",
+      "filePath": "Frontend/src/components/ui/Alert.tsx",
+      "summary": "Function Alert in Alert.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/components/ui/Badge.tsx",
+      "type": "file",
+      "name": "Badge.tsx",
+      "filePath": "Frontend/src/components/ui/Badge.tsx",
+      "summary": "Reusable UI component (Badge.tsx) used across application views.",
+      "tags": [
+        "component",
+        "ui",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/components/ui/Badge.tsx:Badge",
+      "type": "function",
+      "name": "Badge",
+      "filePath": "Frontend/src/components/ui/Badge.tsx",
+      "summary": "Function Badge in Badge.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/components/ui/Button.tsx",
+      "type": "file",
+      "name": "Button.tsx",
+      "filePath": "Frontend/src/components/ui/Button.tsx",
+      "summary": "Reusable UI component (Button.tsx) used across application views.",
+      "tags": [
+        "component",
+        "ui",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/components/ui/Button.tsx:Button",
+      "type": "function",
+      "name": "Button",
+      "filePath": "Frontend/src/components/ui/Button.tsx",
+      "summary": "Function Button in Button.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/components/ui/Card.tsx",
+      "type": "file",
+      "name": "Card.tsx",
+      "filePath": "Frontend/src/components/ui/Card.tsx",
+      "summary": "Reusable UI component (Card.tsx) used across application views.",
+      "tags": [
+        "component",
+        "ui",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/components/ui/Card.tsx:Card",
+      "type": "function",
+      "name": "Card",
+      "filePath": "Frontend/src/components/ui/Card.tsx",
+      "summary": "Function Card in Card.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/components/ui/Card.tsx:CardHeader",
+      "type": "function",
+      "name": "CardHeader",
+      "filePath": "Frontend/src/components/ui/Card.tsx",
+      "summary": "Function CardHeader in Card.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/components/ui/EmptyState.tsx",
+      "type": "file",
+      "name": "EmptyState.tsx",
+      "filePath": "Frontend/src/components/ui/EmptyState.tsx",
+      "summary": "Reusable UI component (EmptyState.tsx) used across application views.",
+      "tags": [
+        "component",
+        "ui",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/components/ui/EmptyState.tsx:EmptyState",
+      "type": "function",
+      "name": "EmptyState",
+      "filePath": "Frontend/src/components/ui/EmptyState.tsx",
+      "summary": "Function EmptyState in EmptyState.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/components/ui/ImageUpload.tsx",
+      "type": "file",
+      "name": "ImageUpload.tsx",
+      "filePath": "Frontend/src/components/ui/ImageUpload.tsx",
+      "summary": "Reusable UI component (ImageUpload.tsx) used across application views.",
+      "tags": [
+        "component",
+        "ui",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:Frontend/src/components/ui/ImageUpload.tsx:ImageUpload",
+      "type": "function",
+      "name": "ImageUpload",
+      "filePath": "Frontend/src/components/ui/ImageUpload.tsx",
+      "summary": "Function ImageUpload in ImageUpload.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:Frontend/src/components/ui/Input.tsx",
+      "type": "file",
+      "name": "Input.tsx",
+      "filePath": "Frontend/src/components/ui/Input.tsx",
+      "summary": "Reusable UI component (Input.tsx) used across application views.",
+      "tags": [
+        "component",
+        "ui",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/components/ui/Input.tsx:Input",
+      "type": "function",
+      "name": "Input",
+      "filePath": "Frontend/src/components/ui/Input.tsx",
+      "summary": "Function Input in Input.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/components/ui/Modal.tsx",
+      "type": "file",
+      "name": "Modal.tsx",
+      "filePath": "Frontend/src/components/ui/Modal.tsx",
+      "summary": "Reusable UI component (Modal.tsx) used across application views.",
+      "tags": [
+        "component",
+        "ui",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:Frontend/src/components/ui/Modal.tsx:Modal",
+      "type": "function",
+      "name": "Modal",
+      "filePath": "Frontend/src/components/ui/Modal.tsx",
+      "summary": "Function Modal in Modal.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/components/ui/Select.tsx",
+      "type": "file",
+      "name": "Select.tsx",
+      "filePath": "Frontend/src/components/ui/Select.tsx",
+      "summary": "Reusable UI component (Select.tsx) used across application views.",
+      "tags": [
+        "component",
+        "ui",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/components/ui/Select.tsx:Select",
+      "type": "function",
+      "name": "Select",
+      "filePath": "Frontend/src/components/ui/Select.tsx",
+      "summary": "Function Select in Select.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/launchpadEmbedBasename.js",
+      "type": "file",
+      "name": "launchpadEmbedBasename.js",
+      "filePath": "Frontend/src/launchpadEmbedBasename.js",
+      "summary": "Source file (launchpadEmbedBasename.js) contributing to the Teevo golf management platform.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/launchpadEmbedBasename.js:resolveLaunchpadRouterBasename",
+      "type": "function",
+      "name": "resolveLaunchpadRouterBasename",
+      "filePath": "Frontend/src/launchpadEmbedBasename.js",
+      "summary": "Function resolveLaunchpadRouterBasename in launchpadEmbedBasename.js.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/lib/clubs/holeCount.test.ts",
+      "type": "file",
+      "name": "holeCount.test.ts",
+      "filePath": "Frontend/src/lib/clubs/holeCount.test.ts",
+      "summary": "Automated test suite (holeCount.test.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/lib/clubs/holeCount.ts",
+      "type": "file",
+      "name": "holeCount.ts",
+      "filePath": "Frontend/src/lib/clubs/holeCount.ts",
+      "summary": "Shared library module (holeCount.ts) providing utilities or API clients.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/clubs/holeCount.ts:isClubHoleCount",
+      "type": "function",
+      "name": "isClubHoleCount",
+      "filePath": "Frontend/src/lib/clubs/holeCount.ts",
+      "summary": "Function isClubHoleCount in holeCount.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/clubs/holeCount.ts:normalizeClubHoleCount",
+      "type": "function",
+      "name": "normalizeClubHoleCount",
+      "filePath": "Frontend/src/lib/clubs/holeCount.ts",
+      "summary": "Function normalizeClubHoleCount in holeCount.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/clubs/holeCount.ts:defaultHoleScores",
+      "type": "function",
+      "name": "defaultHoleScores",
+      "filePath": "Frontend/src/lib/clubs/holeCount.ts",
+      "summary": "Function defaultHoleScores in holeCount.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/clubs/holeCount.ts:formatClubHoleCount",
+      "type": "function",
+      "name": "formatClubHoleCount",
+      "filePath": "Frontend/src/lib/clubs/holeCount.ts",
+      "summary": "Function formatClubHoleCount in holeCount.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:Frontend/src/App.tsx",
+      "target": "file:Frontend/src/launchpadEmbedBasename.js",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/App.tsx",
+      "target": "file:Frontend/src/routes/AppRoutes.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/App.tsx",
+      "target": "file:Frontend/src/store/TeevoContext.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/App.tsx",
+      "target": "function:Frontend/src/App.tsx:App",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/App.tsx",
+      "target": "function:Frontend/src/App.tsx:App",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/components/auth/ProtectedRoute.tsx",
+      "target": "file:Frontend/src/store/TeevoContext.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/auth/ProtectedRoute.tsx",
+      "target": "function:Frontend/src/components/auth/ProtectedRoute.tsx:ProtectedRoute",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/components/auth/ProtectedRoute.tsx",
+      "target": "function:Frontend/src/components/auth/ProtectedRoute.tsx:ProtectedRoute",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/components/auth/RoleGate.tsx",
+      "target": "file:Frontend/src/store/TeevoContext.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/auth/RoleGate.tsx",
+      "target": "file:Frontend/src/types/entities.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/auth/RoleGate.tsx",
+      "target": "function:Frontend/src/components/auth/RoleGate.tsx:RoleGate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/components/auth/RoleGate.tsx",
+      "target": "function:Frontend/src/components/auth/RoleGate.tsx:RoleGate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/components/clubs/ClubLogo.tsx",
+      "target": "file:Frontend/src/lib/cn.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/clubs/ClubLogo.tsx",
+      "target": "function:Frontend/src/components/clubs/ClubLogo.tsx:ClubLogo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/components/clubs/ClubLogo.tsx",
+      "target": "function:Frontend/src/components/clubs/ClubLogo.tsx:ClubLogo",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/components/layout/AppShell.tsx",
+      "target": "file:Frontend/src/components/ui/Alert.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/layout/AppShell.tsx",
+      "target": "file:Frontend/src/components/ui/Button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/layout/AppShell.tsx",
+      "target": "file:Frontend/src/lib/cn.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/layout/AppShell.tsx",
+      "target": "file:Frontend/src/lib/permissions.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/layout/AppShell.tsx",
+      "target": "file:Frontend/src/store/TeevoContext.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/layout/AppShell.tsx",
+      "target": "function:Frontend/src/components/layout/AppShell.tsx:AppShell",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/components/layout/AppShell.tsx",
+      "target": "function:Frontend/src/components/layout/AppShell.tsx:AppShell",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/components/layout/PageHeader.tsx",
+      "target": "function:Frontend/src/components/layout/PageHeader.tsx:PageHeader",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/components/layout/PageHeader.tsx",
+      "target": "function:Frontend/src/components/layout/PageHeader.tsx:PageHeader",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/components/tournaments/TournamentRegistrationsPanel.tsx",
+      "target": "file:Frontend/src/components/ui/Badge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/tournaments/TournamentRegistrationsPanel.tsx",
+      "target": "file:Frontend/src/components/ui/Button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/tournaments/TournamentRegistrationsPanel.tsx",
+      "target": "file:Frontend/src/components/ui/Card.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/tournaments/TournamentRegistrationsPanel.tsx",
+      "target": "file:Frontend/src/components/ui/Input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/tournaments/TournamentRegistrationsPanel.tsx",
+      "target": "file:Frontend/src/components/ui/Select.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/tournaments/TournamentRegistrationsPanel.tsx",
+      "target": "file:Frontend/src/lib/dates.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/tournaments/TournamentRegistrationsPanel.tsx",
+      "target": "file:Frontend/src/lib/tournaments/groups.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/tournaments/TournamentRegistrationsPanel.tsx",
+      "target": "file:Frontend/src/lib/validation/schemas.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/tournaments/TournamentRegistrationsPanel.tsx",
+      "target": "file:Frontend/src/store/TeevoContext.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/tournaments/TournamentRegistrationsPanel.tsx",
+      "target": "file:Frontend/src/types/entities.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/tournaments/TournamentRegistrationsPanel.tsx",
+      "target": "function:Frontend/src/components/tournaments/TournamentRegistrationsPanel.tsx:RegistrationRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/components/tournaments/TournamentRegistrationsPanel.tsx",
+      "target": "function:Frontend/src/components/tournaments/TournamentRegistrationsPanel.tsx:TournamentRegistrationsPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/components/tournaments/TournamentRegistrationsPanel.tsx",
+      "target": "function:Frontend/src/components/tournaments/TournamentRegistrationsPanel.tsx:TournamentRegistrationsPanel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/components/ui/Alert.tsx",
+      "target": "file:Frontend/src/lib/cn.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/ui/Alert.tsx",
+      "target": "function:Frontend/src/components/ui/Alert.tsx:Alert",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/components/ui/Alert.tsx",
+      "target": "function:Frontend/src/components/ui/Alert.tsx:Alert",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/components/ui/Badge.tsx",
+      "target": "file:Frontend/src/lib/cn.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/ui/Badge.tsx",
+      "target": "function:Frontend/src/components/ui/Badge.tsx:Badge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/components/ui/Badge.tsx",
+      "target": "function:Frontend/src/components/ui/Badge.tsx:Badge",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/components/ui/Button.tsx",
+      "target": "file:Frontend/src/lib/cn.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/ui/Button.tsx",
+      "target": "function:Frontend/src/components/ui/Button.tsx:Button",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/components/ui/Button.tsx",
+      "target": "function:Frontend/src/components/ui/Button.tsx:Button",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/components/ui/Card.tsx",
+      "target": "file:Frontend/src/lib/cn.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/ui/Card.tsx",
+      "target": "function:Frontend/src/components/ui/Card.tsx:Card",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/components/ui/Card.tsx",
+      "target": "function:Frontend/src/components/ui/Card.tsx:Card",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/components/ui/Card.tsx",
+      "target": "function:Frontend/src/components/ui/Card.tsx:CardHeader",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/components/ui/Card.tsx",
+      "target": "function:Frontend/src/components/ui/Card.tsx:CardHeader",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/components/ui/EmptyState.tsx",
+      "target": "function:Frontend/src/components/ui/EmptyState.tsx:EmptyState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/components/ui/EmptyState.tsx",
+      "target": "function:Frontend/src/components/ui/EmptyState.tsx:EmptyState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/components/ui/ImageUpload.tsx",
+      "target": "file:Frontend/src/lib/cn.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/ui/ImageUpload.tsx",
+      "target": "file:Frontend/src/lib/images/readImageFile.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/ui/ImageUpload.tsx",
+      "target": "function:Frontend/src/components/ui/ImageUpload.tsx:ImageUpload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/components/ui/ImageUpload.tsx",
+      "target": "function:Frontend/src/components/ui/ImageUpload.tsx:ImageUpload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/components/ui/Input.tsx",
+      "target": "file:Frontend/src/lib/cn.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/ui/Input.tsx",
+      "target": "function:Frontend/src/components/ui/Input.tsx:Input",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/components/ui/Input.tsx",
+      "target": "function:Frontend/src/components/ui/Input.tsx:Input",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/components/ui/Modal.tsx",
+      "target": "file:Frontend/src/components/ui/Button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/ui/Modal.tsx",
+      "target": "file:Frontend/src/lib/cn.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/ui/Modal.tsx",
+      "target": "function:Frontend/src/components/ui/Modal.tsx:Modal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/components/ui/Modal.tsx",
+      "target": "function:Frontend/src/components/ui/Modal.tsx:Modal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/components/ui/Select.tsx",
+      "target": "file:Frontend/src/lib/cn.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/components/ui/Select.tsx",
+      "target": "function:Frontend/src/components/ui/Select.tsx:Select",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/components/ui/Select.tsx",
+      "target": "function:Frontend/src/components/ui/Select.tsx:Select",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/launchpadEmbedBasename.js",
+      "target": "function:Frontend/src/launchpadEmbedBasename.js:resolveLaunchpadRouterBasename",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/launchpadEmbedBasename.js",
+      "target": "function:Frontend/src/launchpadEmbedBasename.js:resolveLaunchpadRouterBasename",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/clubs/holeCount.test.ts",
+      "target": "file:Frontend/src/lib/clubs/holeCount.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/lib/clubs/holeCount.ts",
+      "target": "file:Frontend/src/lib/clubs/holeCount.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/src/lib/clubs/holeCount.ts",
+      "target": "function:Frontend/src/lib/clubs/holeCount.ts:isClubHoleCount",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/clubs/holeCount.ts",
+      "target": "function:Frontend/src/lib/clubs/holeCount.ts:isClubHoleCount",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/clubs/holeCount.ts",
+      "target": "function:Frontend/src/lib/clubs/holeCount.ts:normalizeClubHoleCount",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/clubs/holeCount.ts",
+      "target": "function:Frontend/src/lib/clubs/holeCount.ts:normalizeClubHoleCount",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/clubs/holeCount.ts",
+      "target": "function:Frontend/src/lib/clubs/holeCount.ts:defaultHoleScores",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/clubs/holeCount.ts",
+      "target": "function:Frontend/src/lib/clubs/holeCount.ts:defaultHoleScores",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/clubs/holeCount.ts",
+      "target": "function:Frontend/src/lib/clubs/holeCount.ts:formatClubHoleCount",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/clubs/holeCount.ts",
+      "target": "function:Frontend/src/lib/clubs/holeCount.ts:formatClubHoleCount",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

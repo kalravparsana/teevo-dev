@@ -1,0 +1,1031 @@
+{
+  "nodes": [
+    {
+      "id": "file:Frontend/automation-tests/bookings/bookings.accessibility.spec.ts",
+      "type": "file",
+      "name": "bookings.accessibility.spec.ts",
+      "filePath": "Frontend/automation-tests/bookings/bookings.accessibility.spec.ts",
+      "summary": "Automated test suite (bookings.accessibility.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/bookings/bookings.api.spec.ts",
+      "type": "file",
+      "name": "bookings.api.spec.ts",
+      "filePath": "Frontend/automation-tests/bookings/bookings.api.spec.ts",
+      "summary": "Automated test suite (bookings.api.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/bookings/bookings.edge.spec.ts",
+      "type": "file",
+      "name": "bookings.edge.spec.ts",
+      "filePath": "Frontend/automation-tests/bookings/bookings.edge.spec.ts",
+      "summary": "Automated test suite (bookings.edge.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/bookings/bookings.error.spec.ts",
+      "type": "file",
+      "name": "bookings.error.spec.ts",
+      "filePath": "Frontend/automation-tests/bookings/bookings.error.spec.ts",
+      "summary": "Automated test suite (bookings.error.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/bookings/bookings.form.spec.ts",
+      "type": "file",
+      "name": "bookings.form.spec.ts",
+      "filePath": "Frontend/automation-tests/bookings/bookings.form.spec.ts",
+      "summary": "Automated test suite (bookings.form.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/bookings/bookings.mobile.spec.ts",
+      "type": "file",
+      "name": "bookings.mobile.spec.ts",
+      "filePath": "Frontend/automation-tests/bookings/bookings.mobile.spec.ts",
+      "summary": "Automated test suite (bookings.mobile.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/bookings/bookings.smoke.spec.ts",
+      "type": "file",
+      "name": "bookings.smoke.spec.ts",
+      "filePath": "Frontend/automation-tests/bookings/bookings.smoke.spec.ts",
+      "summary": "Automated test suite (bookings.smoke.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/bookings/bookings.ui.spec.ts",
+      "type": "file",
+      "name": "bookings.ui.spec.ts",
+      "filePath": "Frontend/automation-tests/bookings/bookings.ui.spec.ts",
+      "summary": "Automated test suite (bookings.ui.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/club-detail/club-detail.accessibility.spec.ts",
+      "type": "file",
+      "name": "club-detail.accessibility.spec.ts",
+      "filePath": "Frontend/automation-tests/club-detail/club-detail.accessibility.spec.ts",
+      "summary": "Automated test suite (club-detail.accessibility.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/club-detail/club-detail.api.spec.ts",
+      "type": "file",
+      "name": "club-detail.api.spec.ts",
+      "filePath": "Frontend/automation-tests/club-detail/club-detail.api.spec.ts",
+      "summary": "Automated test suite (club-detail.api.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/club-detail/club-detail.edge.spec.ts",
+      "type": "file",
+      "name": "club-detail.edge.spec.ts",
+      "filePath": "Frontend/automation-tests/club-detail/club-detail.edge.spec.ts",
+      "summary": "Automated test suite (club-detail.edge.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/club-detail/club-detail.error.spec.ts",
+      "type": "file",
+      "name": "club-detail.error.spec.ts",
+      "filePath": "Frontend/automation-tests/club-detail/club-detail.error.spec.ts",
+      "summary": "Automated test suite (club-detail.error.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/club-detail/club-detail.form.spec.ts",
+      "type": "file",
+      "name": "club-detail.form.spec.ts",
+      "filePath": "Frontend/automation-tests/club-detail/club-detail.form.spec.ts",
+      "summary": "Automated test suite (club-detail.form.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/club-detail/club-detail.mobile.spec.ts",
+      "type": "file",
+      "name": "club-detail.mobile.spec.ts",
+      "filePath": "Frontend/automation-tests/club-detail/club-detail.mobile.spec.ts",
+      "summary": "Automated test suite (club-detail.mobile.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/club-detail/club-detail.smoke.spec.ts",
+      "type": "file",
+      "name": "club-detail.smoke.spec.ts",
+      "filePath": "Frontend/automation-tests/club-detail/club-detail.smoke.spec.ts",
+      "summary": "Automated test suite (club-detail.smoke.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/club-detail/club-detail.ui.spec.ts",
+      "type": "file",
+      "name": "club-detail.ui.spec.ts",
+      "filePath": "Frontend/automation-tests/club-detail/club-detail.ui.spec.ts",
+      "summary": "Automated test suite (club-detail.ui.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/clubs/clubs.accessibility.spec.ts",
+      "type": "file",
+      "name": "clubs.accessibility.spec.ts",
+      "filePath": "Frontend/automation-tests/clubs/clubs.accessibility.spec.ts",
+      "summary": "Automated test suite (clubs.accessibility.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/clubs/clubs.api.spec.ts",
+      "type": "file",
+      "name": "clubs.api.spec.ts",
+      "filePath": "Frontend/automation-tests/clubs/clubs.api.spec.ts",
+      "summary": "Automated test suite (clubs.api.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/clubs/clubs.edge.spec.ts",
+      "type": "file",
+      "name": "clubs.edge.spec.ts",
+      "filePath": "Frontend/automation-tests/clubs/clubs.edge.spec.ts",
+      "summary": "Automated test suite (clubs.edge.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/clubs/clubs.error.spec.ts",
+      "type": "file",
+      "name": "clubs.error.spec.ts",
+      "filePath": "Frontend/automation-tests/clubs/clubs.error.spec.ts",
+      "summary": "Automated test suite (clubs.error.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/clubs/clubs.form.spec.ts",
+      "type": "file",
+      "name": "clubs.form.spec.ts",
+      "filePath": "Frontend/automation-tests/clubs/clubs.form.spec.ts",
+      "summary": "Automated test suite (clubs.form.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/clubs/clubs.mobile.spec.ts",
+      "type": "file",
+      "name": "clubs.mobile.spec.ts",
+      "filePath": "Frontend/automation-tests/clubs/clubs.mobile.spec.ts",
+      "summary": "Automated test suite (clubs.mobile.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/clubs/clubs.smoke.spec.ts",
+      "type": "file",
+      "name": "clubs.smoke.spec.ts",
+      "filePath": "Frontend/automation-tests/clubs/clubs.smoke.spec.ts",
+      "summary": "Automated test suite (clubs.smoke.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/clubs/clubs.ui.spec.ts",
+      "type": "file",
+      "name": "clubs.ui.spec.ts",
+      "filePath": "Frontend/automation-tests/clubs/clubs.ui.spec.ts",
+      "summary": "Automated test suite (clubs.ui.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/dashboard/dashboard.accessibility.spec.ts",
+      "type": "file",
+      "name": "dashboard.accessibility.spec.ts",
+      "filePath": "Frontend/automation-tests/dashboard/dashboard.accessibility.spec.ts",
+      "summary": "Automated test suite (dashboard.accessibility.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:Frontend/automation-tests/bookings/bookings.accessibility.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/bookings/bookings.accessibility.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/bookings/bookings.accessibility.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/bookings/bookings.accessibility.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/bookings/bookings.api.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/bookings/bookings.api.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/bookings/bookings.api.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/bookings/bookings.api.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/bookings/bookings.edge.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/bookings/bookings.edge.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/bookings/bookings.edge.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/bookings/bookings.edge.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/bookings/bookings.error.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/bookings/bookings.error.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/bookings/bookings.error.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/bookings/bookings.error.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/bookings/bookings.form.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/bookings/bookings.form.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/bookings/bookings.form.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/bookings/bookings.form.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/bookings/bookings.mobile.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/bookings/bookings.mobile.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/bookings/bookings.mobile.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/bookings/bookings.mobile.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/bookings/bookings.smoke.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/bookings/bookings.smoke.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/bookings/bookings.smoke.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/bookings/bookings.smoke.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/bookings/bookings.ui.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/bookings/bookings.ui.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/bookings/bookings.ui.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/bookings/bookings.ui.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/club-detail/club-detail.accessibility.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/club-detail/club-detail.accessibility.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/club-detail/club-detail.accessibility.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/club-detail/club-detail.accessibility.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/club-detail/club-detail.api.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/club-detail/club-detail.api.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/club-detail/club-detail.api.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/club-detail/club-detail.api.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/club-detail/club-detail.edge.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/club-detail/club-detail.edge.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/club-detail/club-detail.edge.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/club-detail/club-detail.edge.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/club-detail/club-detail.error.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/club-detail/club-detail.error.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/club-detail/club-detail.error.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/club-detail/club-detail.error.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/club-detail/club-detail.form.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/club-detail/club-detail.form.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/club-detail/club-detail.form.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/club-detail/club-detail.form.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/club-detail/club-detail.mobile.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/club-detail/club-detail.mobile.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/club-detail/club-detail.mobile.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/club-detail/club-detail.mobile.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/club-detail/club-detail.smoke.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/club-detail/club-detail.smoke.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/club-detail/club-detail.smoke.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/club-detail/club-detail.smoke.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/club-detail/club-detail.ui.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/club-detail/club-detail.ui.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/club-detail/club-detail.ui.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/club-detail/club-detail.ui.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/clubs/clubs.accessibility.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/clubs/clubs.accessibility.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/clubs/clubs.accessibility.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/clubs/clubs.accessibility.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/clubs/clubs.api.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/clubs/clubs.api.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/clubs/clubs.api.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/clubs/clubs.api.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/clubs/clubs.edge.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/clubs/clubs.edge.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/clubs/clubs.edge.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/clubs/clubs.edge.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/clubs/clubs.error.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/clubs/clubs.error.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/clubs/clubs.error.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/clubs/clubs.error.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/clubs/clubs.form.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/clubs/clubs.form.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/clubs/clubs.form.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/clubs/clubs.form.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/clubs/clubs.mobile.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/clubs/clubs.mobile.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/clubs/clubs.mobile.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/clubs/clubs.mobile.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/clubs/clubs.smoke.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/clubs/clubs.smoke.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/clubs/clubs.smoke.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/clubs/clubs.smoke.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/clubs/clubs.ui.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/clubs/clubs.ui.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/clubs/clubs.ui.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/clubs/clubs.ui.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/dashboard/dashboard.accessibility.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/dashboard/dashboard.accessibility.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/dashboard/dashboard.accessibility.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/dashboard/dashboard.accessibility.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    }
+  ]
+}

@@ -1,0 +1,1395 @@
+{
+  "nodes": [
+    {
+      "id": "file:Frontend/automation-tests/dashboard/dashboard.api.spec.ts",
+      "type": "file",
+      "name": "dashboard.api.spec.ts",
+      "filePath": "Frontend/automation-tests/dashboard/dashboard.api.spec.ts",
+      "summary": "Automated test suite (dashboard.api.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/dashboard/dashboard.edge.spec.ts",
+      "type": "file",
+      "name": "dashboard.edge.spec.ts",
+      "filePath": "Frontend/automation-tests/dashboard/dashboard.edge.spec.ts",
+      "summary": "Automated test suite (dashboard.edge.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/dashboard/dashboard.error.spec.ts",
+      "type": "file",
+      "name": "dashboard.error.spec.ts",
+      "filePath": "Frontend/automation-tests/dashboard/dashboard.error.spec.ts",
+      "summary": "Automated test suite (dashboard.error.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/dashboard/dashboard.form.spec.ts",
+      "type": "file",
+      "name": "dashboard.form.spec.ts",
+      "filePath": "Frontend/automation-tests/dashboard/dashboard.form.spec.ts",
+      "summary": "Automated test suite (dashboard.form.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/dashboard/dashboard.mobile.spec.ts",
+      "type": "file",
+      "name": "dashboard.mobile.spec.ts",
+      "filePath": "Frontend/automation-tests/dashboard/dashboard.mobile.spec.ts",
+      "summary": "Automated test suite (dashboard.mobile.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/dashboard/dashboard.smoke.spec.ts",
+      "type": "file",
+      "name": "dashboard.smoke.spec.ts",
+      "filePath": "Frontend/automation-tests/dashboard/dashboard.smoke.spec.ts",
+      "summary": "Automated test suite (dashboard.smoke.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/dashboard/dashboard.ui.spec.ts",
+      "type": "file",
+      "name": "dashboard.ui.spec.ts",
+      "filePath": "Frontend/automation-tests/dashboard/dashboard.ui.spec.ts",
+      "summary": "Automated test suite (dashboard.ui.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "file",
+      "name": "teevo.data.ts",
+      "filePath": "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "summary": "Source file (teevo.data.ts) contributing to the Teevo golf management platform.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "file",
+      "name": "auth.helper.ts",
+      "filePath": "Frontend/automation-tests/helpers/auth.helper.ts",
+      "summary": "Source file (auth.helper.ts) contributing to the Teevo golf management platform.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/automation-tests/helpers/auth.helper.ts:loginAsDemo",
+      "type": "function",
+      "name": "loginAsDemo",
+      "filePath": "Frontend/automation-tests/helpers/auth.helper.ts",
+      "summary": "Function loginAsDemo in auth.helper.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/automation-tests/helpers/auth.helper.ts:loginAsDemoShortcut",
+      "type": "function",
+      "name": "loginAsDemoShortcut",
+      "filePath": "Frontend/automation-tests/helpers/auth.helper.ts",
+      "summary": "Function loginAsDemoShortcut in auth.helper.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "Frontend/automation-tests/index.ts",
+      "summary": "Source file (index.ts) contributing to the Teevo golf management platform.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:Frontend/automation-tests/login/login.accessibility.spec.ts",
+      "type": "file",
+      "name": "login.accessibility.spec.ts",
+      "filePath": "Frontend/automation-tests/login/login.accessibility.spec.ts",
+      "summary": "Automated test suite (login.accessibility.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/login/login.api.spec.ts",
+      "type": "file",
+      "name": "login.api.spec.ts",
+      "filePath": "Frontend/automation-tests/login/login.api.spec.ts",
+      "summary": "Automated test suite (login.api.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/login/login.edge.spec.ts",
+      "type": "file",
+      "name": "login.edge.spec.ts",
+      "filePath": "Frontend/automation-tests/login/login.edge.spec.ts",
+      "summary": "Automated test suite (login.edge.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/login/login.error.spec.ts",
+      "type": "file",
+      "name": "login.error.spec.ts",
+      "filePath": "Frontend/automation-tests/login/login.error.spec.ts",
+      "summary": "Automated test suite (login.error.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/login/login.form.spec.ts",
+      "type": "file",
+      "name": "login.form.spec.ts",
+      "filePath": "Frontend/automation-tests/login/login.form.spec.ts",
+      "summary": "Automated test suite (login.form.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/login/login.mobile.spec.ts",
+      "type": "file",
+      "name": "login.mobile.spec.ts",
+      "filePath": "Frontend/automation-tests/login/login.mobile.spec.ts",
+      "summary": "Automated test suite (login.mobile.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/login/login.smoke.spec.ts",
+      "type": "file",
+      "name": "login.smoke.spec.ts",
+      "filePath": "Frontend/automation-tests/login/login.smoke.spec.ts",
+      "summary": "Automated test suite (login.smoke.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/login/login.ui.spec.ts",
+      "type": "file",
+      "name": "login.ui.spec.ts",
+      "filePath": "Frontend/automation-tests/login/login.ui.spec.ts",
+      "summary": "Automated test suite (login.ui.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/scorecards/scorecards.accessibility.spec.ts",
+      "type": "file",
+      "name": "scorecards.accessibility.spec.ts",
+      "filePath": "Frontend/automation-tests/scorecards/scorecards.accessibility.spec.ts",
+      "summary": "Automated test suite (scorecards.accessibility.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/scorecards/scorecards.api.spec.ts",
+      "type": "file",
+      "name": "scorecards.api.spec.ts",
+      "filePath": "Frontend/automation-tests/scorecards/scorecards.api.spec.ts",
+      "summary": "Automated test suite (scorecards.api.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/scorecards/scorecards.edge.spec.ts",
+      "type": "file",
+      "name": "scorecards.edge.spec.ts",
+      "filePath": "Frontend/automation-tests/scorecards/scorecards.edge.spec.ts",
+      "summary": "Automated test suite (scorecards.edge.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/scorecards/scorecards.error.spec.ts",
+      "type": "file",
+      "name": "scorecards.error.spec.ts",
+      "filePath": "Frontend/automation-tests/scorecards/scorecards.error.spec.ts",
+      "summary": "Automated test suite (scorecards.error.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/scorecards/scorecards.form.spec.ts",
+      "type": "file",
+      "name": "scorecards.form.spec.ts",
+      "filePath": "Frontend/automation-tests/scorecards/scorecards.form.spec.ts",
+      "summary": "Automated test suite (scorecards.form.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/scorecards/scorecards.mobile.spec.ts",
+      "type": "file",
+      "name": "scorecards.mobile.spec.ts",
+      "filePath": "Frontend/automation-tests/scorecards/scorecards.mobile.spec.ts",
+      "summary": "Automated test suite (scorecards.mobile.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/automation-tests/scorecards/scorecards.smoke.spec.ts",
+      "type": "file",
+      "name": "scorecards.smoke.spec.ts",
+      "filePath": "Frontend/automation-tests/scorecards/scorecards.smoke.spec.ts",
+      "summary": "Automated test suite (scorecards.smoke.spec.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:Frontend/automation-tests/dashboard/dashboard.api.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/dashboard/dashboard.api.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/dashboard/dashboard.api.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/dashboard/dashboard.api.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/dashboard/dashboard.edge.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/dashboard/dashboard.edge.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/dashboard/dashboard.edge.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/dashboard/dashboard.edge.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/dashboard/dashboard.error.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/dashboard/dashboard.error.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/dashboard/dashboard.error.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/dashboard/dashboard.error.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/dashboard/dashboard.form.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/dashboard/dashboard.form.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/dashboard/dashboard.form.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/dashboard/dashboard.form.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/dashboard/dashboard.mobile.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/dashboard/dashboard.mobile.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/dashboard/dashboard.mobile.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/dashboard/dashboard.mobile.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/dashboard/dashboard.smoke.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/dashboard/dashboard.smoke.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/dashboard/dashboard.smoke.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/dashboard/dashboard.smoke.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/dashboard/dashboard.ui.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/dashboard/dashboard.ui.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/dashboard/dashboard.ui.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/dashboard/dashboard.ui.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "function:Frontend/automation-tests/helpers/auth.helper.ts:loginAsDemo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "function:Frontend/automation-tests/helpers/auth.helper.ts:loginAsDemo",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "function:Frontend/automation-tests/helpers/auth.helper.ts:loginAsDemoShortcut",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "function:Frontend/automation-tests/helpers/auth.helper.ts:loginAsDemoShortcut",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/bookings/bookings.accessibility.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/bookings/bookings.api.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/bookings/bookings.edge.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/bookings/bookings.error.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/bookings/bookings.form.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/bookings/bookings.mobile.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/bookings/bookings.smoke.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/bookings/bookings.ui.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/club-detail/club-detail.accessibility.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/club-detail/club-detail.api.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/club-detail/club-detail.edge.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/club-detail/club-detail.error.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/club-detail/club-detail.form.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/club-detail/club-detail.mobile.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/club-detail/club-detail.smoke.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/club-detail/club-detail.ui.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/clubs/clubs.accessibility.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/clubs/clubs.api.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/clubs/clubs.edge.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/clubs/clubs.error.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/clubs/clubs.form.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/clubs/clubs.mobile.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/clubs/clubs.smoke.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/clubs/clubs.ui.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/dashboard/dashboard.accessibility.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/dashboard/dashboard.api.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/dashboard/dashboard.edge.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/dashboard/dashboard.error.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/dashboard/dashboard.form.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/dashboard/dashboard.mobile.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/dashboard/dashboard.smoke.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/dashboard/dashboard.ui.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/login/login.accessibility.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/login/login.api.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/login/login.edge.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/login/login.error.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/login/login.form.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/login/login.mobile.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/login/login.smoke.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/login/login.ui.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/scorecards/scorecards.accessibility.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/scorecards/scorecards.api.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/scorecards/scorecards.edge.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/scorecards/scorecards.error.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/scorecards/scorecards.form.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/scorecards/scorecards.mobile.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/scorecards/scorecards.smoke.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/scorecards/scorecards.ui.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/tournament-detail/tournament-detail.accessibility.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/tournament-detail/tournament-detail.api.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/tournament-detail/tournament-detail.edge.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/tournament-detail/tournament-detail.error.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/tournament-detail/tournament-detail.form.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/tournament-detail/tournament-detail.mobile.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/tournament-detail/tournament-detail.smoke.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/tournament-detail/tournament-detail.ui.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/tournaments/tournaments.accessibility.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/tournaments/tournaments.api.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/tournaments/tournaments.edge.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/tournaments/tournaments.error.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/tournaments/tournaments.form.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/tournaments/tournaments.mobile.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/tournaments/tournaments.smoke.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/tournaments/tournaments.ui.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/users/users.accessibility.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/users/users.api.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/users/users.edge.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/users/users.error.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/users/users.form.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/users/users.mobile.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/users/users.smoke.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/index.ts",
+      "target": "file:Frontend/automation-tests/users/users.ui.spec.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/login/login.accessibility.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/login/login.accessibility.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/login/login.api.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/login/login.api.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/login/login.edge.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/login/login.edge.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/login/login.error.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/login/login.error.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/login/login.form.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/login/login.form.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/login/login.mobile.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/login/login.mobile.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/login/login.smoke.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/login/login.smoke.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/login/login.ui.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/login/login.ui.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/scorecards/scorecards.accessibility.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/scorecards/scorecards.accessibility.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/scorecards/scorecards.accessibility.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/scorecards/scorecards.accessibility.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/scorecards/scorecards.api.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/scorecards/scorecards.api.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/scorecards/scorecards.api.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/scorecards/scorecards.api.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/scorecards/scorecards.edge.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/scorecards/scorecards.edge.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/scorecards/scorecards.edge.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/scorecards/scorecards.edge.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/scorecards/scorecards.error.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/scorecards/scorecards.error.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/scorecards/scorecards.error.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/scorecards/scorecards.error.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/scorecards/scorecards.form.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/scorecards/scorecards.form.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/scorecards/scorecards.form.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/scorecards/scorecards.form.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/scorecards/scorecards.mobile.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/scorecards/scorecards.mobile.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/scorecards/scorecards.mobile.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/scorecards/scorecards.mobile.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/scorecards/scorecards.smoke.spec.ts",
+      "target": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/scorecards/scorecards.smoke.spec.ts",
+      "target": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "target": "file:Frontend/automation-tests/scorecards/scorecards.smoke.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/automation-tests/helpers/auth.helper.ts",
+      "target": "file:Frontend/automation-tests/scorecards/scorecards.smoke.spec.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    }
+  ]
+}
