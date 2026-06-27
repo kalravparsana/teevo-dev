@@ -1,0 +1,10 @@
+{
+  "lastAnalyzedAt": "2026-06-27T09:06:15.054Z",
+  "gitCommitHash": "cd5d45f94c4a576f25ea7faff394c0370daaa902",
+  "version": "1.0.0",
+  "analyzedFiles": 203,
+  "theme": {
+    "presetId": "light-minimal",
+    "accentId": "slate"
+  }
+}
