@@ -1,0 +1,69 @@
+{
+  "nodes": [
+    {
+      "id": "document:Frontend/test-results/login-login.form-Login-—-F-e3390-email-signs-in-successfully-chromium/error-context.md",
+      "type": "document",
+      "name": "error-context.md",
+      "filePath": "Frontend/test-results/login-login.form-Login-—-F-e3390-email-signs-in-successfully-chromium/error-context.md",
+      "summary": "Documentation file (error-context.md) describing project features or setup.",
+      "tags": [
+        "documentation",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/vite.config.ts",
+      "type": "file",
+      "name": "vite.config.ts",
+      "filePath": "Frontend/vite.config.ts",
+      "summary": "Source file (vite.config.ts) contributing to the Teevo golf management platform.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:Frontend/vite.config.ts:launchpadPreviewWatchIgnored",
+      "type": "function",
+      "name": "launchpadPreviewWatchIgnored",
+      "filePath": "Frontend/vite.config.ts",
+      "summary": "Function launchpadPreviewWatchIgnored in vite.config.ts.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "README.md",
+      "summary": "Documentation file (README.md) describing project features or setup.",
+      "tags": [
+        "documentation",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:Frontend/vite.config.ts",
+      "target": "function:Frontend/vite.config.ts:launchpadPreviewWatchIgnored",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "document:README.md",
+      "target": "file:Frontend/src/main.tsx",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    }
+  ]
+}

@@ -1,0 +1,960 @@
+{
+  "nodes": [
+    {
+      "id": "file:.gitmodules",
+      "type": "file",
+      "name": ".gitmodules",
+      "filePath": ".gitmodules",
+      "summary": "Source file (.gitmodules) contributing to the Teevo golf management platform.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.understand-anything/.understandignore",
+      "type": "file",
+      "name": ".understandignore",
+      "filePath": ".understand-anything/.understandignore",
+      "summary": "Source file (.understandignore) contributing to the Teevo golf management platform.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:.understand-anything/config.json",
+      "type": "config",
+      "name": "config.json",
+      "filePath": ".understand-anything/config.json",
+      "summary": "Configuration file (config.json) controlling build, tooling, or runtime settings.",
+      "tags": [
+        "configuration",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/package-lambda.mjs",
+      "type": "file",
+      "name": "package-lambda.mjs",
+      "filePath": "backend/package-lambda.mjs",
+      "summary": "Source file (package-lambda.mjs) contributing to the Teevo golf management platform.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:backend/plan/backend-vR1-release1-0-0.md",
+      "type": "document",
+      "name": "backend-vR1-release1-0-0.md",
+      "filePath": "backend/plan/backend-vR1-release1-0-0.md",
+      "summary": "Documentation file (backend-vR1-release1-0-0.md) describing project features or setup.",
+      "tags": [
+        "documentation",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:backend/scripts/seed.mjs",
+      "type": "file",
+      "name": "seed.mjs",
+      "filePath": "backend/scripts/seed.mjs",
+      "summary": "Source file (seed.mjs) contributing to the Teevo golf management platform.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:backend/scripts/seed.mjs:seedData",
+      "type": "function",
+      "name": "seedData",
+      "filePath": "backend/scripts/seed.mjs",
+      "summary": "Function seedData in seed.mjs.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:backend/scripts/seed.mjs:putEntity",
+      "type": "function",
+      "name": "putEntity",
+      "filePath": "backend/scripts/seed.mjs",
+      "summary": "Function putEntity in seed.mjs.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:deploy.sh",
+      "type": "file",
+      "name": "deploy.sh",
+      "filePath": "deploy.sh",
+      "summary": "Source file (deploy.sh) contributing to the Teevo golf management platform.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:deploy.sh:read_cfn_param",
+      "type": "function",
+      "name": "read_cfn_param",
+      "filePath": "deploy.sh",
+      "summary": "Function read_cfn_param in deploy.sh.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:deploy.sh:recover_failed_stack",
+      "type": "function",
+      "name": "recover_failed_stack",
+      "filePath": "deploy.sh",
+      "summary": "Function recover_failed_stack in deploy.sh.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:deploy.sh:prepare_backend_lambda_artifact",
+      "type": "function",
+      "name": "prepare_backend_lambda_artifact",
+      "filePath": "deploy.sh",
+      "summary": "Function prepare_backend_lambda_artifact in deploy.sh.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:deploy.sh:deploy_cloudformation_layer",
+      "type": "function",
+      "name": "deploy_cloudformation_layer",
+      "filePath": "deploy.sh",
+      "summary": "Function deploy_cloudformation_layer in deploy.sh.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:deploy.sh:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "deploy.sh",
+      "summary": "Function main in deploy.sh.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/.cursor/rules/playwright-automation.mdc",
+      "type": "file",
+      "name": "playwright-automation.mdc",
+      "filePath": "Frontend/.cursor/rules/playwright-automation.mdc",
+      "summary": "Source file (playwright-automation.mdc) contributing to the Teevo golf management platform.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:Frontend/.cursor/rules/playwright-spec-templates.mdc",
+      "type": "file",
+      "name": "playwright-spec-templates.mdc",
+      "filePath": "Frontend/.cursor/rules/playwright-spec-templates.mdc",
+      "summary": "Source file (playwright-spec-templates.mdc) contributing to the Teevo golf management platform.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:Frontend/.cursor/skills/playwrightConfig.mdc",
+      "type": "file",
+      "name": "playwrightConfig.mdc",
+      "filePath": "Frontend/.cursor/skills/playwrightConfig.mdc",
+      "summary": "Source file (playwrightConfig.mdc) contributing to the Teevo golf management platform.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:Frontend/.cursorignore",
+      "type": "file",
+      "name": ".cursorignore",
+      "filePath": "Frontend/.cursorignore",
+      "summary": "Source file (.cursorignore) contributing to the Teevo golf management platform.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/assets/index-ByMylzQP.js",
+      "type": "file",
+      "name": "index-ByMylzQP.js",
+      "filePath": "Frontend/assets/index-ByMylzQP.js",
+      "summary": "Source file (index-ByMylzQP.js) contributing to the Teevo golf management platform.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:Frontend/assets/index-ByMylzQP.js:Ha",
+      "type": "class",
+      "name": "Ha",
+      "filePath": "Frontend/assets/index-ByMylzQP.js",
+      "summary": "Class Ha in index-ByMylzQP.js.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:Frontend/assets/index-ByMylzQP.js:Ht",
+      "type": "class",
+      "name": "Ht",
+      "filePath": "Frontend/assets/index-ByMylzQP.js",
+      "summary": "Class Ht in index-ByMylzQP.js.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:Frontend/assets/index-ByMylzQP.js:Tn",
+      "type": "class",
+      "name": "Tn",
+      "filePath": "Frontend/assets/index-ByMylzQP.js",
+      "summary": "Class Tn in index-ByMylzQP.js.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:Frontend/assets/index-ByMylzQP.js:Ee",
+      "type": "class",
+      "name": "Ee",
+      "filePath": "Frontend/assets/index-ByMylzQP.js",
+      "summary": "Class Ee in index-ByMylzQP.js.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:Frontend/assets/index-ByMylzQP.js:xn",
+      "type": "class",
+      "name": "xn",
+      "filePath": "Frontend/assets/index-ByMylzQP.js",
+      "summary": "Class xn in index-ByMylzQP.js.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:Frontend/assets/index-ByMylzQP.js:Ml",
+      "type": "class",
+      "name": "Ml",
+      "filePath": "Frontend/assets/index-ByMylzQP.js",
+      "summary": "Class Ml in index-ByMylzQP.js.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:Frontend/assets/index-ByMylzQP.js:Yi",
+      "type": "class",
+      "name": "Yi",
+      "filePath": "Frontend/assets/index-ByMylzQP.js",
+      "summary": "Class Yi in index-ByMylzQP.js.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:Frontend/assets/index-ByMylzQP.js:Dr",
+      "type": "class",
+      "name": "Dr",
+      "filePath": "Frontend/assets/index-ByMylzQP.js",
+      "summary": "Class Dr in index-ByMylzQP.js.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:Frontend/assets/index-ByMylzQP.js:Dp",
+      "type": "class",
+      "name": "Dp",
+      "filePath": "Frontend/assets/index-ByMylzQP.js",
+      "summary": "Class Dp in index-ByMylzQP.js.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:Frontend/assets/index-ByMylzQP.js:Mp",
+      "type": "class",
+      "name": "Mp",
+      "filePath": "Frontend/assets/index-ByMylzQP.js",
+      "summary": "Class Mp in index-ByMylzQP.js.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:Frontend/assets/index-ByMylzQP.js:ma",
+      "type": "class",
+      "name": "ma",
+      "filePath": "Frontend/assets/index-ByMylzQP.js",
+      "summary": "Class ma in index-ByMylzQP.js.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:Frontend/assets/index-ByMylzQP.js:Pe",
+      "type": "class",
+      "name": "Pe",
+      "filePath": "Frontend/assets/index-ByMylzQP.js",
+      "summary": "Class Pe in index-ByMylzQP.js.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:Frontend/assets/index-ByMylzQP.js:Mr",
+      "type": "class",
+      "name": "Mr",
+      "filePath": "Frontend/assets/index-ByMylzQP.js",
+      "summary": "Class Mr in index-ByMylzQP.js.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:Frontend/assets/index-ByMylzQP.js:Xn",
+      "type": "class",
+      "name": "Xn",
+      "filePath": "Frontend/assets/index-ByMylzQP.js",
+      "summary": "Class Xn in index-ByMylzQP.js.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:Frontend/assets/index-ByMylzQP.js:Bp",
+      "type": "class",
+      "name": "Bp",
+      "filePath": "Frontend/assets/index-ByMylzQP.js",
+      "summary": "Class Bp in index-ByMylzQP.js.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:Frontend/assets/index-ByMylzQP.js:Vi",
+      "type": "class",
+      "name": "Vi",
+      "filePath": "Frontend/assets/index-ByMylzQP.js",
+      "summary": "Class Vi in index-ByMylzQP.js.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:Frontend/assets/index-ByMylzQP.js:Hp",
+      "type": "class",
+      "name": "Hp",
+      "filePath": "Frontend/assets/index-ByMylzQP.js",
+      "summary": "Class Hp in index-ByMylzQP.js.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:Frontend/assets/index-ByMylzQP.js:Lp",
+      "type": "class",
+      "name": "Lp",
+      "filePath": "Frontend/assets/index-ByMylzQP.js",
+      "summary": "Class Lp in index-ByMylzQP.js.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:Frontend/assets/index-ByMylzQP.js:Ul",
+      "type": "class",
+      "name": "Ul",
+      "filePath": "Frontend/assets/index-ByMylzQP.js",
+      "summary": "Class Ul in index-ByMylzQP.js.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:Frontend/assets/index-ByMylzQP.js:qp",
+      "type": "class",
+      "name": "qp",
+      "filePath": "Frontend/assets/index-ByMylzQP.js",
+      "summary": "Class qp in index-ByMylzQP.js.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:Frontend/assets/index-ByMylzQP.js:Br",
+      "type": "class",
+      "name": "Br",
+      "filePath": "Frontend/assets/index-ByMylzQP.js",
+      "summary": "Class Br in index-ByMylzQP.js.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:Frontend/assets/index-ByMylzQP.js:Bl",
+      "type": "class",
+      "name": "Bl",
+      "filePath": "Frontend/assets/index-ByMylzQP.js",
+      "summary": "Class Bl in index-ByMylzQP.js.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:Frontend/assets/index-ByMylzQP.js:Sn",
+      "type": "class",
+      "name": "Sn",
+      "filePath": "Frontend/assets/index-ByMylzQP.js",
+      "summary": "Class Sn in index-ByMylzQP.js.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:Frontend/assets/index-ByMylzQP.js:Hl",
+      "type": "class",
+      "name": "Hl",
+      "filePath": "Frontend/assets/index-ByMylzQP.js",
+      "summary": "Class Hl in index-ByMylzQP.js.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:Frontend/assets/index-ByMylzQP.js:Ro",
+      "type": "class",
+      "name": "Ro",
+      "filePath": "Frontend/assets/index-ByMylzQP.js",
+      "summary": "Class Ro in index-ByMylzQP.js.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:Frontend/assets/index-ByMylzQP.js:ko",
+      "type": "class",
+      "name": "ko",
+      "filePath": "Frontend/assets/index-ByMylzQP.js",
+      "summary": "Class ko in index-ByMylzQP.js.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:Frontend/assets/index-ByMylzQP.js:t_",
+      "type": "class",
+      "name": "t_",
+      "filePath": "Frontend/assets/index-ByMylzQP.js",
+      "summary": "Class t_ in index-ByMylzQP.js.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:Frontend/assets/index-ByMylzQP.js:Jo",
+      "type": "class",
+      "name": "Jo",
+      "filePath": "Frontend/assets/index-ByMylzQP.js",
+      "summary": "Class Jo in index-ByMylzQP.js.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:Frontend/assets/index-ByMylzQP.js:Do",
+      "type": "class",
+      "name": "Do",
+      "filePath": "Frontend/assets/index-ByMylzQP.js",
+      "summary": "Class Do in index-ByMylzQP.js.",
+      "tags": [
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:Frontend/assets/index-CzqLfKrO.css",
+      "type": "file",
+      "name": "index-CzqLfKrO.css",
+      "filePath": "Frontend/assets/index-CzqLfKrO.css",
+      "summary": "Source file (index-CzqLfKrO.css) contributing to the Teevo golf management platform.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/eslint.config.js",
+      "type": "file",
+      "name": "eslint.config.js",
+      "filePath": "Frontend/eslint.config.js",
+      "summary": "Source file (eslint.config.js) contributing to the Teevo golf management platform.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/playwright-report/index.html",
+      "type": "file",
+      "name": "index.html",
+      "filePath": "Frontend/playwright-report/index.html",
+      "summary": "Source file (index.html) contributing to the Teevo golf management platform.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:Frontend/playwright.config.ts",
+      "type": "file",
+      "name": "playwright.config.ts",
+      "filePath": "Frontend/playwright.config.ts",
+      "summary": "Source file (playwright.config.ts) contributing to the Teevo golf management platform.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/App.tsx.lp-basename.bak",
+      "type": "file",
+      "name": "App.tsx.lp-basename.bak",
+      "filePath": "Frontend/src/App.tsx.lp-basename.bak",
+      "summary": "Source file (App.tsx.lp-basename.bak) contributing to the Teevo golf management platform.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/index.css",
+      "type": "file",
+      "name": "index.css",
+      "filePath": "Frontend/src/index.css",
+      "summary": "Source file (index.css) contributing to the Teevo golf management platform.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:Frontend/src/launchpadEmbedBasename.d.ts",
+      "type": "file",
+      "name": "launchpadEmbedBasename.d.ts",
+      "filePath": "Frontend/src/launchpadEmbedBasename.d.ts",
+      "summary": "Source file (launchpadEmbedBasename.d.ts) contributing to the Teevo golf management platform.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/test/setup.ts",
+      "type": "file",
+      "name": "setup.ts",
+      "filePath": "Frontend/src/test/setup.ts",
+      "summary": "Source file (setup.ts) contributing to the Teevo golf management platform.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/vite-env.d.ts",
+      "type": "file",
+      "name": "vite-env.d.ts",
+      "filePath": "Frontend/src/vite-env.d.ts",
+      "summary": "Source file (vite-env.d.ts) contributing to the Teevo golf management platform.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:Frontend/test-results/.last-run.json",
+      "type": "config",
+      "name": ".last-run.json",
+      "filePath": "Frontend/test-results/.last-run.json",
+      "summary": "Configuration file (.last-run.json) controlling build, tooling, or runtime settings.",
+      "tags": [
+        "configuration",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:Frontend/test-results/login-login.form-Login-—-F-0c166-il-shows-browser-validation-chromium/error-context.md",
+      "type": "document",
+      "name": "error-context.md",
+      "filePath": "Frontend/test-results/login-login.form-Login-—-F-0c166-il-shows-browser-validation-chromium/error-context.md",
+      "summary": "Documentation file (error-context.md) describing project features or setup.",
+      "tags": [
+        "documentation",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:Frontend/test-results/login-login.form-Login-—-F-28617-cked-by-required-validation-chromium/error-context.md",
+      "type": "document",
+      "name": "error-context.md",
+      "filePath": "Frontend/test-results/login-login.form-Login-—-F-28617-cked-by-required-validation-chromium/error-context.md",
+      "summary": "Documentation file (error-context.md) describing project features or setup.",
+      "tags": [
+        "documentation",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:Frontend/test-results/login-login.form-Login-—-F-ade2e-n-email-shows-error-message-chromium/error-context.md",
+      "type": "document",
+      "name": "error-context.md",
+      "filePath": "Frontend/test-results/login-login.form-Login-—-F-ade2e-n-email-shows-error-message-chromium/error-context.md",
+      "summary": "Documentation file (error-context.md) describing project features or setup.",
+      "tags": [
+        "documentation",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:backend/scripts/seed.mjs",
+      "target": "function:backend/scripts/seed.mjs:seedData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/scripts/seed.mjs",
+      "target": "function:backend/scripts/seed.mjs:putEntity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:deploy.sh",
+      "target": "function:deploy.sh:read_cfn_param",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:deploy.sh",
+      "target": "function:deploy.sh:recover_failed_stack",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:deploy.sh",
+      "target": "function:deploy.sh:prepare_backend_lambda_artifact",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:deploy.sh",
+      "target": "function:deploy.sh:deploy_cloudformation_layer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:deploy.sh",
+      "target": "function:deploy.sh:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/assets/index-ByMylzQP.js",
+      "target": "class:Frontend/assets/index-ByMylzQP.js:Ha",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/assets/index-ByMylzQP.js",
+      "target": "class:Frontend/assets/index-ByMylzQP.js:Ht",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/assets/index-ByMylzQP.js",
+      "target": "class:Frontend/assets/index-ByMylzQP.js:Tn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/assets/index-ByMylzQP.js",
+      "target": "class:Frontend/assets/index-ByMylzQP.js:Ee",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/assets/index-ByMylzQP.js",
+      "target": "class:Frontend/assets/index-ByMylzQP.js:xn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/assets/index-ByMylzQP.js",
+      "target": "class:Frontend/assets/index-ByMylzQP.js:Ml",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/assets/index-ByMylzQP.js",
+      "target": "class:Frontend/assets/index-ByMylzQP.js:Yi",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/assets/index-ByMylzQP.js",
+      "target": "class:Frontend/assets/index-ByMylzQP.js:Dr",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/assets/index-ByMylzQP.js",
+      "target": "class:Frontend/assets/index-ByMylzQP.js:Dp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/assets/index-ByMylzQP.js",
+      "target": "class:Frontend/assets/index-ByMylzQP.js:Mp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/assets/index-ByMylzQP.js",
+      "target": "class:Frontend/assets/index-ByMylzQP.js:ma",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/assets/index-ByMylzQP.js",
+      "target": "class:Frontend/assets/index-ByMylzQP.js:Pe",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/assets/index-ByMylzQP.js",
+      "target": "class:Frontend/assets/index-ByMylzQP.js:Mr",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/assets/index-ByMylzQP.js",
+      "target": "class:Frontend/assets/index-ByMylzQP.js:Xn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/assets/index-ByMylzQP.js",
+      "target": "class:Frontend/assets/index-ByMylzQP.js:Bp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/assets/index-ByMylzQP.js",
+      "target": "class:Frontend/assets/index-ByMylzQP.js:Vi",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/assets/index-ByMylzQP.js",
+      "target": "class:Frontend/assets/index-ByMylzQP.js:Hp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/assets/index-ByMylzQP.js",
+      "target": "class:Frontend/assets/index-ByMylzQP.js:Lp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/assets/index-ByMylzQP.js",
+      "target": "class:Frontend/assets/index-ByMylzQP.js:Ul",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/assets/index-ByMylzQP.js",
+      "target": "class:Frontend/assets/index-ByMylzQP.js:qp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/assets/index-ByMylzQP.js",
+      "target": "class:Frontend/assets/index-ByMylzQP.js:Br",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/assets/index-ByMylzQP.js",
+      "target": "class:Frontend/assets/index-ByMylzQP.js:Bl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/assets/index-ByMylzQP.js",
+      "target": "class:Frontend/assets/index-ByMylzQP.js:Sn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/assets/index-ByMylzQP.js",
+      "target": "class:Frontend/assets/index-ByMylzQP.js:Hl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/assets/index-ByMylzQP.js",
+      "target": "class:Frontend/assets/index-ByMylzQP.js:Ro",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/assets/index-ByMylzQP.js",
+      "target": "class:Frontend/assets/index-ByMylzQP.js:ko",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/assets/index-ByMylzQP.js",
+      "target": "class:Frontend/assets/index-ByMylzQP.js:t_",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/assets/index-ByMylzQP.js",
+      "target": "class:Frontend/assets/index-ByMylzQP.js:Jo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/assets/index-ByMylzQP.js",
+      "target": "class:Frontend/assets/index-ByMylzQP.js:Do",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,1159 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 19,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "Frontend/src/App.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 14,
+      "nonEmptyLines": 13,
+      "functions": [
+        {
+          "name": "App",
+          "startLine": 6,
+          "endLine": 14,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "App",
+          "line": 6,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "App",
+          "callee": "resolveLaunchpadRouterBasename",
+          "lineNumber": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/components/auth/ProtectedRoute.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 8,
+      "nonEmptyLines": 7,
+      "functions": [
+        {
+          "name": "ProtectedRoute",
+          "startLine": 4,
+          "endLine": 8,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "ProtectedRoute",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ProtectedRoute",
+          "callee": "useTeevo",
+          "lineNumber": 5
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/components/auth/RoleGate.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 19,
+      "nonEmptyLines": 18,
+      "functions": [
+        {
+          "name": "RoleGate",
+          "startLine": 5,
+          "endLine": 19,
+          "params": [
+            "{\n  roles,\n  children,\n  fallback = '/dashboard',\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "RoleGate",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "RoleGate",
+          "callee": "useTeevo",
+          "lineNumber": 14
+        },
+        {
+          "caller": "RoleGate",
+          "callee": "roles.includes",
+          "lineNumber": 15
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/components/clubs/ClubLogo.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 53,
+      "nonEmptyLines": 47,
+      "functions": [
+        {
+          "name": "ClubLogo",
+          "startLine": 18,
+          "endLine": 53,
+          "params": [
+            "{\n  name,\n  logoUrl,\n  size = 'md',\n  className,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "ClubLogo",
+          "line": 18,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ClubLogo",
+          "callee": "cn",
+          "lineNumber": 29
+        },
+        {
+          "caller": "ClubLogo",
+          "callee": "cn",
+          "lineNumber": 49
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/components/layout/AppShell.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 126,
+      "nonEmptyLines": 114,
+      "functions": [
+        {
+          "name": "AppShell",
+          "startLine": 10,
+          "endLine": 126,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "AppShell",
+          "line": 10,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "AppShell",
+          "callee": "useTeevo",
+          "lineNumber": 11
+        },
+        {
+          "caller": "AppShell",
+          "callee": "useNavigate",
+          "lineNumber": 12
+        },
+        {
+          "caller": "AppShell",
+          "callee": "useState",
+          "lineNumber": 13
+        },
+        {
+          "caller": "AppShell",
+          "callee": "getNavItemsForRole",
+          "lineNumber": 17
+        },
+        {
+          "caller": "handleLogout",
+          "callee": "logout",
+          "lineNumber": 20
+        },
+        {
+          "caller": "handleLogout",
+          "callee": "navigate",
+          "lineNumber": 21
+        },
+        {
+          "caller": "navLinkClass",
+          "callee": "cn",
+          "lineNumber": 25
+        },
+        {
+          "caller": "AppShell",
+          "callee": "navItems.map",
+          "lineNumber": 45
+        },
+        {
+          "caller": "AppShell",
+          "callee": "setMobileOpen",
+          "lineNumber": 50
+        },
+        {
+          "caller": "AppShell",
+          "callee": "currentUser.role.replace",
+          "lineNumber": 61
+        },
+        {
+          "caller": "AppShell",
+          "callee": "setMobileOpen",
+          "lineNumber": 85
+        },
+        {
+          "caller": "AppShell",
+          "callee": "setMobileOpen",
+          "lineNumber": 92
+        },
+        {
+          "caller": "AppShell",
+          "callee": "setMobileOpen",
+          "lineNumber": 107
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/components/layout/PageHeader.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 25,
+      "nonEmptyLines": 24,
+      "functions": [
+        {
+          "name": "PageHeader",
+          "startLine": 3,
+          "endLine": 25,
+          "params": [
+            "{\n  title,\n  description,\n  action,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "PageHeader",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/components/tournaments/TournamentRegistrationsPanel.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 250,
+      "nonEmptyLines": 238,
+      "functions": [
+        {
+          "name": "RegistrationRow",
+          "startLine": 17,
+          "endLine": 139,
+          "params": [
+            "{\n  registration,\n  tournament,\n  player,\n  clubHoleCount,\n  canReview,\n  onApprove,\n  onReject,\n}"
+          ]
+        },
+        {
+          "name": "TournamentRegistrationsPanel",
+          "startLine": 141,
+          "endLine": 250,
+          "params": [
+            "{\n  tournament,\n  clubHoleCount,\n  canReview,\n  currentUserId,\n  isPlayer,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "TournamentRegistrationsPanel",
+          "line": 141,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "RegistrationRow",
+          "callee": "useState",
+          "lineNumber": 34
+        },
+        {
+          "caller": "RegistrationRow",
+          "callee": "useState",
+          "lineNumber": 35
+        },
+        {
+          "caller": "RegistrationRow",
+          "callee": "useState",
+          "lineNumber": 36
+        },
+        {
+          "caller": "RegistrationRow",
+          "callee": "useState",
+          "lineNumber": 37
+        },
+        {
+          "caller": "RegistrationRow",
+          "callee": "tournament.groups.find",
+          "lineNumber": 39
+        },
+        {
+          "caller": "RegistrationRow",
+          "callee": "formatDateTime",
+          "lineNumber": 48
+        },
+        {
+          "caller": "RegistrationRow",
+          "callee": "formatGroupLabel",
+          "lineNumber": 50
+        },
+        {
+          "caller": "RegistrationRow",
+          "callee": "formatDateTime",
+          "lineNumber": 53
+        },
+        {
+          "caller": "RegistrationRow",
+          "callee": "formatGroupLabel",
+          "lineNumber": 70
+        },
+        {
+          "caller": "handleApprove",
+          "callee": "registrationApprovalSchema.safeParse",
+          "lineNumber": 80
+        },
+        {
+          "caller": "handleApprove",
+          "callee": "parseInt",
+          "lineNumber": 82
+        },
+        {
+          "caller": "handleApprove",
+          "callee": "setErrors",
+          "lineNumber": 86
+        },
+        {
+          "caller": "handleApprove",
+          "callee": "formatZodErrors",
+          "lineNumber": 86
+        },
+        {
+          "caller": "handleApprove",
+          "callee": "setErrors",
+          "lineNumber": 89
+        },
+        {
+          "caller": "handleApprove",
+          "callee": "onApprove",
+          "lineNumber": 90
+        },
+        {
+          "caller": "RegistrationRow",
+          "callee": "formatGroupLabel",
+          "lineNumber": 99
+        },
+        {
+          "caller": "RegistrationRow",
+          "callee": "setGroupId",
+          "lineNumber": 108
+        },
+        {
+          "caller": "RegistrationRow",
+          "callee": "tournament.groups.map",
+          "lineNumber": 109
+        },
+        {
+          "caller": "RegistrationRow",
+          "callee": "formatGroupLabel",
+          "lineNumber": 109
+        },
+        {
+          "caller": "RegistrationRow",
+          "callee": "setStartingHole",
+          "lineNumber": 118
+        },
+        {
+          "caller": "RegistrationRow",
+          "callee": "setTeeTimeLocal",
+          "lineNumber": 125
+        },
+        {
+          "caller": "TournamentRegistrationsPanel",
+          "callee": "useTeevo",
+          "lineNumber": 154
+        },
+        {
+          "caller": "TournamentRegistrationsPanel",
+          "callee": "useState",
+          "lineNumber": 155
+        },
+        {
+          "caller": "TournamentRegistrationsPanel",
+          "callee": "useState",
+          "lineNumber": 156
+        },
+        {
+          "caller": "TournamentRegistrationsPanel",
+          "callee": "data.tournamentRegistrations.filter",
+          "lineNumber": 158
+        },
+        {
+          "caller": "TournamentRegistrationsPanel",
+          "callee": "eligibleGroupsForHandicap",
+          "lineNumber": 161
+        },
+        {
+          "caller": "TournamentRegistrationsPanel",
+          "callee": "registrations.find",
+          "lineNumber": 165
+        },
+        {
+          "caller": "handleRegister",
+          "callee": "tournamentRegistrationSchema.safeParse",
+          "lineNumber": 176
+        },
+        {
+          "caller": "handleRegister",
+          "callee": "setRegisterErrors",
+          "lineNumber": 181
+        },
+        {
+          "caller": "handleRegister",
+          "callee": "formatZodErrors",
+          "lineNumber": 181
+        },
+        {
+          "caller": "handleRegister",
+          "callee": "registerForTournament",
+          "lineNumber": 184
+        },
+        {
+          "caller": "handleRegister",
+          "callee": "setRegisterErrors",
+          "lineNumber": 185
+        },
+        {
+          "caller": "TournamentRegistrationsPanel",
+          "callee": "setGroupId",
+          "lineNumber": 204
+        },
+        {
+          "caller": "TournamentRegistrationsPanel",
+          "callee": "eligibleGroups.map",
+          "lineNumber": 205
+        },
+        {
+          "caller": "TournamentRegistrationsPanel",
+          "callee": "formatGroupLabel",
+          "lineNumber": 205
+        },
+        {
+          "caller": "TournamentRegistrationsPanel",
+          "callee": "registrations.map",
+          "lineNumber": 224
+        },
+        {
+          "caller": "TournamentRegistrationsPanel",
+          "callee": "data.users.find",
+          "lineNumber": 229
+        },
+        {
+          "caller": "TournamentRegistrationsPanel",
+          "callee": "reviewRegistration",
+          "lineNumber": 233
+        },
+        {
+          "caller": "TournamentRegistrationsPanel",
+          "callee": "parseDateTimeLocal",
+          "lineNumber": 238
+        },
+        {
+          "caller": "TournamentRegistrationsPanel",
+          "callee": "reviewRegistration",
+          "lineNumber": 242
+        }
+      ],
+      "metrics": {
+        "importCount": 10,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/components/ui/Alert.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 35,
+      "nonEmptyLines": 34,
+      "functions": [
+        {
+          "name": "Alert",
+          "startLine": 4,
+          "endLine": 35,
+          "params": [
+            "{\n  message,\n  onDismiss,\n  variant = 'error',\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Alert",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Alert",
+          "callee": "cn",
+          "lineNumber": 16
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/components/ui/Badge.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 31,
+      "nonEmptyLines": 29,
+      "functions": [
+        {
+          "name": "Badge",
+          "startLine": 19,
+          "endLine": 31,
+          "params": [
+            "{ status, className }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Badge",
+          "line": 19,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Badge",
+          "callee": "cn",
+          "lineNumber": 22
+        },
+        {
+          "caller": "Badge",
+          "callee": "status.replace",
+          "lineNumber": 28
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/components/ui/Button.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 45,
+      "nonEmptyLines": 41,
+      "functions": [
+        {
+          "name": "Button",
+          "startLine": 20,
+          "endLine": 45,
+          "params": [
+            "{\n  variant = 'primary',\n  size = 'md',\n  className,\n  disabled,\n  children,\n  ...props\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Button",
+          "line": 20,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Button",
+          "callee": "cn",
+          "lineNumber": 32
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/components/ui/Card.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 40,
+      "nonEmptyLines": 38,
+      "functions": [
+        {
+          "name": "Card",
+          "startLine": 4,
+          "endLine": 20,
+          "params": [
+            "{\n  children,\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "CardHeader",
+          "startLine": 22,
+          "endLine": 40,
+          "params": [
+            "{\n  title,\n  description,\n  action,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Card",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "CardHeader",
+          "line": 22,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Card",
+          "callee": "cn",
+          "lineNumber": 11
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/components/ui/EmptyState.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 25,
+      "nonEmptyLines": 24,
+      "functions": [
+        {
+          "name": "EmptyState",
+          "startLine": 4,
+          "endLine": 25,
+          "params": [
+            "{\n  icon: Icon,\n  title,\n  description,\n  action,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "EmptyState",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/components/ui/ImageUpload.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 131,
+      "nonEmptyLines": 123,
+      "functions": [
+        {
+          "name": "ImageUpload",
+          "startLine": 15,
+          "endLine": 131,
+          "params": [
+            "{\n  label,\n  value,\n  onChange,\n  error,\n  required,\n  hint = 'PNG, JPG, WebP, or SVG · max 512 KB',\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "ImageUpload",
+          "line": 15,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ImageUpload",
+          "callee": "useId",
+          "lineNumber": 23
+        },
+        {
+          "caller": "ImageUpload",
+          "callee": "useRef",
+          "lineNumber": 24
+        },
+        {
+          "caller": "ImageUpload",
+          "callee": "useState",
+          "lineNumber": 25
+        },
+        {
+          "caller": "ImageUpload",
+          "callee": "useState",
+          "lineNumber": 26
+        },
+        {
+          "caller": "handleFile",
+          "callee": "setLocalError",
+          "lineNumber": 32
+        },
+        {
+          "caller": "handleFile",
+          "callee": "setLoading",
+          "lineNumber": 33
+        },
+        {
+          "caller": "handleFile",
+          "callee": "readImageFileAsDataUrl",
+          "lineNumber": 35
+        },
+        {
+          "caller": "handleFile",
+          "callee": "onChange",
+          "lineNumber": 36
+        },
+        {
+          "caller": "handleFile",
+          "callee": "setLocalError",
+          "lineNumber": 38
+        },
+        {
+          "caller": "handleFile",
+          "callee": "onChange",
+          "lineNumber": 39
+        },
+        {
+          "caller": "handleFile",
+          "callee": "setLoading",
+          "lineNumber": 41
+        },
+        {
+          "caller": "ImageUpload",
+          "callee": "cn",
+          "lineNumber": 54
+        },
+        {
+          "caller": "ImageUpload",
+          "callee": "inputRef.current?.click",
+          "lineNumber": 69
+        },
+        {
+          "caller": "ImageUpload",
+          "callee": "setLocalError",
+          "lineNumber": 78
+        },
+        {
+          "caller": "ImageUpload",
+          "callee": "onChange",
+          "lineNumber": 79
+        },
+        {
+          "caller": "ImageUpload",
+          "callee": "inputRef.current?.click",
+          "lineNumber": 92
+        },
+        {
+          "caller": "ImageUpload",
+          "callee": "cn",
+          "lineNumber": 94
+        },
+        {
+          "caller": "ImageUpload",
+          "callee": "handleFile",
+          "lineNumber": 121
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/components/ui/Input.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 37,
+      "nonEmptyLines": 35,
+      "functions": [
+        {
+          "name": "Input",
+          "startLine": 9,
+          "endLine": 37,
+          "params": [
+            "{ label, error, className, id, ...props }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Input",
+          "line": 9,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Input",
+          "callee": "label?.toLowerCase().replace",
+          "lineNumber": 10
+        },
+        {
+          "caller": "Input",
+          "callee": "label?.toLowerCase",
+          "lineNumber": 10
+        },
+        {
+          "caller": "Input",
+          "callee": "cn",
+          "lineNumber": 20
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/components/ui/Modal.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 61,
+      "nonEmptyLines": 57,
+      "functions": [
+        {
+          "name": "Modal",
+          "startLine": 14,
+          "endLine": 61,
+          "params": [
+            "{ open, onClose, title, children, className }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Modal",
+          "line": 14,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Modal",
+          "callee": "useEffect",
+          "lineNumber": 15
+        },
+        {
+          "caller": "handler",
+          "callee": "onClose",
+          "lineNumber": 18
+        },
+        {
+          "caller": "Modal",
+          "callee": "document.addEventListener",
+          "lineNumber": 20
+        },
+        {
+          "caller": "Modal",
+          "callee": "document.removeEventListener",
+          "lineNumber": 23
+        },
+        {
+          "caller": "Modal",
+          "callee": "cn",
+          "lineNumber": 44
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/components/ui/Select.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 43,
+      "nonEmptyLines": 41,
+      "functions": [
+        {
+          "name": "Select",
+          "startLine": 10,
+          "endLine": 43,
+          "params": [
+            "{ label, error, options, className, id, ...props }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Select",
+          "line": 10,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Select",
+          "callee": "label?.toLowerCase().replace",
+          "lineNumber": 11
+        },
+        {
+          "caller": "Select",
+          "callee": "label?.toLowerCase",
+          "lineNumber": 11
+        },
+        {
+          "caller": "Select",
+          "callee": "cn",
+          "lineNumber": 21
+        },
+        {
+          "caller": "Select",
+          "callee": "options.map",
+          "lineNumber": 30
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/launchpadEmbedBasename.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 14,
+      "nonEmptyLines": 14,
+      "functions": [
+        {
+          "name": "resolveLaunchpadRouterBasename",
+          "startLine": 2,
+          "endLine": 14,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "resolveLaunchpadRouterBasename",
+          "line": 2,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "resolveLaunchpadRouterBasename",
+          "callee": "p.match",
+          "lineNumber": 6
+        },
+        {
+          "caller": "resolveLaunchpadRouterBasename",
+          "callee": "p.match",
+          "lineNumber": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/lib/clubs/holeCount.test.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 32,
+      "nonEmptyLines": 28,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/lib/clubs/holeCount.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 34,
+      "nonEmptyLines": 27,
+      "functions": [
+        {
+          "name": "isClubHoleCount",
+          "startLine": 20,
+          "endLine": 22,
+          "params": [
+            "value"
+          ]
+        },
+        {
+          "name": "normalizeClubHoleCount",
+          "startLine": 24,
+          "endLine": 26,
+          "params": [
+            "value"
+          ]
+        },
+        {
+          "name": "defaultHoleScores",
+          "startLine": 28,
+          "endLine": 30,
+          "params": [
+            "count"
+          ]
+        },
+        {
+          "name": "formatClubHoleCount",
+          "startLine": 32,
+          "endLine": 34,
+          "params": [
+            "count"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "CLUB_HOLE_COUNTS",
+          "line": 2,
+          "isDefault": false
+        },
+        {
+          "name": "DEFAULT_CLUB_HOLE_COUNT",
+          "line": 6,
+          "isDefault": false
+        },
+        {
+          "name": "CLUB_HOLE_COUNT_OPTIONS",
+          "line": 8,
+          "isDefault": false
+        },
+        {
+          "name": "isClubHoleCount",
+          "line": 20,
+          "isDefault": false
+        },
+        {
+          "name": "normalizeClubHoleCount",
+          "line": 24,
+          "isDefault": false
+        },
+        {
+          "name": "defaultHoleScores",
+          "line": 28,
+          "isDefault": false
+        },
+        {
+          "name": "formatClubHoleCount",
+          "line": 32,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "isClubHoleCount",
+          "callee": "(CLUB_HOLE_COUNTS as readonly number[]).includes",
+          "lineNumber": 21
+        },
+        {
+          "caller": "normalizeClubHoleCount",
+          "callee": "isClubHoleCount",
+          "lineNumber": 25
+        },
+        {
+          "caller": "defaultHoleScores",
+          "callee": "Array(count).fill",
+          "lineNumber": 29
+        },
+        {
+          "caller": "defaultHoleScores",
+          "callee": "Array",
+          "lineNumber": 29
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 7,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    }
+  ]
+}

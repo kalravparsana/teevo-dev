@@ -1,0 +1,159 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 3,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "Frontend/test-results/login-login.form-Login-—-F-e3390-email-signs-in-successfully-chromium/error-context.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 42,
+      "nonEmptyLines": 37,
+      "sections": [
+        {
+          "heading": "Instructions",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Test info",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "Error details",
+          "level": 1,
+          "line": 12
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": "Frontend/vite.config.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 111,
+      "nonEmptyLines": 106,
+      "functions": [
+        {
+          "name": "launchpadPreviewWatchIgnored",
+          "startLine": 8,
+          "endLine": 26,
+          "params": [
+            "filePath"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "launchpadPreviewWatchIgnored",
+          "callee": "String(filePath || \"\").replace",
+          "lineNumber": 9
+        },
+        {
+          "caller": "launchpadPreviewWatchIgnored",
+          "callee": "String",
+          "lineNumber": 9
+        },
+        {
+          "caller": "launchpadPreviewWatchIgnored",
+          "callee": "p.includes",
+          "lineNumber": 11
+        },
+        {
+          "caller": "launchpadPreviewWatchIgnored",
+          "callee": "/\\.(test|spec)\\.(tsx?|jsx?|mjs|cjs)$/i.test",
+          "lineNumber": 12
+        },
+        {
+          "caller": "launchpadPreviewWatchIgnored",
+          "callee": "/\\/__(tests|mocks)__\\//i.test",
+          "lineNumber": 13
+        },
+        {
+          "caller": "launchpadPreviewWatchIgnored",
+          "callee": "/\\/coverage\\//i.test",
+          "lineNumber": 14
+        },
+        {
+          "caller": "launchpadPreviewWatchIgnored",
+          "callee": "/(^|\\/)\\.platform(\\/|$)/.test",
+          "lineNumber": 15
+        },
+        {
+          "caller": "launchpadPreviewWatchIgnored",
+          "callee": "/(^|\\/)preview\\.log$/i.test",
+          "lineNumber": 16
+        },
+        {
+          "caller": "launchpadPreviewWatchIgnored",
+          "callee": "/ecosystem\\.preview\\.(cjs|js)$/i.test",
+          "lineNumber": 17
+        },
+        {
+          "caller": "launchpadPreviewWatchIgnored",
+          "callee": "/\\.lp-basename\\.bak$/i.test",
+          "lineNumber": 18
+        },
+        {
+          "caller": "launchpadPreviewWatchIgnored",
+          "callee": "/(^|\\/)vitest\\.(config|setup)\\./i.test",
+          "lineNumber": 19
+        },
+        {
+          "caller": "launchpadPreviewWatchIgnored",
+          "callee": "/(^|\\/)jest\\.(config|setup)\\./i.test",
+          "lineNumber": 20
+        },
+        {
+          "caller": "launchpadPreviewWatchIgnored",
+          "callee": "/(^|\\/)(dist|build|out)(\\/|$)/.test",
+          "lineNumber": 21
+        },
+        {
+          "caller": "launchpadPreviewWatchIgnored",
+          "callee": "/(^|\\/)\\.next(\\/|$)/.test",
+          "lineNumber": 22
+        },
+        {
+          "caller": "launchpadPreviewWatchIgnored",
+          "callee": "/\\.tsbuildinfo$/i.test",
+          "lineNumber": 23
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 2,
+      "nonEmptyLines": 2,
+      "sections": [
+        {
+          "heading": "teevo-dev",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "nodes": [
+    {
+      "id": "document:Frontend/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "Frontend/README.md",
+      "summary": "Documentation file (README.md) describing project features or setup.",
+      "tags": [
+        "documentation",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:Frontend/cloudformation-template.yaml",
+      "type": "config",
+      "name": "cloudformation-template.yaml",
+      "filePath": "Frontend/cloudformation-template.yaml",
+      "summary": "Configuration file (cloudformation-template.yaml) controlling build, tooling, or runtime settings.",
+      "tags": [
+        "configuration",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:Frontend/index.html",
+      "type": "file",
+      "name": "index.html",
+      "filePath": "Frontend/index.html",
+      "summary": "Source file (index.html) contributing to the Teevo golf management platform.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:Frontend/package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "Frontend/package.json",
+      "summary": "Configuration file (package.json) controlling build, tooling, or runtime settings.",
+      "tags": [
+        "configuration",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:Frontend/parameters.json",
+      "type": "config",
+      "name": "parameters.json",
+      "filePath": "Frontend/parameters.json",
+      "summary": "Configuration file (parameters.json) controlling build, tooling, or runtime settings.",
+      "tags": [
+        "configuration",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:Frontend/tsconfig.app.json",
+      "type": "config",
+      "name": "tsconfig.app.json",
+      "filePath": "Frontend/tsconfig.app.json",
+      "summary": "Configuration file (tsconfig.app.json) controlling build, tooling, or runtime settings.",
+      "tags": [
+        "configuration",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:Frontend/tsconfig.json",
+      "type": "config",
+      "name": "tsconfig.json",
+      "filePath": "Frontend/tsconfig.json",
+      "summary": "Configuration file (tsconfig.json) controlling build, tooling, or runtime settings.",
+      "tags": [
+        "configuration",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:Frontend/tsconfig.node.json",
+      "type": "config",
+      "name": "tsconfig.node.json",
+      "filePath": "Frontend/tsconfig.node.json",
+      "summary": "Configuration file (tsconfig.node.json) controlling build, tooling, or runtime settings.",
+      "tags": [
+        "configuration",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "document:Frontend/README.md",
+      "target": "file:Frontend/src/main.tsx",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "config:Frontend/cloudformation-template.yaml",
+      "target": "file:backend/src/handlers/api.ts",
+      "type": "deploys",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "config:Frontend/package.json",
+      "target": "file:Frontend/src/main.tsx",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    }
+  ]
+}

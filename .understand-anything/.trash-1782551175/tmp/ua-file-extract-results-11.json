@@ -1,0 +1,139 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 4,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "backend/cloudformation-template.yaml",
+      "language": "yaml",
+      "fileCategory": "config",
+      "totalLines": 250,
+      "nonEmptyLines": 236,
+      "sections": [
+        {
+          "heading": "AWSTemplateFormatVersion",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Description",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "Parameters",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "Resources",
+          "level": 1,
+          "line": 21
+        },
+        {
+          "heading": "Outputs",
+          "level": 1,
+          "line": 229
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "backend/package.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 26,
+      "nonEmptyLines": 26,
+      "sections": [
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "version",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "private",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "type",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "scripts",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "dependencies",
+          "level": 1,
+          "line": 12
+        },
+        {
+          "heading": "devDependencies",
+          "level": 1,
+          "line": 20
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "backend/parameters.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 18,
+      "nonEmptyLines": 18,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": "backend/tsconfig.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 15,
+      "nonEmptyLines": 15,
+      "sections": [
+        {
+          "heading": "compilerOptions",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "include",
+          "level": 1,
+          "line": 14
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    }
+  ]
+}

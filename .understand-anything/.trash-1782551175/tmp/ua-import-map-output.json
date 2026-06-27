@@ -1,0 +1,811 @@
+{
+  "scriptCompleted": true,
+  "stats": {
+    "filesScanned": 203,
+    "filesWithImports": 143,
+    "totalEdges": 455
+  },
+  "importMap": {
+    ".gitmodules": [],
+    ".understand-anything/.understandignore": [],
+    ".understand-anything/config.json": [],
+    "backend/cloudformation-template.yaml": [],
+    "backend/package-lambda.mjs": [],
+    "backend/package.json": [],
+    "backend/parameters.json": [],
+    "backend/plan/backend-vR1-release1-0-0.md": [],
+    "backend/scripts/seed.mjs": [],
+    "backend/src/handlers/api.ts": [
+      "backend/src/handlers/router.ts"
+    ],
+    "backend/src/handlers/router.ts": [
+      "backend/src/lib/auth.ts",
+      "backend/src/lib/config.ts",
+      "backend/src/lib/errors.ts",
+      "backend/src/lib/response.ts",
+      "backend/src/lib/types.ts",
+      "backend/src/services/domain.ts",
+      "backend/src/services/repository.ts"
+    ],
+    "backend/src/lib/auth.ts": [
+      "backend/src/lib/config.ts",
+      "backend/src/lib/errors.ts",
+      "backend/src/lib/types.ts"
+    ],
+    "backend/src/lib/config.ts": [],
+    "backend/src/lib/dynamodb.ts": [
+      "backend/src/lib/config.ts"
+    ],
+    "backend/src/lib/errors.ts": [],
+    "backend/src/lib/response.ts": [
+      "backend/src/lib/errors.ts"
+    ],
+    "backend/src/lib/types.ts": [],
+    "backend/src/services/domain.ts": [
+      "backend/src/lib/types.ts",
+      "backend/src/services/repository.ts"
+    ],
+    "backend/src/services/repository.ts": [
+      "backend/src/lib/config.ts",
+      "backend/src/lib/dynamodb.ts",
+      "backend/src/lib/errors.ts",
+      "backend/src/lib/types.ts"
+    ],
+    "backend/tsconfig.json": [],
+    "deploy.sh": [],
+    "Frontend/.cursor/rules/playwright-automation.mdc": [],
+    "Frontend/.cursor/rules/playwright-spec-templates.mdc": [],
+    "Frontend/.cursor/skills/playwrightConfig.mdc": [],
+    "Frontend/.cursorignore": [],
+    "Frontend/assets/index-ByMylzQP.js": [],
+    "Frontend/assets/index-CzqLfKrO.css": [],
+    "Frontend/automation-tests/bookings/bookings.accessibility.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/bookings/bookings.api.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/bookings/bookings.edge.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/bookings/bookings.error.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/bookings/bookings.form.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/bookings/bookings.mobile.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/bookings/bookings.smoke.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/bookings/bookings.ui.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/club-detail/club-detail.accessibility.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/club-detail/club-detail.api.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/club-detail/club-detail.edge.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/club-detail/club-detail.error.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/club-detail/club-detail.form.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/club-detail/club-detail.mobile.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/club-detail/club-detail.smoke.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/club-detail/club-detail.ui.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/clubs/clubs.accessibility.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/clubs/clubs.api.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/clubs/clubs.edge.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/clubs/clubs.error.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/clubs/clubs.form.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/clubs/clubs.mobile.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/clubs/clubs.smoke.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/clubs/clubs.ui.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/dashboard/dashboard.accessibility.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/dashboard/dashboard.api.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/dashboard/dashboard.edge.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/dashboard/dashboard.error.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/dashboard/dashboard.form.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/dashboard/dashboard.mobile.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/dashboard/dashboard.smoke.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/dashboard/dashboard.ui.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts": [],
+    "Frontend/automation-tests/helpers/auth.helper.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts"
+    ],
+    "Frontend/automation-tests/index.ts": [
+      "Frontend/automation-tests/bookings/bookings.accessibility.spec.ts",
+      "Frontend/automation-tests/bookings/bookings.api.spec.ts",
+      "Frontend/automation-tests/bookings/bookings.edge.spec.ts",
+      "Frontend/automation-tests/bookings/bookings.error.spec.ts",
+      "Frontend/automation-tests/bookings/bookings.form.spec.ts",
+      "Frontend/automation-tests/bookings/bookings.mobile.spec.ts",
+      "Frontend/automation-tests/bookings/bookings.smoke.spec.ts",
+      "Frontend/automation-tests/bookings/bookings.ui.spec.ts",
+      "Frontend/automation-tests/club-detail/club-detail.accessibility.spec.ts",
+      "Frontend/automation-tests/club-detail/club-detail.api.spec.ts",
+      "Frontend/automation-tests/club-detail/club-detail.edge.spec.ts",
+      "Frontend/automation-tests/club-detail/club-detail.error.spec.ts",
+      "Frontend/automation-tests/club-detail/club-detail.form.spec.ts",
+      "Frontend/automation-tests/club-detail/club-detail.mobile.spec.ts",
+      "Frontend/automation-tests/club-detail/club-detail.smoke.spec.ts",
+      "Frontend/automation-tests/club-detail/club-detail.ui.spec.ts",
+      "Frontend/automation-tests/clubs/clubs.accessibility.spec.ts",
+      "Frontend/automation-tests/clubs/clubs.api.spec.ts",
+      "Frontend/automation-tests/clubs/clubs.edge.spec.ts",
+      "Frontend/automation-tests/clubs/clubs.error.spec.ts",
+      "Frontend/automation-tests/clubs/clubs.form.spec.ts",
+      "Frontend/automation-tests/clubs/clubs.mobile.spec.ts",
+      "Frontend/automation-tests/clubs/clubs.smoke.spec.ts",
+      "Frontend/automation-tests/clubs/clubs.ui.spec.ts",
+      "Frontend/automation-tests/dashboard/dashboard.accessibility.spec.ts",
+      "Frontend/automation-tests/dashboard/dashboard.api.spec.ts",
+      "Frontend/automation-tests/dashboard/dashboard.edge.spec.ts",
+      "Frontend/automation-tests/dashboard/dashboard.error.spec.ts",
+      "Frontend/automation-tests/dashboard/dashboard.form.spec.ts",
+      "Frontend/automation-tests/dashboard/dashboard.mobile.spec.ts",
+      "Frontend/automation-tests/dashboard/dashboard.smoke.spec.ts",
+      "Frontend/automation-tests/dashboard/dashboard.ui.spec.ts",
+      "Frontend/automation-tests/login/login.accessibility.spec.ts",
+      "Frontend/automation-tests/login/login.api.spec.ts",
+      "Frontend/automation-tests/login/login.edge.spec.ts",
+      "Frontend/automation-tests/login/login.error.spec.ts",
+      "Frontend/automation-tests/login/login.form.spec.ts",
+      "Frontend/automation-tests/login/login.mobile.spec.ts",
+      "Frontend/automation-tests/login/login.smoke.spec.ts",
+      "Frontend/automation-tests/login/login.ui.spec.ts",
+      "Frontend/automation-tests/scorecards/scorecards.accessibility.spec.ts",
+      "Frontend/automation-tests/scorecards/scorecards.api.spec.ts",
+      "Frontend/automation-tests/scorecards/scorecards.edge.spec.ts",
+      "Frontend/automation-tests/scorecards/scorecards.error.spec.ts",
+      "Frontend/automation-tests/scorecards/scorecards.form.spec.ts",
+      "Frontend/automation-tests/scorecards/scorecards.mobile.spec.ts",
+      "Frontend/automation-tests/scorecards/scorecards.smoke.spec.ts",
+      "Frontend/automation-tests/scorecards/scorecards.ui.spec.ts",
+      "Frontend/automation-tests/tournament-detail/tournament-detail.accessibility.spec.ts",
+      "Frontend/automation-tests/tournament-detail/tournament-detail.api.spec.ts",
+      "Frontend/automation-tests/tournament-detail/tournament-detail.edge.spec.ts",
+      "Frontend/automation-tests/tournament-detail/tournament-detail.error.spec.ts",
+      "Frontend/automation-tests/tournament-detail/tournament-detail.form.spec.ts",
+      "Frontend/automation-tests/tournament-detail/tournament-detail.mobile.spec.ts",
+      "Frontend/automation-tests/tournament-detail/tournament-detail.smoke.spec.ts",
+      "Frontend/automation-tests/tournament-detail/tournament-detail.ui.spec.ts",
+      "Frontend/automation-tests/tournaments/tournaments.accessibility.spec.ts",
+      "Frontend/automation-tests/tournaments/tournaments.api.spec.ts",
+      "Frontend/automation-tests/tournaments/tournaments.edge.spec.ts",
+      "Frontend/automation-tests/tournaments/tournaments.error.spec.ts",
+      "Frontend/automation-tests/tournaments/tournaments.form.spec.ts",
+      "Frontend/automation-tests/tournaments/tournaments.mobile.spec.ts",
+      "Frontend/automation-tests/tournaments/tournaments.smoke.spec.ts",
+      "Frontend/automation-tests/tournaments/tournaments.ui.spec.ts",
+      "Frontend/automation-tests/users/users.accessibility.spec.ts",
+      "Frontend/automation-tests/users/users.api.spec.ts",
+      "Frontend/automation-tests/users/users.edge.spec.ts",
+      "Frontend/automation-tests/users/users.error.spec.ts",
+      "Frontend/automation-tests/users/users.form.spec.ts",
+      "Frontend/automation-tests/users/users.mobile.spec.ts",
+      "Frontend/automation-tests/users/users.smoke.spec.ts",
+      "Frontend/automation-tests/users/users.ui.spec.ts"
+    ],
+    "Frontend/automation-tests/login/login.accessibility.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts"
+    ],
+    "Frontend/automation-tests/login/login.api.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts"
+    ],
+    "Frontend/automation-tests/login/login.edge.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts"
+    ],
+    "Frontend/automation-tests/login/login.error.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts"
+    ],
+    "Frontend/automation-tests/login/login.form.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts"
+    ],
+    "Frontend/automation-tests/login/login.mobile.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts"
+    ],
+    "Frontend/automation-tests/login/login.smoke.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts"
+    ],
+    "Frontend/automation-tests/login/login.ui.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts"
+    ],
+    "Frontend/automation-tests/scorecards/scorecards.accessibility.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/scorecards/scorecards.api.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/scorecards/scorecards.edge.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/scorecards/scorecards.error.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/scorecards/scorecards.form.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/scorecards/scorecards.mobile.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/scorecards/scorecards.smoke.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/scorecards/scorecards.ui.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/tournament-detail/tournament-detail.accessibility.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/tournament-detail/tournament-detail.api.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/tournament-detail/tournament-detail.edge.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/tournament-detail/tournament-detail.error.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/tournament-detail/tournament-detail.form.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/tournament-detail/tournament-detail.mobile.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/tournament-detail/tournament-detail.smoke.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/tournament-detail/tournament-detail.ui.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/tournaments/tournaments.accessibility.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/tournaments/tournaments.api.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/tournaments/tournaments.edge.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/tournaments/tournaments.error.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/tournaments/tournaments.form.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/tournaments/tournaments.mobile.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/tournaments/tournaments.smoke.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/tournaments/tournaments.ui.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/users/users.accessibility.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/users/users.api.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/users/users.edge.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/users/users.error.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/users/users.form.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/users/users.mobile.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/users/users.smoke.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/automation-tests/users/users.ui.spec.ts": [
+      "Frontend/automation-tests/fixtures/mock-data/teevo.data.ts",
+      "Frontend/automation-tests/helpers/auth.helper.ts"
+    ],
+    "Frontend/cloudformation-template.yaml": [],
+    "Frontend/eslint.config.js": [],
+    "Frontend/index.html": [],
+    "Frontend/package.json": [],
+    "Frontend/parameters.json": [],
+    "Frontend/playwright-report/data/50f4ee6310f457f5f70cb7e20718ac5eb98be812.md": [],
+    "Frontend/playwright-report/data/99b06b9c2cfc65293d299fbbd8692ed7947e12aa.md": [],
+    "Frontend/playwright-report/data/c989902b0b9131a9ae726d5e8398374272720ceb.md": [],
+    "Frontend/playwright-report/data/e617bec164287fa661a20105f18fdaeffb277c02.md": [],
+    "Frontend/playwright-report/index.html": [],
+    "Frontend/playwright.config.ts": [],
+    "Frontend/README.md": [],
+    "Frontend/src/App.tsx": [
+      "Frontend/src/launchpadEmbedBasename.js",
+      "Frontend/src/routes/AppRoutes.tsx",
+      "Frontend/src/store/TeevoContext.tsx"
+    ],
+    "Frontend/src/App.tsx.lp-basename.bak": [],
+    "Frontend/src/components/auth/ProtectedRoute.tsx": [
+      "Frontend/src/store/TeevoContext.tsx"
+    ],
+    "Frontend/src/components/auth/RoleGate.tsx": [
+      "Frontend/src/store/TeevoContext.tsx",
+      "Frontend/src/types/entities.ts"
+    ],
+    "Frontend/src/components/clubs/ClubLogo.tsx": [
+      "Frontend/src/lib/cn.ts"
+    ],
+    "Frontend/src/components/dashboard/DashboardPanel.tsx": [
+      "Frontend/src/components/ui/Card.tsx",
+      "Frontend/src/lib/cn.ts"
+    ],
+    "Frontend/src/components/dashboard/SuperadminDashboard.tsx": [
+      "Frontend/src/components/dashboard/DashboardPanel.tsx",
+      "Frontend/src/components/dashboard/TeamRoleCounts.tsx",
+      "Frontend/src/components/layout/PageHeader.tsx",
+      "Frontend/src/components/ui/Badge.tsx",
+      "Frontend/src/components/ui/StatCard.tsx",
+      "Frontend/src/lib/copy/dashboardPage.ts",
+      "Frontend/src/lib/dashboard/platformMetrics.ts",
+      "Frontend/src/lib/dates.ts",
+      "Frontend/src/lib/greetings.ts",
+      "Frontend/src/types/entities.ts"
+    ],
+    "Frontend/src/components/dashboard/TeamRoleCounts.tsx": [
+      "Frontend/src/types/entities.ts"
+    ],
+    "Frontend/src/components/layout/AppShell.tsx": [
+      "Frontend/src/components/ui/Alert.tsx",
+      "Frontend/src/components/ui/Button.tsx",
+      "Frontend/src/lib/cn.ts",
+      "Frontend/src/lib/permissions.ts",
+      "Frontend/src/store/TeevoContext.tsx"
+    ],
+    "Frontend/src/components/layout/PageHeader.tsx": [],
+    "Frontend/src/components/tournaments/TournamentGroupEditor.tsx": [
+      "Frontend/src/components/ui/Input.tsx",
+      "Frontend/src/lib/id.ts",
+      "Frontend/src/types/entities.ts"
+    ],
+    "Frontend/src/components/tournaments/TournamentRegistrationsPanel.tsx": [
+      "Frontend/src/components/ui/Badge.tsx",
+      "Frontend/src/components/ui/Button.tsx",
+      "Frontend/src/components/ui/Card.tsx",
+      "Frontend/src/components/ui/Input.tsx",
+      "Frontend/src/components/ui/Select.tsx",
+      "Frontend/src/lib/dates.ts",
+      "Frontend/src/lib/tournaments/groups.ts",
+      "Frontend/src/lib/validation/schemas.ts",
+      "Frontend/src/store/TeevoContext.tsx",
+      "Frontend/src/types/entities.ts"
+    ],
+    "Frontend/src/components/ui/Alert.tsx": [
+      "Frontend/src/lib/cn.ts"
+    ],
+    "Frontend/src/components/ui/Badge.tsx": [
+      "Frontend/src/lib/cn.ts"
+    ],
+    "Frontend/src/components/ui/Button.tsx": [
+      "Frontend/src/lib/cn.ts"
+    ],
+    "Frontend/src/components/ui/Card.tsx": [
+      "Frontend/src/lib/cn.ts"
+    ],
+    "Frontend/src/components/ui/EmptyState.tsx": [],
+    "Frontend/src/components/ui/ImageUpload.tsx": [
+      "Frontend/src/lib/cn.ts",
+      "Frontend/src/lib/images/readImageFile.ts"
+    ],
+    "Frontend/src/components/ui/Input.tsx": [
+      "Frontend/src/lib/cn.ts"
+    ],
+    "Frontend/src/components/ui/Modal.tsx": [
+      "Frontend/src/components/ui/Button.tsx",
+      "Frontend/src/lib/cn.ts"
+    ],
+    "Frontend/src/components/ui/Select.tsx": [
+      "Frontend/src/lib/cn.ts"
+    ],
+    "Frontend/src/components/ui/StatCard.tsx": [
+      "Frontend/src/components/ui/Card.tsx"
+    ],
+    "Frontend/src/data/seed.ts": [
+      "Frontend/src/types/entities.ts"
+    ],
+    "Frontend/src/index.css": [],
+    "Frontend/src/launchpadEmbedBasename.d.ts": [],
+    "Frontend/src/launchpadEmbedBasename.js": [],
+    "Frontend/src/lib/api/client.ts": [
+      "Frontend/src/lib/api/config.ts",
+      "Frontend/src/lib/auth/tokenStorage.ts"
+    ],
+    "Frontend/src/lib/api/config.ts": [],
+    "Frontend/src/lib/api/teevoApi.ts": [
+      "Frontend/src/lib/api/client.ts",
+      "Frontend/src/types/entities.ts"
+    ],
+    "Frontend/src/lib/auth/cognito.ts": [
+      "Frontend/src/lib/api/config.ts",
+      "Frontend/src/lib/api/teevoApi.ts"
+    ],
+    "Frontend/src/lib/auth/tokenStorage.ts": [],
+    "Frontend/src/lib/clubs/holeCount.test.ts": [
+      "Frontend/src/lib/clubs/holeCount.ts"
+    ],
+    "Frontend/src/lib/clubs/holeCount.ts": [],
+    "Frontend/src/lib/cn.ts": [],
+    "Frontend/src/lib/copy/bookingsPage.test.ts": [
+      "Frontend/src/lib/copy/bookingsPage.ts"
+    ],
+    "Frontend/src/lib/copy/bookingsPage.ts": [
+      "Frontend/src/types/entities.ts"
+    ],
+    "Frontend/src/lib/copy/clubsPage.test.ts": [
+      "Frontend/src/lib/copy/clubsPage.ts"
+    ],
+    "Frontend/src/lib/copy/clubsPage.ts": [
+      "Frontend/src/types/entities.ts"
+    ],
+    "Frontend/src/lib/copy/dashboardPage.test.ts": [
+      "Frontend/src/lib/copy/dashboardPage.ts"
+    ],
+    "Frontend/src/lib/copy/dashboardPage.ts": [
+      "Frontend/src/types/entities.ts"
+    ],
+    "Frontend/src/lib/copy/scorecardsPage.test.ts": [
+      "Frontend/src/lib/copy/scorecardsPage.ts"
+    ],
+    "Frontend/src/lib/copy/scorecardsPage.ts": [
+      "Frontend/src/types/entities.ts"
+    ],
+    "Frontend/src/lib/copy/tournamentsPage.test.ts": [
+      "Frontend/src/lib/copy/tournamentsPage.ts"
+    ],
+    "Frontend/src/lib/copy/tournamentsPage.ts": [
+      "Frontend/src/types/entities.ts"
+    ],
+    "Frontend/src/lib/dashboard/platformMetrics.test.ts": [
+      "Frontend/src/data/seed.ts",
+      "Frontend/src/lib/dashboard/platformMetrics.ts"
+    ],
+    "Frontend/src/lib/dashboard/platformMetrics.ts": [
+      "Frontend/src/types/entities.ts"
+    ],
+    "Frontend/src/lib/dates.ts": [],
+    "Frontend/src/lib/greetings.test.ts": [
+      "Frontend/src/lib/greetings.ts"
+    ],
+    "Frontend/src/lib/greetings.ts": [],
+    "Frontend/src/lib/id.ts": [],
+    "Frontend/src/lib/images/readImageFile.test.ts": [
+      "Frontend/src/lib/images/readImageFile.ts"
+    ],
+    "Frontend/src/lib/images/readImageFile.ts": [],
+    "Frontend/src/lib/permissions.ts": [
+      "Frontend/src/types/entities.ts"
+    ],
+    "Frontend/src/lib/storage.ts": [
+      "Frontend/src/data/seed.ts",
+      "Frontend/src/lib/clubs/holeCount.ts",
+      "Frontend/src/lib/tournaments/normalize.ts",
+      "Frontend/src/types/entities.ts"
+    ],
+    "Frontend/src/lib/teeTimes.test.ts": [
+      "Frontend/src/lib/teeTimes.ts",
+      "Frontend/src/types/entities.ts"
+    ],
+    "Frontend/src/lib/teeTimes.ts": [
+      "Frontend/src/types/entities.ts"
+    ],
+    "Frontend/src/lib/tournaments/bookingBlock.ts": [
+      "Frontend/src/types/entities.ts"
+    ],
+    "Frontend/src/lib/tournaments/constants.ts": [
+      "Frontend/src/types/entities.ts"
+    ],
+    "Frontend/src/lib/tournaments/groups.ts": [
+      "Frontend/src/types/entities.ts"
+    ],
+    "Frontend/src/lib/tournaments/normalize.ts": [
+      "Frontend/src/lib/id.ts",
+      "Frontend/src/lib/tournaments/constants.ts",
+      "Frontend/src/types/entities.ts"
+    ],
+    "Frontend/src/lib/validation/schemas.ts": [
+      "Frontend/src/lib/clubs/holeCount.ts",
+      "Frontend/src/lib/tournaments/constants.ts"
+    ],
+    "Frontend/src/main.tsx": [
+      "Frontend/src/App.tsx",
+      "Frontend/src/index.css"
+    ],
+    "Frontend/src/pages/AuthCallbackPage.tsx": [
+      "Frontend/src/lib/api/teevoApi.ts",
+      "Frontend/src/lib/auth/cognito.ts",
+      "Frontend/src/lib/auth/tokenStorage.ts",
+      "Frontend/src/store/TeevoContext.tsx"
+    ],
+    "Frontend/src/pages/BookingsPage.tsx": [
+      "Frontend/src/components/layout/PageHeader.tsx",
+      "Frontend/src/components/ui/Badge.tsx",
+      "Frontend/src/components/ui/Button.tsx",
+      "Frontend/src/components/ui/Card.tsx",
+      "Frontend/src/components/ui/EmptyState.tsx",
+      "Frontend/src/components/ui/Input.tsx",
+      "Frontend/src/components/ui/Modal.tsx",
+      "Frontend/src/components/ui/Select.tsx",
+      "Frontend/src/lib/copy/bookingsPage.ts",
+      "Frontend/src/lib/dates.ts",
+      "Frontend/src/lib/permissions.ts",
+      "Frontend/src/lib/teeTimes.ts",
+      "Frontend/src/lib/tournaments/bookingBlock.ts",
+      "Frontend/src/lib/validation/schemas.ts",
+      "Frontend/src/store/TeevoContext.tsx"
+    ],
+    "Frontend/src/pages/ClubDetailPage.tsx": [
+      "Frontend/src/components/clubs/ClubLogo.tsx",
+      "Frontend/src/components/ui/Badge.tsx",
+      "Frontend/src/components/ui/Button.tsx",
+      "Frontend/src/components/ui/Card.tsx",
+      "Frontend/src/components/ui/ImageUpload.tsx",
+      "Frontend/src/components/ui/Input.tsx",
+      "Frontend/src/components/ui/Select.tsx",
+      "Frontend/src/lib/clubs/holeCount.ts",
+      "Frontend/src/lib/dates.ts",
+      "Frontend/src/lib/permissions.ts",
+      "Frontend/src/lib/validation/schemas.ts",
+      "Frontend/src/store/TeevoContext.tsx"
+    ],
+    "Frontend/src/pages/ClubsPage.tsx": [
+      "Frontend/src/components/clubs/ClubLogo.tsx",
+      "Frontend/src/components/layout/PageHeader.tsx",
+      "Frontend/src/components/ui/Button.tsx",
+      "Frontend/src/components/ui/Card.tsx",
+      "Frontend/src/components/ui/EmptyState.tsx",
+      "Frontend/src/components/ui/ImageUpload.tsx",
+      "Frontend/src/components/ui/Input.tsx",
+      "Frontend/src/components/ui/Modal.tsx",
+      "Frontend/src/components/ui/Select.tsx",
+      "Frontend/src/lib/clubs/holeCount.ts",
+      "Frontend/src/lib/copy/clubsPage.ts",
+      "Frontend/src/lib/permissions.ts",
+      "Frontend/src/lib/validation/schemas.ts",
+      "Frontend/src/store/TeevoContext.tsx"
+    ],
+    "Frontend/src/pages/DashboardPage.tsx": [
+      "Frontend/src/components/dashboard/DashboardPanel.tsx",
+      "Frontend/src/components/dashboard/SuperadminDashboard.tsx",
+      "Frontend/src/components/layout/PageHeader.tsx",
+      "Frontend/src/components/ui/StatCard.tsx",
+      "Frontend/src/lib/copy/dashboardPage.ts",
+      "Frontend/src/lib/dates.ts",
+      "Frontend/src/lib/greetings.ts",
+      "Frontend/src/lib/permissions.ts",
+      "Frontend/src/store/TeevoContext.tsx"
+    ],
+    "Frontend/src/pages/LoginPage.tsx": [
+      "Frontend/src/components/ui/Alert.tsx",
+      "Frontend/src/components/ui/Button.tsx",
+      "Frontend/src/components/ui/Input.tsx",
+      "Frontend/src/data/seed.ts",
+      "Frontend/src/lib/api/config.ts",
+      "Frontend/src/lib/auth/cognito.ts",
+      "Frontend/src/store/TeevoContext.tsx"
+    ],
+    "Frontend/src/pages/ScorecardsPage.tsx": [
+      "Frontend/src/components/layout/PageHeader.tsx",
+      "Frontend/src/components/ui/Badge.tsx",
+      "Frontend/src/components/ui/Button.tsx",
+      "Frontend/src/components/ui/Card.tsx",
+      "Frontend/src/components/ui/EmptyState.tsx",
+      "Frontend/src/components/ui/Modal.tsx",
+      "Frontend/src/components/ui/Select.tsx",
+      "Frontend/src/lib/clubs/holeCount.ts",
+      "Frontend/src/lib/copy/scorecardsPage.ts",
+      "Frontend/src/lib/dates.ts",
+      "Frontend/src/lib/permissions.ts",
+      "Frontend/src/store/TeevoContext.tsx"
+    ],
+    "Frontend/src/pages/TournamentDetailPage.tsx": [
+      "Frontend/src/components/layout/PageHeader.tsx",
+      "Frontend/src/components/tournaments/TournamentRegistrationsPanel.tsx",
+      "Frontend/src/components/ui/Badge.tsx",
+      "Frontend/src/components/ui/Card.tsx",
+      "Frontend/src/lib/dates.ts",
+      "Frontend/src/lib/permissions.ts",
+      "Frontend/src/lib/tournaments/constants.ts",
+      "Frontend/src/lib/tournaments/groups.ts",
+      "Frontend/src/store/TeevoContext.tsx"
+    ],
+    "Frontend/src/pages/TournamentsPage.tsx": [
+      "Frontend/src/components/layout/PageHeader.tsx",
+      "Frontend/src/components/tournaments/TournamentGroupEditor.tsx",
+      "Frontend/src/components/ui/Badge.tsx",
+      "Frontend/src/components/ui/Button.tsx",
+      "Frontend/src/components/ui/Card.tsx",
+      "Frontend/src/components/ui/EmptyState.tsx",
+      "Frontend/src/components/ui/Input.tsx",
+      "Frontend/src/components/ui/Modal.tsx",
+      "Frontend/src/components/ui/Select.tsx",
+      "Frontend/src/lib/copy/tournamentsPage.ts",
+      "Frontend/src/lib/dates.ts",
+      "Frontend/src/lib/permissions.ts",
+      "Frontend/src/lib/tournaments/constants.ts",
+      "Frontend/src/lib/tournaments/normalize.ts",
+      "Frontend/src/lib/validation/schemas.ts",
+      "Frontend/src/store/TeevoContext.tsx",
+      "Frontend/src/types/entities.ts"
+    ],
+    "Frontend/src/pages/UserManagementPage.tsx": [
+      "Frontend/src/components/layout/PageHeader.tsx",
+      "Frontend/src/components/ui/Badge.tsx",
+      "Frontend/src/components/ui/Button.tsx",
+      "Frontend/src/components/ui/Card.tsx",
+      "Frontend/src/components/ui/Input.tsx",
+      "Frontend/src/components/ui/Modal.tsx",
+      "Frontend/src/components/ui/Select.tsx",
+      "Frontend/src/lib/validation/schemas.ts",
+      "Frontend/src/store/TeevoContext.tsx",
+      "Frontend/src/types/entities.ts"
+    ],
+    "Frontend/src/routes/AppRoutes.tsx": [
+      "Frontend/src/components/auth/ProtectedRoute.tsx",
+      "Frontend/src/components/auth/RoleGate.tsx",
+      "Frontend/src/components/layout/AppShell.tsx",
+      "Frontend/src/pages/AuthCallbackPage.tsx",
+      "Frontend/src/pages/BookingsPage.tsx",
+      "Frontend/src/pages/ClubDetailPage.tsx",
+      "Frontend/src/pages/ClubsPage.tsx",
+      "Frontend/src/pages/DashboardPage.tsx",
+      "Frontend/src/pages/LoginPage.tsx",
+      "Frontend/src/pages/ScorecardsPage.tsx",
+      "Frontend/src/pages/TournamentDetailPage.tsx",
+      "Frontend/src/pages/TournamentsPage.tsx",
+      "Frontend/src/pages/UserManagementPage.tsx"
+    ],
+    "Frontend/src/store/actions.test.ts": [
+      "Frontend/src/data/seed.ts",
+      "Frontend/src/store/actions.ts"
+    ],
+    "Frontend/src/store/actions.ts": [
+      "Frontend/src/lib/dates.ts",
+      "Frontend/src/lib/id.ts",
+      "Frontend/src/lib/teeTimes.ts",
+      "Frontend/src/lib/tournaments/bookingBlock.ts",
+      "Frontend/src/lib/tournaments/groups.ts",
+      "Frontend/src/types/entities.ts"
+    ],
+    "Frontend/src/store/TeevoContext.tsx": [
+      "Frontend/src/lib/api/client.ts",
+      "Frontend/src/lib/api/config.ts",
+      "Frontend/src/lib/api/teevoApi.ts",
+      "Frontend/src/lib/auth/tokenStorage.ts",
+      "Frontend/src/lib/storage.ts",
+      "Frontend/src/store/actions.ts",
+      "Frontend/src/types/entities.ts"
+    ],
+    "Frontend/src/test/setup.ts": [],
+    "Frontend/src/types/entities.ts": [],
+    "Frontend/src/vite-env.d.ts": [],
+    "Frontend/test-results/.last-run.json": [],
+    "Frontend/test-results/login-login.form-Login-—-F-0c166-il-shows-browser-validation-chromium/error-context.md": [],
+    "Frontend/test-results/login-login.form-Login-—-F-28617-cked-by-required-validation-chromium/error-context.md": [],
+    "Frontend/test-results/login-login.form-Login-—-F-ade2e-n-email-shows-error-message-chromium/error-context.md": [],
+    "Frontend/test-results/login-login.form-Login-—-F-e3390-email-signs-in-successfully-chromium/error-context.md": [],
+    "Frontend/tsconfig.app.json": [],
+    "Frontend/tsconfig.json": [],
+    "Frontend/tsconfig.node.json": [],
+    "Frontend/vite.config.ts": [],
+    "README.md": []
+  }
+}

@@ -1,0 +1,2347 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 10,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "backend/src/handlers/api.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 8,
+      "nonEmptyLines": 7,
+      "functions": [
+        {
+          "name": "handler",
+          "startLine": 4,
+          "endLine": 8,
+          "params": [
+            "event"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "handler",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "handler",
+          "callee": "routeRequest",
+          "lineNumber": 7
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "backend/src/handlers/router.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 297,
+      "nonEmptyLines": 268,
+      "functions": [
+        {
+          "name": "parseBody",
+          "startLine": 21,
+          "endLine": 28,
+          "params": [
+            "event"
+          ]
+        },
+        {
+          "name": "matchRoute",
+          "startLine": 30,
+          "endLine": 69,
+          "params": [
+            "method",
+            "path"
+          ]
+        },
+        {
+          "name": "extractParams",
+          "startLine": 71,
+          "endLine": 78,
+          "params": [
+            "path",
+            "match"
+          ]
+        },
+        {
+          "name": "requireAppUser",
+          "startLine": 80,
+          "endLine": 83,
+          "params": [
+            "ctx"
+          ]
+        },
+        {
+          "name": "requireRole",
+          "startLine": 85,
+          "endLine": 87,
+          "params": [
+            "user",
+            "roles"
+          ]
+        },
+        {
+          "name": "routeRequest",
+          "startLine": 89,
+          "endLine": 128,
+          "params": [
+            "event"
+          ]
+        },
+        {
+          "name": "dispatch",
+          "startLine": 130,
+          "endLine": 297,
+          "params": [
+            "ctx",
+            "corsOrigins"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "routeRequest",
+          "line": 89,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "parseBody",
+          "callee": "JSON.parse",
+          "lineNumber": 24
+        },
+        {
+          "caller": "matchRoute",
+          "callee": "re.test",
+          "lineNumber": 66
+        },
+        {
+          "caller": "extractParams",
+          "callee": "path.match",
+          "lineNumber": 72
+        },
+        {
+          "caller": "extractParams",
+          "callee": "match.params.forEach",
+          "lineNumber": 74
+        },
+        {
+          "caller": "requireAppUser",
+          "callee": "unauthorized",
+          "lineNumber": 81
+        },
+        {
+          "caller": "requireRole",
+          "callee": "roles.includes",
+          "lineNumber": 86
+        },
+        {
+          "caller": "requireRole",
+          "callee": "forbidden",
+          "lineNumber": 86
+        },
+        {
+          "caller": "routeRequest",
+          "callee": "loadConfig",
+          "lineNumber": 92
+        },
+        {
+          "caller": "routeRequest",
+          "callee": "corsHeaders",
+          "lineNumber": 98
+        },
+        {
+          "caller": "routeRequest",
+          "callee": "matchRoute",
+          "lineNumber": 101
+        },
+        {
+          "caller": "routeRequest",
+          "callee": "json",
+          "lineNumber": 103
+        },
+        {
+          "caller": "routeRequest",
+          "callee": "extractParams",
+          "lineNumber": 106
+        },
+        {
+          "caller": "routeRequest",
+          "callee": "parseBody",
+          "lineNumber": 107
+        },
+        {
+          "caller": "routeRequest",
+          "callee": "verifyBearerToken",
+          "lineNumber": 117
+        },
+        {
+          "caller": "routeRequest",
+          "callee": "ensureUserForAuth",
+          "lineNumber": 118
+        },
+        {
+          "caller": "routeRequest",
+          "callee": "dispatch",
+          "lineNumber": 124
+        },
+        {
+          "caller": "routeRequest",
+          "callee": "handleError",
+          "lineNumber": 126
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 137
+        },
+        {
+          "caller": "dispatch",
+          "callee": "randomBytes(16).toString",
+          "lineNumber": 141
+        },
+        {
+          "caller": "dispatch",
+          "callee": "randomBytes",
+          "lineNumber": 141
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 142
+        },
+        {
+          "caller": "dispatch",
+          "callee": "buildLoginUrl",
+          "lineNumber": 142
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 147
+        },
+        {
+          "caller": "dispatch",
+          "callee": "exchangeCodeForTokens",
+          "lineNumber": 148
+        },
+        {
+          "caller": "dispatch",
+          "callee": "ensureUserForAuth",
+          "lineNumber": 149
+        },
+        {
+          "caller": "dispatch",
+          "callee": "JSON.parse",
+          "lineNumber": 150
+        },
+        {
+          "caller": "dispatch",
+          "callee": "Buffer.from(tokens.id_token.split('.')[1], 'base64url').toString",
+          "lineNumber": 150
+        },
+        {
+          "caller": "dispatch",
+          "callee": "Buffer.from",
+          "lineNumber": 150
+        },
+        {
+          "caller": "dispatch",
+          "callee": "tokens.id_token.split",
+          "lineNumber": 150
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 152
+        },
+        {
+          "caller": "dispatch",
+          "callee": "requireAppUser",
+          "lineNumber": 156
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 157
+        },
+        {
+          "caller": "dispatch",
+          "callee": "requireAppUser",
+          "lineNumber": 161
+        },
+        {
+          "caller": "dispatch",
+          "callee": "repo.loadAppData",
+          "lineNumber": 162
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 163
+        },
+        {
+          "caller": "dispatch",
+          "callee": "requireAppUser",
+          "lineNumber": 167
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 170
+        },
+        {
+          "caller": "dispatch",
+          "callee": "Date.now",
+          "lineNumber": 172
+        },
+        {
+          "caller": "dispatch",
+          "callee": "filename.replace",
+          "lineNumber": 172
+        },
+        {
+          "caller": "dispatch",
+          "callee": "createPresignedUpload",
+          "lineNumber": 173
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 174
+        },
+        {
+          "caller": "dispatch",
+          "callee": "requireAppUser",
+          "lineNumber": 177
+        },
+        {
+          "caller": "dispatch",
+          "callee": "requireRole",
+          "lineNumber": 180
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 181
+        },
+        {
+          "caller": "dispatch",
+          "callee": "repo.listUsers",
+          "lineNumber": 181
+        },
+        {
+          "caller": "dispatch",
+          "callee": "requireRole",
+          "lineNumber": 184
+        },
+        {
+          "caller": "dispatch",
+          "callee": "mutate",
+          "lineNumber": 185
+        },
+        {
+          "caller": "dispatch",
+          "callee": "domain.createUser",
+          "lineNumber": 185
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 186
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 187
+        },
+        {
+          "caller": "dispatch",
+          "callee": "path.startsWith",
+          "lineNumber": 189
+        },
+        {
+          "caller": "dispatch",
+          "callee": "requireRole",
+          "lineNumber": 190
+        },
+        {
+          "caller": "dispatch",
+          "callee": "mutate",
+          "lineNumber": 191
+        },
+        {
+          "caller": "dispatch",
+          "callee": "domain.updateUser",
+          "lineNumber": 191
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 192
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 193
+        },
+        {
+          "caller": "dispatch",
+          "callee": "result.data!.users.find",
+          "lineNumber": 193
+        },
+        {
+          "caller": "dispatch",
+          "callee": "path.startsWith",
+          "lineNumber": 195
+        },
+        {
+          "caller": "dispatch",
+          "callee": "requireRole",
+          "lineNumber": 196
+        },
+        {
+          "caller": "dispatch",
+          "callee": "mutate",
+          "lineNumber": 197
+        },
+        {
+          "caller": "dispatch",
+          "callee": "domain.deleteUser",
+          "lineNumber": 197
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 198
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 202
+        },
+        {
+          "caller": "dispatch",
+          "callee": "repo.listClubs",
+          "lineNumber": 202
+        },
+        {
+          "caller": "dispatch",
+          "callee": "requireRole",
+          "lineNumber": 205
+        },
+        {
+          "caller": "dispatch",
+          "callee": "mutate",
+          "lineNumber": 206
+        },
+        {
+          "caller": "dispatch",
+          "callee": "domain.createClub",
+          "lineNumber": 206
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 207
+        },
+        {
+          "caller": "dispatch",
+          "callee": "path.startsWith",
+          "lineNumber": 209
+        },
+        {
+          "caller": "dispatch",
+          "callee": "requireRole",
+          "lineNumber": 210
+        },
+        {
+          "caller": "dispatch",
+          "callee": "mutate",
+          "lineNumber": 211
+        },
+        {
+          "caller": "dispatch",
+          "callee": "domain.updateClub",
+          "lineNumber": 211
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 212
+        },
+        {
+          "caller": "dispatch",
+          "callee": "result.data!.clubs.find",
+          "lineNumber": 212
+        },
+        {
+          "caller": "dispatch",
+          "callee": "path.startsWith",
+          "lineNumber": 214
+        },
+        {
+          "caller": "dispatch",
+          "callee": "requireRole",
+          "lineNumber": 215
+        },
+        {
+          "caller": "dispatch",
+          "callee": "mutate",
+          "lineNumber": 216
+        },
+        {
+          "caller": "dispatch",
+          "callee": "domain.deleteClub",
+          "lineNumber": 216
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 217
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 221
+        },
+        {
+          "caller": "dispatch",
+          "callee": "repo.listTournaments",
+          "lineNumber": 221
+        },
+        {
+          "caller": "dispatch",
+          "callee": "requireRole",
+          "lineNumber": 224
+        },
+        {
+          "caller": "dispatch",
+          "callee": "mutate",
+          "lineNumber": 225
+        },
+        {
+          "caller": "dispatch",
+          "callee": "domain.createTournament",
+          "lineNumber": 225
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 226
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 227
+        },
+        {
+          "caller": "dispatch",
+          "callee": "path.startsWith",
+          "lineNumber": 229
+        },
+        {
+          "caller": "dispatch",
+          "callee": "requireRole",
+          "lineNumber": 230
+        },
+        {
+          "caller": "dispatch",
+          "callee": "mutate",
+          "lineNumber": 231
+        },
+        {
+          "caller": "dispatch",
+          "callee": "domain.updateTournament",
+          "lineNumber": 231
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 232
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 233
+        },
+        {
+          "caller": "dispatch",
+          "callee": "result.data!.tournaments.find",
+          "lineNumber": 233
+        },
+        {
+          "caller": "dispatch",
+          "callee": "path.startsWith",
+          "lineNumber": 235
+        },
+        {
+          "caller": "dispatch",
+          "callee": "requireRole",
+          "lineNumber": 236
+        },
+        {
+          "caller": "dispatch",
+          "callee": "mutate",
+          "lineNumber": 237
+        },
+        {
+          "caller": "dispatch",
+          "callee": "domain.deleteTournament",
+          "lineNumber": 237
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 238
+        },
+        {
+          "caller": "dispatch",
+          "callee": "mutate",
+          "lineNumber": 243
+        },
+        {
+          "caller": "dispatch",
+          "callee": "domain.registerForTournament",
+          "lineNumber": 244
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 246
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 247
+        },
+        {
+          "caller": "dispatch",
+          "callee": "path.startsWith",
+          "lineNumber": 249
+        },
+        {
+          "caller": "dispatch",
+          "callee": "requireRole",
+          "lineNumber": 250
+        },
+        {
+          "caller": "dispatch",
+          "callee": "mutate",
+          "lineNumber": 257
+        },
+        {
+          "caller": "dispatch",
+          "callee": "domain.reviewRegistration",
+          "lineNumber": 258
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 260
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 261
+        },
+        {
+          "caller": "dispatch",
+          "callee": "mutate",
+          "lineNumber": 272
+        },
+        {
+          "caller": "dispatch",
+          "callee": "domain.createBooking",
+          "lineNumber": 272
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 273
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 274
+        },
+        {
+          "caller": "dispatch",
+          "callee": "path.startsWith",
+          "lineNumber": 276
+        },
+        {
+          "caller": "dispatch",
+          "callee": "mutate",
+          "lineNumber": 278
+        },
+        {
+          "caller": "dispatch",
+          "callee": "domain.updateBookingStatus",
+          "lineNumber": 279
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 281
+        },
+        {
+          "caller": "dispatch",
+          "callee": "mutate",
+          "lineNumber": 291
+        },
+        {
+          "caller": "dispatch",
+          "callee": "domain.saveScorecard",
+          "lineNumber": 291
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 292
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 293
+        },
+        {
+          "caller": "dispatch",
+          "callee": "json",
+          "lineNumber": 296
+        }
+      ],
+      "metrics": {
+        "importCount": 7,
+        "exportCount": 1,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "backend/src/lib/auth.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 80,
+      "nonEmptyLines": 75,
+      "functions": [
+        {
+          "name": "getJwks",
+          "startLine": 8,
+          "endLine": 15,
+          "params": []
+        },
+        {
+          "name": "verifyBearerToken",
+          "startLine": 17,
+          "endLine": 37,
+          "params": [
+            "authorization"
+          ]
+        },
+        {
+          "name": "buildLoginUrl",
+          "startLine": 39,
+          "endLine": 49,
+          "params": [
+            "state"
+          ]
+        },
+        {
+          "name": "exchangeCodeForTokens",
+          "startLine": 51,
+          "endLine": 80,
+          "params": [
+            "code"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "verifyBearerToken",
+          "line": 17,
+          "isDefault": false
+        },
+        {
+          "name": "buildLoginUrl",
+          "line": 39,
+          "isDefault": false
+        },
+        {
+          "name": "exchangeCodeForTokens",
+          "line": 51,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getJwks",
+          "callee": "loadConfig",
+          "lineNumber": 10
+        },
+        {
+          "caller": "getJwks",
+          "callee": "createRemoteJWKSet",
+          "lineNumber": 12
+        },
+        {
+          "caller": "verifyBearerToken",
+          "callee": "authorization?.startsWith",
+          "lineNumber": 18
+        },
+        {
+          "caller": "verifyBearerToken",
+          "callee": "unauthorized",
+          "lineNumber": 19
+        },
+        {
+          "caller": "verifyBearerToken",
+          "callee": "authorization.slice('Bearer '.length).trim",
+          "lineNumber": 21
+        },
+        {
+          "caller": "verifyBearerToken",
+          "callee": "authorization.slice",
+          "lineNumber": 21
+        },
+        {
+          "caller": "verifyBearerToken",
+          "callee": "loadConfig",
+          "lineNumber": 22
+        },
+        {
+          "caller": "verifyBearerToken",
+          "callee": "jwtVerify",
+          "lineNumber": 24
+        },
+        {
+          "caller": "verifyBearerToken",
+          "callee": "getJwks",
+          "lineNumber": 24
+        },
+        {
+          "caller": "verifyBearerToken",
+          "callee": "String",
+          "lineNumber": 28
+        },
+        {
+          "caller": "verifyBearerToken",
+          "callee": "String",
+          "lineNumber": 29
+        },
+        {
+          "caller": "verifyBearerToken",
+          "callee": "unauthorized",
+          "lineNumber": 31
+        },
+        {
+          "caller": "verifyBearerToken",
+          "callee": "unauthorized",
+          "lineNumber": 35
+        },
+        {
+          "caller": "buildLoginUrl",
+          "callee": "loadConfig",
+          "lineNumber": 40
+        },
+        {
+          "caller": "buildLoginUrl",
+          "callee": "params.toString",
+          "lineNumber": 48
+        },
+        {
+          "caller": "exchangeCodeForTokens",
+          "callee": "loadConfig",
+          "lineNumber": 57
+        },
+        {
+          "caller": "exchangeCodeForTokens",
+          "callee": "fetch",
+          "lineNumber": 64
+        },
+        {
+          "caller": "exchangeCodeForTokens",
+          "callee": "res.text",
+          "lineNumber": 70
+        },
+        {
+          "caller": "exchangeCodeForTokens",
+          "callee": "console.error",
+          "lineNumber": 71
+        },
+        {
+          "caller": "exchangeCodeForTokens",
+          "callee": "unauthorized",
+          "lineNumber": 72
+        },
+        {
+          "caller": "exchangeCodeForTokens",
+          "callee": "res.json",
+          "lineNumber": 74
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 3,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "backend/src/lib/config.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 28,
+      "nonEmptyLines": 27,
+      "functions": [
+        {
+          "name": "loadConfig",
+          "startLine": 1,
+          "endLine": 20,
+          "params": []
+        },
+        {
+          "name": "required",
+          "startLine": 22,
+          "endLine": 28,
+          "params": [
+            "name"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "loadConfig",
+          "line": 1,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "loadConfig",
+          "callee": "required",
+          "lineNumber": 5
+        },
+        {
+          "caller": "loadConfig",
+          "callee": "required",
+          "lineNumber": 6
+        },
+        {
+          "caller": "loadConfig",
+          "callee": "required",
+          "lineNumber": 7
+        },
+        {
+          "caller": "loadConfig",
+          "callee": "required",
+          "lineNumber": 8
+        },
+        {
+          "caller": "loadConfig",
+          "callee": "required",
+          "lineNumber": 10
+        },
+        {
+          "caller": "loadConfig",
+          "callee": "required",
+          "lineNumber": 11
+        },
+        {
+          "caller": "loadConfig",
+          "callee": "(process.env.CORS_ORIGINS ?? 'http://localhost:5173')\n      .split(',')\n      .map((o) => o.trim())\n      .filter",
+          "lineNumber": 15
+        },
+        {
+          "caller": "loadConfig",
+          "callee": "(process.env.CORS_ORIGINS ?? 'http://localhost:5173')\n      .split(',')\n      .map",
+          "lineNumber": 15
+        },
+        {
+          "caller": "loadConfig",
+          "callee": "(process.env.CORS_ORIGINS ?? 'http://localhost:5173')\n      .split",
+          "lineNumber": 15
+        },
+        {
+          "caller": "loadConfig",
+          "callee": "o.trim",
+          "lineNumber": 17
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "backend/src/lib/dynamodb.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 27,
+      "nonEmptyLines": 22,
+      "functions": [
+        {
+          "name": "getDocClient",
+          "startLine": 7,
+          "endLine": 15,
+          "params": []
+        },
+        {
+          "name": "entityKeys",
+          "startLine": 17,
+          "endLine": 19,
+          "params": [
+            "type",
+            "id"
+          ]
+        },
+        {
+          "name": "gsi1",
+          "startLine": 21,
+          "endLine": 23,
+          "params": [
+            "type",
+            "id"
+          ]
+        },
+        {
+          "name": "gsi2Email",
+          "startLine": 25,
+          "endLine": 27,
+          "params": [
+            "email",
+            "userId"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "getDocClient",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "entityKeys",
+          "line": 17,
+          "isDefault": false
+        },
+        {
+          "name": "gsi1",
+          "line": 21,
+          "isDefault": false
+        },
+        {
+          "name": "gsi2Email",
+          "line": 25,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getDocClient",
+          "callee": "loadConfig",
+          "lineNumber": 9
+        },
+        {
+          "caller": "getDocClient",
+          "callee": "DynamoDBDocumentClient.from",
+          "lineNumber": 10
+        },
+        {
+          "caller": "gsi2Email",
+          "callee": "email.toLowerCase",
+          "lineNumber": 26
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 4,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "backend/src/lib/errors.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 26,
+      "nonEmptyLines": 22,
+      "functions": [
+        {
+          "name": "notFound",
+          "startLine": 12,
+          "endLine": 14,
+          "params": [
+            "message"
+          ]
+        },
+        {
+          "name": "validation",
+          "startLine": 16,
+          "endLine": 18,
+          "params": [
+            "message",
+            "code"
+          ]
+        },
+        {
+          "name": "unauthorized",
+          "startLine": 20,
+          "endLine": 22,
+          "params": [
+            "message"
+          ]
+        },
+        {
+          "name": "forbidden",
+          "startLine": 24,
+          "endLine": 26,
+          "params": [
+            "message"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "AppError",
+          "startLine": 1,
+          "endLine": 10,
+          "methods": [
+            "constructor"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "AppError",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "notFound",
+          "line": 12,
+          "isDefault": false
+        },
+        {
+          "name": "validation",
+          "line": 16,
+          "isDefault": false
+        },
+        {
+          "name": "unauthorized",
+          "line": 20,
+          "isDefault": false
+        },
+        {
+          "name": "forbidden",
+          "line": 24,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "constructor",
+          "callee": "super",
+          "lineNumber": 7
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 5,
+        "functionCount": 4,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backend/src/lib/response.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 41,
+      "nonEmptyLines": 37,
+      "functions": [
+        {
+          "name": "json",
+          "startLine": 4,
+          "endLine": 15,
+          "params": [
+            "statusCode",
+            "body",
+            "origin",
+            "allowedOrigins"
+          ]
+        },
+        {
+          "name": "corsHeaders",
+          "startLine": 17,
+          "endLine": 29,
+          "params": [
+            "origin",
+            "allowedOrigins"
+          ]
+        },
+        {
+          "name": "handleError",
+          "startLine": 31,
+          "endLine": 41,
+          "params": [
+            "err",
+            "origin",
+            "allowedOrigins"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "json",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "corsHeaders",
+          "line": 17,
+          "isDefault": false
+        },
+        {
+          "name": "handleError",
+          "line": 31,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "json",
+          "callee": "corsHeaders",
+          "lineNumber": 12
+        },
+        {
+          "caller": "json",
+          "callee": "JSON.stringify",
+          "lineNumber": 13
+        },
+        {
+          "caller": "corsHeaders",
+          "callee": "allowedOrigins.includes",
+          "lineNumber": 19
+        },
+        {
+          "caller": "corsHeaders",
+          "callee": "allowedOrigins.includes",
+          "lineNumber": 19
+        },
+        {
+          "caller": "handleError",
+          "callee": "json",
+          "lineNumber": 37
+        },
+        {
+          "caller": "handleError",
+          "callee": "console.error",
+          "lineNumber": 39
+        },
+        {
+          "caller": "handleError",
+          "callee": "json",
+          "lineNumber": 40
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "backend/src/lib/types.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 92,
+      "nonEmptyLines": 83,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "backend/src/services/domain.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 492,
+      "nonEmptyLines": 462,
+      "functions": [
+        {
+          "name": "createId",
+          "startLine": 14,
+          "endLine": 16,
+          "params": []
+        },
+        {
+          "name": "duplicateEmail",
+          "startLine": 18,
+          "endLine": 22,
+          "params": [
+            "data",
+            "email",
+            "excludeId"
+          ]
+        },
+        {
+          "name": "isDateRangeOverlap",
+          "startLine": 24,
+          "endLine": 30,
+          "params": [
+            "aStart",
+            "aEnd",
+            "bStart",
+            "bEnd"
+          ]
+        },
+        {
+          "name": "teeTimeToIso",
+          "startLine": 32,
+          "endLine": 37,
+          "params": [
+            "date",
+            "time"
+          ]
+        },
+        {
+          "name": "isTeeTimeWithinClubHours",
+          "startLine": 39,
+          "endLine": 41,
+          "params": [
+            "club",
+            "time"
+          ]
+        },
+        {
+          "name": "isCasualBookingBlocked",
+          "startLine": 43,
+          "endLine": 59,
+          "params": [
+            "tournaments",
+            "clubId",
+            "teeTimeIso"
+          ]
+        },
+        {
+          "name": "eligibleGroupsForHandicap",
+          "startLine": 61,
+          "endLine": 71,
+          "params": [
+            "groups",
+            "handicap"
+          ]
+        },
+        {
+          "name": "persistAppData",
+          "startLine": 75,
+          "endLine": 115,
+          "params": [
+            "data"
+          ]
+        },
+        {
+          "name": "mutate",
+          "startLine": 117,
+          "endLine": 125,
+          "params": [
+            "fn"
+          ]
+        },
+        {
+          "name": "ensureUserForAuth",
+          "startLine": 476,
+          "endLine": 492,
+          "params": [
+            "email",
+            "name"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "mutate",
+          "line": 117,
+          "isDefault": false
+        },
+        {
+          "name": "domain",
+          "line": 127,
+          "isDefault": false
+        },
+        {
+          "name": "ensureUserForAuth",
+          "line": 476,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "createId",
+          "callee": "Date.now",
+          "lineNumber": 15
+        },
+        {
+          "caller": "createId",
+          "callee": "Math.random().toString(36).slice",
+          "lineNumber": 15
+        },
+        {
+          "caller": "createId",
+          "callee": "Math.random().toString",
+          "lineNumber": 15
+        },
+        {
+          "caller": "createId",
+          "callee": "Math.random",
+          "lineNumber": 15
+        },
+        {
+          "caller": "duplicateEmail",
+          "callee": "data.users.some",
+          "lineNumber": 19
+        },
+        {
+          "caller": "duplicateEmail",
+          "callee": "u.email.toLowerCase",
+          "lineNumber": 20
+        },
+        {
+          "caller": "duplicateEmail",
+          "callee": "email.toLowerCase",
+          "lineNumber": 20
+        },
+        {
+          "caller": "isDateRangeOverlap",
+          "callee": "new Date(aStart).getTime",
+          "lineNumber": 25
+        },
+        {
+          "caller": "isDateRangeOverlap",
+          "callee": "new Date(aEnd).getTime",
+          "lineNumber": 26
+        },
+        {
+          "caller": "isDateRangeOverlap",
+          "callee": "new Date(bStart).getTime",
+          "lineNumber": 27
+        },
+        {
+          "caller": "isDateRangeOverlap",
+          "callee": "new Date(bEnd).getTime",
+          "lineNumber": 28
+        },
+        {
+          "caller": "teeTimeToIso",
+          "callee": "time.split(':').map",
+          "lineNumber": 33
+        },
+        {
+          "caller": "teeTimeToIso",
+          "callee": "time.split",
+          "lineNumber": 33
+        },
+        {
+          "caller": "teeTimeToIso",
+          "callee": "d.setHours",
+          "lineNumber": 35
+        },
+        {
+          "caller": "teeTimeToIso",
+          "callee": "d.toISOString",
+          "lineNumber": 36
+        },
+        {
+          "caller": "isCasualBookingBlocked",
+          "callee": "new Date(teeTimeIso).getTime",
+          "lineNumber": 48
+        },
+        {
+          "caller": "isCasualBookingBlocked",
+          "callee": "tournaments.find",
+          "lineNumber": 50
+        },
+        {
+          "caller": "isCasualBookingBlocked",
+          "callee": "new Date(t.startsAt).getTime",
+          "lineNumber": 55
+        },
+        {
+          "caller": "isCasualBookingBlocked",
+          "callee": "new Date(t.endsAt).getTime",
+          "lineNumber": 56
+        },
+        {
+          "caller": "eligibleGroupsForHandicap",
+          "callee": "groups.filter",
+          "lineNumber": 66
+        },
+        {
+          "caller": "persistAppData",
+          "callee": "repo.loadAppData",
+          "lineNumber": 76
+        },
+        {
+          "caller": "persistList",
+          "callee": "next.map",
+          "lineNumber": 84
+        },
+        {
+          "caller": "persistList",
+          "callee": "nextIds.has",
+          "lineNumber": 86
+        },
+        {
+          "caller": "persistList",
+          "callee": "del",
+          "lineNumber": 86
+        },
+        {
+          "caller": "persistList",
+          "callee": "put",
+          "lineNumber": 88
+        },
+        {
+          "caller": "persistAppData",
+          "callee": "persistList",
+          "lineNumber": 91
+        },
+        {
+          "caller": "persistAppData",
+          "callee": "persistList",
+          "lineNumber": 92
+        },
+        {
+          "caller": "persistAppData",
+          "callee": "persistList",
+          "lineNumber": 93
+        },
+        {
+          "caller": "persistAppData",
+          "callee": "persistList",
+          "lineNumber": 100
+        },
+        {
+          "caller": "persistAppData",
+          "callee": "persistList",
+          "lineNumber": 107
+        },
+        {
+          "caller": "persistAppData",
+          "callee": "persistList",
+          "lineNumber": 108
+        },
+        {
+          "caller": "mutate",
+          "callee": "repo.loadAppData",
+          "lineNumber": 120
+        },
+        {
+          "caller": "mutate",
+          "callee": "fn",
+          "lineNumber": 121
+        },
+        {
+          "caller": "mutate",
+          "callee": "persistAppData",
+          "lineNumber": 123
+        },
+        {
+          "caller": "createUser",
+          "callee": "duplicateEmail",
+          "lineNumber": 129
+        },
+        {
+          "caller": "createUser",
+          "callee": "createId",
+          "lineNumber": 135
+        },
+        {
+          "caller": "updateUser",
+          "callee": "data.users.find",
+          "lineNumber": 140
+        },
+        {
+          "caller": "updateUser",
+          "callee": "duplicateEmail",
+          "lineNumber": 142
+        },
+        {
+          "caller": "updateUser",
+          "callee": "data.users.map",
+          "lineNumber": 149
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "data.users.filter",
+          "lineNumber": 155
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "data.bookings.filter",
+          "lineNumber": 156
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "data.scorecards.filter",
+          "lineNumber": 157
+        },
+        {
+          "caller": "createClub",
+          "callee": "createId",
+          "lineNumber": 162
+        },
+        {
+          "caller": "updateClub",
+          "callee": "data.clubs.map",
+          "lineNumber": 167
+        },
+        {
+          "caller": "deleteClub",
+          "callee": "data.tournaments.filter((t) => t.clubId === id).map",
+          "lineNumber": 172
+        },
+        {
+          "caller": "deleteClub",
+          "callee": "data.tournaments.filter",
+          "lineNumber": 172
+        },
+        {
+          "caller": "deleteClub",
+          "callee": "data.clubs.filter",
+          "lineNumber": 176
+        },
+        {
+          "caller": "deleteClub",
+          "callee": "data.users.map",
+          "lineNumber": 177
+        },
+        {
+          "caller": "deleteClub",
+          "callee": "data.tournaments.filter",
+          "lineNumber": 178
+        },
+        {
+          "caller": "deleteClub",
+          "callee": "data.tournamentRegistrations.filter",
+          "lineNumber": 179
+        },
+        {
+          "caller": "deleteClub",
+          "callee": "removedTournamentIds.has",
+          "lineNumber": 180
+        },
+        {
+          "caller": "deleteClub",
+          "callee": "data.bookings.filter",
+          "lineNumber": 182
+        },
+        {
+          "caller": "deleteClub",
+          "callee": "data.scorecards.filter",
+          "lineNumber": 183
+        },
+        {
+          "caller": "createTournament",
+          "callee": "data.clubs.find",
+          "lineNumber": 188
+        },
+        {
+          "caller": "createTournament",
+          "callee": "data.tournaments.some",
+          "lineNumber": 190
+        },
+        {
+          "caller": "createTournament",
+          "callee": "isDateRangeOverlap",
+          "lineNumber": 193
+        },
+        {
+          "caller": "createTournament",
+          "callee": "createId",
+          "lineNumber": 201
+        },
+        {
+          "caller": "updateTournament",
+          "callee": "data.tournaments.find",
+          "lineNumber": 206
+        },
+        {
+          "caller": "updateTournament",
+          "callee": "data.tournaments.some",
+          "lineNumber": 209
+        },
+        {
+          "caller": "updateTournament",
+          "callee": "isDateRangeOverlap",
+          "lineNumber": 213
+        },
+        {
+          "caller": "updateTournament",
+          "callee": "data.tournaments.map",
+          "lineNumber": 221
+        },
+        {
+          "caller": "deleteTournament",
+          "callee": "data.tournaments.filter",
+          "lineNumber": 227
+        },
+        {
+          "caller": "deleteTournament",
+          "callee": "data.tournamentRegistrations.filter",
+          "lineNumber": 228
+        },
+        {
+          "caller": "deleteTournament",
+          "callee": "data.bookings.map",
+          "lineNumber": 229
+        },
+        {
+          "caller": "deleteTournament",
+          "callee": "data.scorecards.filter",
+          "lineNumber": 230
+        },
+        {
+          "caller": "registerForTournament",
+          "callee": "data.tournaments.find",
+          "lineNumber": 238
+        },
+        {
+          "caller": "registerForTournament",
+          "callee": "OPEN_REGISTRATION_STATUSES.has",
+          "lineNumber": 240
+        },
+        {
+          "caller": "registerForTournament",
+          "callee": "data.users.find",
+          "lineNumber": 243
+        },
+        {
+          "caller": "registerForTournament",
+          "callee": "tournament.groups.find",
+          "lineNumber": 253
+        },
+        {
+          "caller": "registerForTournament",
+          "callee": "eligibleGroupsForHandicap",
+          "lineNumber": 257
+        },
+        {
+          "caller": "registerForTournament",
+          "callee": "eligible.some",
+          "lineNumber": 258
+        },
+        {
+          "caller": "registerForTournament",
+          "callee": "data.tournamentRegistrations.find",
+          "lineNumber": 261
+        },
+        {
+          "caller": "registerForTournament",
+          "callee": "createId",
+          "lineNumber": 268
+        },
+        {
+          "caller": "registerForTournament",
+          "callee": "new Date().toISOString",
+          "lineNumber": 275
+        },
+        {
+          "caller": "registerForTournament",
+          "callee": "data.tournamentRegistrations.map",
+          "lineNumber": 280
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "data.tournamentRegistrations.find",
+          "lineNumber": 296
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "data.tournaments.find",
+          "lineNumber": 301
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "data.clubs.find",
+          "lineNumber": 303
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "data.tournamentRegistrations.map",
+          "lineNumber": 310
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "new Date().toISOString",
+          "lineNumber": 315
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "input.teeTime.includes",
+          "lineNumber": 336
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "teeTimeToIso",
+          "lineNumber": 336
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "input.teeTime.slice",
+          "lineNumber": 336
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "input.teeTime.slice",
+          "lineNumber": 336
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "data.bookings.some",
+          "lineNumber": 337
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "createId",
+          "lineNumber": 344
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "data.tournamentRegistrations.map",
+          "lineNumber": 354
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "new Date().toISOString",
+          "lineNumber": 362
+        },
+        {
+          "caller": "createBooking",
+          "callee": "data.clubs.find",
+          "lineNumber": 382
+        },
+        {
+          "caller": "createBooking",
+          "callee": "isTeeTimeWithinClubHours",
+          "lineNumber": 384
+        },
+        {
+          "caller": "createBooking",
+          "callee": "teeTimeToIso",
+          "lineNumber": 387
+        },
+        {
+          "caller": "createBooking",
+          "callee": "data.bookings.some",
+          "lineNumber": 388
+        },
+        {
+          "caller": "createBooking",
+          "callee": "isCasualBookingBlocked",
+          "lineNumber": 395
+        },
+        {
+          "caller": "createBooking",
+          "callee": "createId",
+          "lineNumber": 404
+        },
+        {
+          "caller": "updateBookingStatus",
+          "callee": "data.bookings.map",
+          "lineNumber": 415
+        },
+        {
+          "caller": "saveScorecard",
+          "callee": "data.tournaments.find",
+          "lineNumber": 427
+        },
+        {
+          "caller": "saveScorecard",
+          "callee": "data.clubs.find",
+          "lineNumber": 429
+        },
+        {
+          "caller": "saveScorecard",
+          "callee": "input.holeScores.reduce",
+          "lineNumber": 437
+        },
+        {
+          "caller": "saveScorecard",
+          "callee": "data.scorecards.find",
+          "lineNumber": 438
+        },
+        {
+          "caller": "saveScorecard",
+          "callee": "data.scorecards.map",
+          "lineNumber": 445
+        },
+        {
+          "caller": "saveScorecard",
+          "callee": "createId",
+          "lineNumber": 454
+        },
+        {
+          "caller": "saveScorecard",
+          "callee": "new Date().toISOString",
+          "lineNumber": 461
+        },
+        {
+          "caller": "joinClub",
+          "callee": "data.users.map",
+          "lineNumber": 469
+        },
+        {
+          "caller": "ensureUserForAuth",
+          "callee": "repo.findUserByEmail",
+          "lineNumber": 477
+        },
+        {
+          "caller": "ensureUserForAuth",
+          "callee": "mutate",
+          "lineNumber": 479
+        },
+        {
+          "caller": "ensureUserForAuth",
+          "callee": "domain.createUser",
+          "lineNumber": 480
+        },
+        {
+          "caller": "ensureUserForAuth",
+          "callee": "email.split",
+          "lineNumber": 481
+        },
+        {
+          "caller": "ensureUserForAuth",
+          "callee": "result.data!.users.find",
+          "lineNumber": 489
+        },
+        {
+          "caller": "ensureUserForAuth",
+          "callee": "u.email.toLowerCase",
+          "lineNumber": 489
+        },
+        {
+          "caller": "ensureUserForAuth",
+          "callee": "email.toLowerCase",
+          "lineNumber": 489
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 3,
+        "functionCount": 10,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "backend/src/services/repository.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 174,
+      "nonEmptyLines": 155,
+      "functions": [
+        {
+          "name": "stripMeta",
+          "startLine": 25,
+          "endLine": 28,
+          "params": [
+            "item"
+          ]
+        },
+        {
+          "name": "listByType",
+          "startLine": 30,
+          "endLine": 41,
+          "params": [
+            "entityType"
+          ]
+        },
+        {
+          "name": "getById",
+          "startLine": 43,
+          "endLine": 50,
+          "params": [
+            "entityType",
+            "id"
+          ]
+        },
+        {
+          "name": "putEntity",
+          "startLine": 52,
+          "endLine": 65,
+          "params": [
+            "entityType",
+            "record"
+          ]
+        },
+        {
+          "name": "deleteEntity",
+          "startLine": 67,
+          "endLine": 72,
+          "params": [
+            "entityType",
+            "id"
+          ]
+        },
+        {
+          "name": "findUserByEmail",
+          "startLine": 74,
+          "endLine": 87,
+          "params": [
+            "email"
+          ]
+        },
+        {
+          "name": "loadAppData",
+          "startLine": 89,
+          "endLine": 100,
+          "params": []
+        },
+        {
+          "name": "createPresignedUpload",
+          "startLine": 137,
+          "endLine": 146,
+          "params": [
+            "key",
+            "contentType"
+          ]
+        },
+        {
+          "name": "seedAll",
+          "startLine": 148,
+          "endLine": 155,
+          "params": [
+            "data"
+          ]
+        },
+        {
+          "name": "clearTable",
+          "startLine": 157,
+          "endLine": 168,
+          "params": []
+        },
+        {
+          "name": "requireUser",
+          "startLine": 170,
+          "endLine": 174,
+          "params": [
+            "id"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "findUserByEmail",
+          "line": 74,
+          "isDefault": false
+        },
+        {
+          "name": "loadAppData",
+          "line": 89,
+          "isDefault": false
+        },
+        {
+          "name": "repo",
+          "line": 102,
+          "isDefault": false
+        },
+        {
+          "name": "createPresignedUpload",
+          "line": 137,
+          "isDefault": false
+        },
+        {
+          "name": "seedAll",
+          "line": 148,
+          "isDefault": false
+        },
+        {
+          "name": "clearTable",
+          "line": 157,
+          "isDefault": false
+        },
+        {
+          "name": "requireUser",
+          "line": 170,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "listByType",
+          "callee": "loadConfig",
+          "lineNumber": 31
+        },
+        {
+          "caller": "listByType",
+          "callee": "getDocClient().send",
+          "lineNumber": 32
+        },
+        {
+          "caller": "listByType",
+          "callee": "getDocClient",
+          "lineNumber": 32
+        },
+        {
+          "caller": "listByType",
+          "callee": "(result.Items ?? []).map",
+          "lineNumber": 40
+        },
+        {
+          "caller": "listByType",
+          "callee": "stripMeta",
+          "lineNumber": 40
+        },
+        {
+          "caller": "getById",
+          "callee": "loadConfig",
+          "lineNumber": 44
+        },
+        {
+          "caller": "getById",
+          "callee": "entityKeys",
+          "lineNumber": 45
+        },
+        {
+          "caller": "getById",
+          "callee": "getDocClient().send",
+          "lineNumber": 46
+        },
+        {
+          "caller": "getById",
+          "callee": "getDocClient",
+          "lineNumber": 46
+        },
+        {
+          "caller": "getById",
+          "callee": "stripMeta",
+          "lineNumber": 49
+        },
+        {
+          "caller": "putEntity",
+          "callee": "loadConfig",
+          "lineNumber": 53
+        },
+        {
+          "caller": "putEntity",
+          "callee": "String",
+          "lineNumber": 54
+        },
+        {
+          "caller": "putEntity",
+          "callee": "entityKeys",
+          "lineNumber": 57
+        },
+        {
+          "caller": "putEntity",
+          "callee": "gsi1",
+          "lineNumber": 58
+        },
+        {
+          "caller": "putEntity",
+          "callee": "Object.assign",
+          "lineNumber": 62
+        },
+        {
+          "caller": "putEntity",
+          "callee": "gsi2Email",
+          "lineNumber": 62
+        },
+        {
+          "caller": "putEntity",
+          "callee": "String",
+          "lineNumber": 62
+        },
+        {
+          "caller": "putEntity",
+          "callee": "getDocClient().send",
+          "lineNumber": 64
+        },
+        {
+          "caller": "putEntity",
+          "callee": "getDocClient",
+          "lineNumber": 64
+        },
+        {
+          "caller": "deleteEntity",
+          "callee": "loadConfig",
+          "lineNumber": 68
+        },
+        {
+          "caller": "deleteEntity",
+          "callee": "getDocClient().send",
+          "lineNumber": 69
+        },
+        {
+          "caller": "deleteEntity",
+          "callee": "getDocClient",
+          "lineNumber": 69
+        },
+        {
+          "caller": "deleteEntity",
+          "callee": "entityKeys",
+          "lineNumber": 70
+        },
+        {
+          "caller": "findUserByEmail",
+          "callee": "loadConfig",
+          "lineNumber": 75
+        },
+        {
+          "caller": "findUserByEmail",
+          "callee": "getDocClient().send",
+          "lineNumber": 76
+        },
+        {
+          "caller": "findUserByEmail",
+          "callee": "getDocClient",
+          "lineNumber": 76
+        },
+        {
+          "caller": "findUserByEmail",
+          "callee": "email.toLowerCase",
+          "lineNumber": 81
+        },
+        {
+          "caller": "findUserByEmail",
+          "callee": "stripMeta",
+          "lineNumber": 86
+        },
+        {
+          "caller": "loadAppData",
+          "callee": "Promise.all",
+          "lineNumber": 91
+        },
+        {
+          "caller": "loadAppData",
+          "callee": "listByType",
+          "lineNumber": 92
+        },
+        {
+          "caller": "loadAppData",
+          "callee": "listByType",
+          "lineNumber": 93
+        },
+        {
+          "caller": "loadAppData",
+          "callee": "listByType",
+          "lineNumber": 94
+        },
+        {
+          "caller": "loadAppData",
+          "callee": "listByType",
+          "lineNumber": 95
+        },
+        {
+          "caller": "loadAppData",
+          "callee": "listByType",
+          "lineNumber": 96
+        },
+        {
+          "caller": "loadAppData",
+          "callee": "listByType",
+          "lineNumber": 97
+        },
+        {
+          "caller": "createPresignedUpload",
+          "callee": "loadConfig",
+          "lineNumber": 138
+        },
+        {
+          "caller": "createPresignedUpload",
+          "callee": "getSignedUrl",
+          "lineNumber": 145
+        },
+        {
+          "caller": "seedAll",
+          "callee": "putEntity",
+          "lineNumber": 149
+        },
+        {
+          "caller": "seedAll",
+          "callee": "putEntity",
+          "lineNumber": 150
+        },
+        {
+          "caller": "seedAll",
+          "callee": "putEntity",
+          "lineNumber": 151
+        },
+        {
+          "caller": "seedAll",
+          "callee": "putEntity",
+          "lineNumber": 152
+        },
+        {
+          "caller": "seedAll",
+          "callee": "putEntity",
+          "lineNumber": 153
+        },
+        {
+          "caller": "seedAll",
+          "callee": "putEntity",
+          "lineNumber": 154
+        },
+        {
+          "caller": "clearTable",
+          "callee": "loadConfig",
+          "lineNumber": 158
+        },
+        {
+          "caller": "clearTable",
+          "callee": "getDocClient().send",
+          "lineNumber": 159
+        },
+        {
+          "caller": "clearTable",
+          "callee": "getDocClient",
+          "lineNumber": 159
+        },
+        {
+          "caller": "clearTable",
+          "callee": "getDocClient().send",
+          "lineNumber": 161
+        },
+        {
+          "caller": "clearTable",
+          "callee": "getDocClient",
+          "lineNumber": 161
+        },
+        {
+          "caller": "requireUser",
+          "callee": "repo.getUser",
+          "lineNumber": 171
+        },
+        {
+          "caller": "requireUser",
+          "callee": "notFound",
+          "lineNumber": 172
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 7,
+        "functionCount": 11,
+        "classCount": 0
+      }
+    }
+  ]
+}

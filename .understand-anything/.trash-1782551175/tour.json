@@ -1,0 +1,91 @@
+[
+  {
+    "order": 1,
+    "title": "Project Overview",
+    "description": "Start with the README to understand Teevo's purpose as a golf club management platform.",
+    "nodeIds": [
+      "document:README.md"
+    ]
+  },
+  {
+    "order": 2,
+    "title": "Frontend Bootstrap",
+    "description": "The React app boots from main.tsx, mounts App.tsx, and wires client-side routing.",
+    "nodeIds": [
+      "file:Frontend/src/main.tsx",
+      "file:Frontend/src/App.tsx"
+    ]
+  },
+  {
+    "order": 3,
+    "title": "Application Routes",
+    "description": "AppRoutes defines navigation between dashboard, clubs, tournaments, bookings, and admin pages.",
+    "nodeIds": [
+      "file:Frontend/src/routes/AppRoutes.tsx"
+    ]
+  },
+  {
+    "order": 4,
+    "title": "State Management",
+    "description": "TeevoContext and store actions manage authenticated user state and domain mutations.",
+    "nodeIds": [
+      "file:Frontend/src/store/TeevoContext.tsx",
+      "file:Frontend/src/store/actions.ts"
+    ]
+  },
+  {
+    "order": 5,
+    "title": "API Client Layer",
+    "description": "The teevoApi client module sends HTTP requests to the backend Lambda API.",
+    "nodeIds": [
+      "file:Frontend/src/lib/api/teevoApi.ts",
+      "file:Frontend/src/lib/api/client.ts"
+    ]
+  },
+  {
+    "order": 6,
+    "title": "Backend API Entry",
+    "description": "Lambda handler and router dispatch incoming API requests to domain services.",
+    "nodeIds": [
+      "file:backend/src/handlers/api.ts",
+      "file:backend/src/handlers/router.ts"
+    ]
+  },
+  {
+    "order": 7,
+    "title": "Domain Services",
+    "description": "Repository and domain modules implement data access and business rules for Teevo entities.",
+    "nodeIds": [
+      "file:backend/src/services/repository.ts",
+      "file:backend/src/services/domain.ts"
+    ]
+  },
+  {
+    "order": 8,
+    "title": "Authentication",
+    "description": "Auth library verifies bearer tokens and handles OAuth login flows.",
+    "nodeIds": [
+      "file:backend/src/lib/auth.ts"
+    ]
+  },
+  {
+    "order": 9,
+    "title": "Infrastructure",
+    "description": "CloudFormation templates provision AWS resources for the backend and frontend stacks.",
+    "nodeIds": [
+      "config:backend/cloudformation-template.yaml",
+      "config:Frontend/cloudformation-template.yaml"
+    ]
+  },
+  {
+    "order": 10,
+    "title": "E2E Test Coverage",
+    "description": "Playwright specs validate critical user flows across pages and API interactions.",
+    "nodeIds": [
+      "file:Frontend/automation-tests/bookings/bookings.smoke.spec.ts",
+      "file:Frontend/automation-tests/club-detail/club-detail.smoke.spec.ts",
+      "file:Frontend/automation-tests/clubs/clubs.smoke.spec.ts",
+      "file:Frontend/automation-tests/dashboard/dashboard.smoke.spec.ts"
+    ]
+  }
+]

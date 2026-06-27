@@ -1,0 +1,2953 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 31,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "Frontend/src/components/dashboard/DashboardPanel.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 33,
+      "nonEmptyLines": 32,
+      "functions": [
+        {
+          "name": "DashboardPanel",
+          "startLine": 6,
+          "endLine": 33,
+          "params": [
+            "{\n  title,\n  icon: Icon,\n  action,\n  children,\n  className,\n  contentClassName,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "DashboardPanel",
+          "line": 6,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "DashboardPanel",
+          "callee": "cn",
+          "lineNumber": 22
+        },
+        {
+          "caller": "DashboardPanel",
+          "callee": "cn",
+          "lineNumber": 30
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/components/dashboard/SuperadminDashboard.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 426,
+      "nonEmptyLines": 409,
+      "functions": [
+        {
+          "name": "PanelLink",
+          "startLine": 51,
+          "endLine": 61,
+          "params": [
+            "{ to, label }"
+          ]
+        },
+        {
+          "name": "QuickActionLink",
+          "startLine": 63,
+          "endLine": 72,
+          "params": [
+            "{ to, children }"
+          ]
+        },
+        {
+          "name": "SuperadminDashboard",
+          "startLine": 74,
+          "endLine": 426,
+          "params": [
+            "{\n  data,\n  userName,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "SuperadminDashboard",
+          "line": 74,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "getActiveTournaments",
+          "lineNumber": 81
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "getUpcomingBookings",
+          "lineNumber": 82
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "countTournamentsByStatus",
+          "lineNumber": 83
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "countUsersByRole",
+          "lineNumber": 84
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "getClubSummaries",
+          "lineNumber": 85
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "getRecentScorecards",
+          "lineNumber": 86
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "getPlatformActivity",
+          "lineNumber": 87
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "formatDashboardGreeting",
+          "lineNumber": 136
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "getDashboardPageDescription",
+          "lineNumber": 137
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "primaryStats.map",
+          "lineNumber": 142
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "secondaryStats.map",
+          "lineNumber": 153
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "STATUS_PIPELINE.map",
+          "lineNumber": 185
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "platformActivity.map",
+          "lineNumber": 205
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "formatDateTime",
+          "lineNumber": 224
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "formatDate",
+          "lineNumber": 225
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "activeTournaments.slice(0, 5).map",
+          "lineNumber": 246
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "activeTournaments.slice",
+          "lineNumber": 246
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "data.clubs.find",
+          "lineNumber": 247
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "formatDate",
+          "lineNumber": 261
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "formatDate",
+          "lineNumber": 261
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "upcomingBookings.slice(0, 5).map",
+          "lineNumber": 282
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "upcomingBookings.slice",
+          "lineNumber": 282
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "data.clubs.find",
+          "lineNumber": 283
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "data.users.find",
+          "lineNumber": 284
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "data.tournaments.find",
+          "lineNumber": 286
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "formatDateTime",
+          "lineNumber": 305
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "data.clubs.map",
+          "lineNumber": 325
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "clubSummaries.find",
+          "lineNumber": 326
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "data.users.map",
+          "lineNumber": 358
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "data.clubs.find",
+          "lineNumber": 360
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "recentScorecards.map",
+          "lineNumber": 389
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "data.users.find",
+          "lineNumber": 390
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "data.tournaments.find",
+          "lineNumber": 391
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "data.clubs.find",
+          "lineNumber": 392
+        },
+        {
+          "caller": "SuperadminDashboard",
+          "callee": "formatDate",
+          "lineNumber": 414
+        }
+      ],
+      "metrics": {
+        "importCount": 10,
+        "exportCount": 1,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/components/dashboard/TeamRoleCounts.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 33,
+      "nonEmptyLines": 30,
+      "functions": [
+        {
+          "name": "TeamRoleCounts",
+          "startLine": 9,
+          "endLine": 33,
+          "params": [
+            "{ counts }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "TeamRoleCounts",
+          "line": 9,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "TeamRoleCounts",
+          "callee": "items.map",
+          "lineNumber": 18
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/components/tournaments/TournamentGroupEditor.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 102,
+      "nonEmptyLines": 98,
+      "functions": [
+        {
+          "name": "TournamentGroupEditor",
+          "startLine": 6,
+          "endLine": 102,
+          "params": [
+            "{\n  groups,\n  onChange,\n  errors,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "TournamentGroupEditor",
+          "line": 6,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "updateGroup",
+          "callee": "onChange",
+          "lineNumber": 16
+        },
+        {
+          "caller": "updateGroup",
+          "callee": "groups.map",
+          "lineNumber": 16
+        },
+        {
+          "caller": "removeGroup",
+          "callee": "onChange",
+          "lineNumber": 21
+        },
+        {
+          "caller": "removeGroup",
+          "callee": "groups.filter",
+          "lineNumber": 21
+        },
+        {
+          "caller": "addGroup",
+          "callee": "onChange",
+          "lineNumber": 25
+        },
+        {
+          "caller": "addGroup",
+          "callee": "createId",
+          "lineNumber": 27
+        },
+        {
+          "caller": "TournamentGroupEditor",
+          "callee": "groups.map",
+          "lineNumber": 47
+        },
+        {
+          "caller": "TournamentGroupEditor",
+          "callee": "updateGroup",
+          "lineNumber": 56
+        },
+        {
+          "caller": "TournamentGroupEditor",
+          "callee": "removeGroup",
+          "lineNumber": 62
+        },
+        {
+          "caller": "TournamentGroupEditor",
+          "callee": "updateGroup",
+          "lineNumber": 78
+        },
+        {
+          "caller": "TournamentGroupEditor",
+          "callee": "parseInt",
+          "lineNumber": 79
+        },
+        {
+          "caller": "TournamentGroupEditor",
+          "callee": "updateGroup",
+          "lineNumber": 91
+        },
+        {
+          "caller": "TournamentGroupEditor",
+          "callee": "parseInt",
+          "lineNumber": 92
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/components/ui/StatCard.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 35,
+      "nonEmptyLines": 34,
+      "functions": [
+        {
+          "name": "StatCard",
+          "startLine": 5,
+          "endLine": 35,
+          "params": [
+            "{\n  label,\n  value,\n  icon: Icon,\n  to,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "StatCard",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/data/seed.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 287,
+      "nonEmptyLines": 282,
+      "functions": [
+        {
+          "name": "daysFromNow",
+          "startLine": 31,
+          "endLine": 36,
+          "params": [
+            "days",
+            "hour",
+            "minute"
+          ]
+        },
+        {
+          "name": "seedData",
+          "startLine": 38,
+          "endLine": 281,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "seedData",
+          "line": 38,
+          "isDefault": false
+        },
+        {
+          "name": "DEMO_ACCOUNTS",
+          "line": 283,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "daysFromNow",
+          "callee": "d.setDate",
+          "lineNumber": 33
+        },
+        {
+          "caller": "daysFromNow",
+          "callee": "d.getDate",
+          "lineNumber": 33
+        },
+        {
+          "caller": "daysFromNow",
+          "callee": "d.setHours",
+          "lineNumber": 34
+        },
+        {
+          "caller": "daysFromNow",
+          "callee": "d.toISOString",
+          "lineNumber": 35
+        },
+        {
+          "caller": "seedData",
+          "callee": "nextWeek.setDate",
+          "lineNumber": 41
+        },
+        {
+          "caller": "seedData",
+          "callee": "nextWeek.getDate",
+          "lineNumber": 41
+        },
+        {
+          "caller": "seedData",
+          "callee": "twoWeeks.setDate",
+          "lineNumber": 43
+        },
+        {
+          "caller": "seedData",
+          "callee": "twoWeeks.getDate",
+          "lineNumber": 43
+        },
+        {
+          "caller": "seedData",
+          "callee": "lastWeek.setDate",
+          "lineNumber": 45
+        },
+        {
+          "caller": "seedData",
+          "callee": "lastWeek.getDate",
+          "lineNumber": 45
+        },
+        {
+          "caller": "seedData",
+          "callee": "yesterday.setDate",
+          "lineNumber": 47
+        },
+        {
+          "caller": "seedData",
+          "callee": "yesterday.getDate",
+          "lineNumber": 47
+        },
+        {
+          "caller": "seedData",
+          "callee": "daysFromNow",
+          "lineNumber": 133
+        },
+        {
+          "caller": "seedData",
+          "callee": "daysFromNow",
+          "lineNumber": 134
+        },
+        {
+          "caller": "seedData",
+          "callee": "daysFromNow",
+          "lineNumber": 147
+        },
+        {
+          "caller": "seedData",
+          "callee": "daysFromNow",
+          "lineNumber": 148
+        },
+        {
+          "caller": "seedData",
+          "callee": "daysFromNow",
+          "lineNumber": 161
+        },
+        {
+          "caller": "seedData",
+          "callee": "daysFromNow",
+          "lineNumber": 162
+        },
+        {
+          "caller": "seedData",
+          "callee": "daysFromNow",
+          "lineNumber": 174
+        },
+        {
+          "caller": "seedData",
+          "callee": "daysFromNow",
+          "lineNumber": 175
+        },
+        {
+          "caller": "seedData",
+          "callee": "daysFromNow",
+          "lineNumber": 189
+        },
+        {
+          "caller": "seedData",
+          "callee": "daysFromNow",
+          "lineNumber": 200
+        },
+        {
+          "caller": "seedData",
+          "callee": "daysFromNow",
+          "lineNumber": 201
+        },
+        {
+          "caller": "seedData",
+          "callee": "daysFromNow",
+          "lineNumber": 202
+        },
+        {
+          "caller": "seedData",
+          "callee": "daysFromNow",
+          "lineNumber": 212
+        },
+        {
+          "caller": "seedData",
+          "callee": "daysFromNow",
+          "lineNumber": 220
+        },
+        {
+          "caller": "seedData",
+          "callee": "daysFromNow",
+          "lineNumber": 228
+        },
+        {
+          "caller": "seedData",
+          "callee": "daysFromNow",
+          "lineNumber": 236
+        },
+        {
+          "caller": "seedData",
+          "callee": "daysFromNow",
+          "lineNumber": 244
+        },
+        {
+          "caller": "seedData",
+          "callee": "now.toISOString",
+          "lineNumber": 257
+        },
+        {
+          "caller": "seedData",
+          "callee": "yesterday.toISOString",
+          "lineNumber": 267
+        },
+        {
+          "caller": "seedData",
+          "callee": "lastWeek.toISOString",
+          "lineNumber": 277
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/lib/copy/bookingsPage.test.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 16,
+      "nonEmptyLines": 15,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/lib/copy/bookingsPage.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 11,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "getBookingsPageDescription",
+          "startLine": 9,
+          "endLine": 11,
+          "params": [
+            "role"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "getBookingsPageDescription",
+          "line": 9,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/lib/copy/clubsPage.test.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 16,
+      "nonEmptyLines": 15,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/lib/copy/clubsPage.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 11,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "getClubsPageDescription",
+          "startLine": 9,
+          "endLine": 11,
+          "params": [
+            "role"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "getClubsPageDescription",
+          "line": 9,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/lib/copy/dashboardPage.test.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 25,
+      "nonEmptyLines": 23,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/lib/copy/dashboardPage.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 15,
+      "nonEmptyLines": 12,
+      "functions": [
+        {
+          "name": "getDashboardPageDescription",
+          "startLine": 13,
+          "endLine": 15,
+          "params": [
+            "role"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "DASHBOARD_ACTIVE_TOURNAMENTS_TITLE",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "getDashboardPageDescription",
+          "line": 13,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/lib/copy/scorecardsPage.test.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 16,
+      "nonEmptyLines": 15,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/lib/copy/scorecardsPage.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 11,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "getScorecardsPageDescription",
+          "startLine": 9,
+          "endLine": 11,
+          "params": [
+            "role"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "getScorecardsPageDescription",
+          "line": 9,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/lib/copy/tournamentsPage.test.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 16,
+      "nonEmptyLines": 15,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/lib/copy/tournamentsPage.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 11,
+      "nonEmptyLines": 9,
+      "functions": [
+        {
+          "name": "getTournamentsPageDescription",
+          "startLine": 9,
+          "endLine": 11,
+          "params": [
+            "role"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "getTournamentsPageDescription",
+          "line": 9,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/lib/dashboard/platformMetrics.test.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 58,
+      "nonEmptyLines": 51,
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/lib/dashboard/platformMetrics.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 141,
+      "nonEmptyLines": 125,
+      "functions": [
+        {
+          "name": "countUsersByRole",
+          "startLine": 25,
+          "endLine": 31,
+          "params": [
+            "users"
+          ]
+        },
+        {
+          "name": "countTournamentsByStatus",
+          "startLine": 33,
+          "endLine": 42,
+          "params": [
+            "tournaments"
+          ]
+        },
+        {
+          "name": "getClubSummaries",
+          "startLine": 44,
+          "endLine": 61,
+          "params": [
+            "data"
+          ]
+        },
+        {
+          "name": "getActiveTournaments",
+          "startLine": 63,
+          "endLine": 67,
+          "params": [
+            "tournaments"
+          ]
+        },
+        {
+          "name": "getUpcomingBookings",
+          "startLine": 69,
+          "endLine": 74,
+          "params": [
+            "bookings"
+          ]
+        },
+        {
+          "name": "getRecentScorecards",
+          "startLine": 76,
+          "endLine": 80,
+          "params": [
+            "scorecards",
+            "limit"
+          ]
+        },
+        {
+          "name": "getPlatformActivity",
+          "startLine": 94,
+          "endLine": 141,
+          "params": [
+            "data",
+            "limit"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "countUsersByRole",
+          "line": 25,
+          "isDefault": false
+        },
+        {
+          "name": "countTournamentsByStatus",
+          "line": 33,
+          "isDefault": false
+        },
+        {
+          "name": "getClubSummaries",
+          "line": 44,
+          "isDefault": false
+        },
+        {
+          "name": "getActiveTournaments",
+          "line": 63,
+          "isDefault": false
+        },
+        {
+          "name": "getUpcomingBookings",
+          "line": 69,
+          "isDefault": false
+        },
+        {
+          "name": "getRecentScorecards",
+          "line": 76,
+          "isDefault": false
+        },
+        {
+          "name": "getPlatformActivity",
+          "line": 94,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "countUsersByRole",
+          "callee": "users.filter",
+          "lineNumber": 27
+        },
+        {
+          "caller": "countUsersByRole",
+          "callee": "users.filter",
+          "lineNumber": 28
+        },
+        {
+          "caller": "countUsersByRole",
+          "callee": "users.filter",
+          "lineNumber": 29
+        },
+        {
+          "caller": "countTournamentsByStatus",
+          "callee": "Object.fromEntries",
+          "lineNumber": 36
+        },
+        {
+          "caller": "countTournamentsByStatus",
+          "callee": "TOURNAMENT_STATUSES.map",
+          "lineNumber": 37
+        },
+        {
+          "caller": "countTournamentsByStatus",
+          "callee": "tournaments.filter",
+          "lineNumber": 39
+        },
+        {
+          "caller": "getClubSummaries",
+          "callee": "data.clubs.map",
+          "lineNumber": 45
+        },
+        {
+          "caller": "getClubSummaries",
+          "callee": "data.tournaments.filter",
+          "lineNumber": 47
+        },
+        {
+          "caller": "getClubSummaries",
+          "callee": "data.tournaments.filter",
+          "lineNumber": 48
+        },
+        {
+          "caller": "getClubSummaries",
+          "callee": "data.bookings.filter",
+          "lineNumber": 52
+        },
+        {
+          "caller": "getClubSummaries",
+          "callee": "data.users.filter",
+          "lineNumber": 55
+        },
+        {
+          "caller": "getClubSummaries",
+          "callee": "data.users.filter",
+          "lineNumber": 58
+        },
+        {
+          "caller": "getActiveTournaments",
+          "callee": "tournaments\n    .filter((t) => t.status !== 'cancelled' && t.status !== 'completed')\n    .sort",
+          "lineNumber": 64
+        },
+        {
+          "caller": "getActiveTournaments",
+          "callee": "tournaments\n    .filter",
+          "lineNumber": 64
+        },
+        {
+          "caller": "getActiveTournaments",
+          "callee": "new Date(a.startsAt).getTime",
+          "lineNumber": 66
+        },
+        {
+          "caller": "getActiveTournaments",
+          "callee": "new Date(b.startsAt).getTime",
+          "lineNumber": 66
+        },
+        {
+          "caller": "getUpcomingBookings",
+          "callee": "Date.now",
+          "lineNumber": 70
+        },
+        {
+          "caller": "getUpcomingBookings",
+          "callee": "bookings\n    .filter((b) => b.status === 'confirmed' && new Date(b.teeTime).getTime() >= now)\n    .sort",
+          "lineNumber": 71
+        },
+        {
+          "caller": "getUpcomingBookings",
+          "callee": "bookings\n    .filter",
+          "lineNumber": 71
+        },
+        {
+          "caller": "getUpcomingBookings",
+          "callee": "new Date(b.teeTime).getTime",
+          "lineNumber": 72
+        },
+        {
+          "caller": "getUpcomingBookings",
+          "callee": "new Date(a.teeTime).getTime",
+          "lineNumber": 73
+        },
+        {
+          "caller": "getUpcomingBookings",
+          "callee": "new Date(b.teeTime).getTime",
+          "lineNumber": 73
+        },
+        {
+          "caller": "getRecentScorecards",
+          "callee": "[...scorecards]\n    .sort((a, b) => new Date(b.roundDate).getTime() - new Date(a.roundDate).getTime())\n    .slice",
+          "lineNumber": 77
+        },
+        {
+          "caller": "getRecentScorecards",
+          "callee": "[...scorecards]\n    .sort",
+          "lineNumber": 77
+        },
+        {
+          "caller": "getRecentScorecards",
+          "callee": "new Date(b.roundDate).getTime",
+          "lineNumber": 78
+        },
+        {
+          "caller": "getRecentScorecards",
+          "callee": "new Date(a.roundDate).getTime",
+          "lineNumber": 78
+        },
+        {
+          "caller": "getPlatformActivity",
+          "callee": "getUpcomingBookings",
+          "lineNumber": 97
+        },
+        {
+          "caller": "getPlatformActivity",
+          "callee": "data.users.find",
+          "lineNumber": 98
+        },
+        {
+          "caller": "getPlatformActivity",
+          "callee": "data.clubs.find",
+          "lineNumber": 99
+        },
+        {
+          "caller": "getPlatformActivity",
+          "callee": "items.push",
+          "lineNumber": 100
+        },
+        {
+          "caller": "getPlatformActivity",
+          "callee": "data.users.find",
+          "lineNumber": 112
+        },
+        {
+          "caller": "getPlatformActivity",
+          "callee": "data.tournaments.find",
+          "lineNumber": 113
+        },
+        {
+          "caller": "getPlatformActivity",
+          "callee": "items.push",
+          "lineNumber": 114
+        },
+        {
+          "caller": "getPlatformActivity",
+          "callee": "data.clubs.find",
+          "lineNumber": 126
+        },
+        {
+          "caller": "getPlatformActivity",
+          "callee": "items.push",
+          "lineNumber": 127
+        },
+        {
+          "caller": "getPlatformActivity",
+          "callee": "items\n    .sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime())\n    .slice",
+          "lineNumber": 138
+        },
+        {
+          "caller": "getPlatformActivity",
+          "callee": "items\n    .sort",
+          "lineNumber": 138
+        },
+        {
+          "caller": "getPlatformActivity",
+          "callee": "new Date(b.timestamp).getTime",
+          "lineNumber": 139
+        },
+        {
+          "caller": "getPlatformActivity",
+          "callee": "new Date(a.timestamp).getTime",
+          "lineNumber": 139
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 7,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/lib/greetings.test.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 38,
+      "nonEmptyLines": 33,
+      "functions": [
+        {
+          "name": "atLocalHour",
+          "startLine": 8,
+          "endLine": 11,
+          "params": [
+            "hour"
+          ]
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/lib/greetings.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 25,
+      "nonEmptyLines": 21,
+      "functions": [
+        {
+          "name": "getTimeOfDay",
+          "startLine": 10,
+          "endLine": 15,
+          "params": [
+            "date"
+          ]
+        },
+        {
+          "name": "getTimeOfDayGreeting",
+          "startLine": 17,
+          "endLine": 19,
+          "params": [
+            "date"
+          ]
+        },
+        {
+          "name": "formatDashboardGreeting",
+          "startLine": 21,
+          "endLine": 25,
+          "params": [
+            "firstName",
+            "date"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "getTimeOfDay",
+          "line": 10,
+          "isDefault": false
+        },
+        {
+          "name": "getTimeOfDayGreeting",
+          "line": 17,
+          "isDefault": false
+        },
+        {
+          "name": "formatDashboardGreeting",
+          "line": 21,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getTimeOfDay",
+          "callee": "date.getHours",
+          "lineNumber": 11
+        },
+        {
+          "caller": "getTimeOfDayGreeting",
+          "callee": "getTimeOfDay",
+          "lineNumber": 18
+        },
+        {
+          "caller": "formatDashboardGreeting",
+          "callee": "firstName.trim",
+          "lineNumber": 22
+        },
+        {
+          "caller": "formatDashboardGreeting",
+          "callee": "getTimeOfDayGreeting",
+          "lineNumber": 23
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/lib/id.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 3,
+      "nonEmptyLines": 3,
+      "functions": [
+        {
+          "name": "createId",
+          "startLine": 1,
+          "endLine": 3,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "createId",
+          "line": 1,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "createId",
+          "callee": "crypto.randomUUID",
+          "lineNumber": 2
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/lib/storage.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 75,
+      "nonEmptyLines": 67,
+      "functions": [
+        {
+          "name": "normalizeUser",
+          "startLine": 9,
+          "endLine": 14,
+          "params": [
+            "user"
+          ]
+        },
+        {
+          "name": "normalizeData",
+          "startLine": 16,
+          "endLine": 31,
+          "params": [
+            "data"
+          ]
+        },
+        {
+          "name": "loadData",
+          "startLine": 33,
+          "endLine": 47,
+          "params": []
+        },
+        {
+          "name": "saveData",
+          "startLine": 49,
+          "endLine": 51,
+          "params": [
+            "data"
+          ]
+        },
+        {
+          "name": "loadSession",
+          "startLine": 53,
+          "endLine": 61,
+          "params": []
+        },
+        {
+          "name": "saveSession",
+          "startLine": 63,
+          "endLine": 69,
+          "params": [
+            "session"
+          ]
+        },
+        {
+          "name": "resetData",
+          "startLine": 71,
+          "endLine": 75,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "loadData",
+          "line": 33,
+          "isDefault": false
+        },
+        {
+          "name": "saveData",
+          "line": 49,
+          "isDefault": false
+        },
+        {
+          "name": "loadSession",
+          "line": 53,
+          "isDefault": false
+        },
+        {
+          "name": "saveSession",
+          "line": 63,
+          "isDefault": false
+        },
+        {
+          "name": "resetData",
+          "line": 71,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "normalizeData",
+          "callee": "data.users.map",
+          "lineNumber": 20
+        },
+        {
+          "caller": "normalizeData",
+          "callee": "data.clubs.map",
+          "lineNumber": 21
+        },
+        {
+          "caller": "normalizeData",
+          "callee": "normalizeClubHoleCount",
+          "lineNumber": 24
+        },
+        {
+          "caller": "normalizeData",
+          "callee": "data.tournaments.map",
+          "lineNumber": 26
+        },
+        {
+          "caller": "normalizeData",
+          "callee": "normalizeTournament",
+          "lineNumber": 27
+        },
+        {
+          "caller": "loadData",
+          "callee": "localStorage.getItem",
+          "lineNumber": 35
+        },
+        {
+          "caller": "loadData",
+          "callee": "seedData",
+          "lineNumber": 37
+        },
+        {
+          "caller": "loadData",
+          "callee": "saveData",
+          "lineNumber": 38
+        },
+        {
+          "caller": "loadData",
+          "callee": "normalizeData",
+          "lineNumber": 41
+        },
+        {
+          "caller": "loadData",
+          "callee": "JSON.parse",
+          "lineNumber": 41
+        },
+        {
+          "caller": "loadData",
+          "callee": "seedData",
+          "lineNumber": 43
+        },
+        {
+          "caller": "loadData",
+          "callee": "saveData",
+          "lineNumber": 44
+        },
+        {
+          "caller": "saveData",
+          "callee": "localStorage.setItem",
+          "lineNumber": 50
+        },
+        {
+          "caller": "saveData",
+          "callee": "JSON.stringify",
+          "lineNumber": 50
+        },
+        {
+          "caller": "loadSession",
+          "callee": "localStorage.getItem",
+          "lineNumber": 55
+        },
+        {
+          "caller": "loadSession",
+          "callee": "JSON.parse",
+          "lineNumber": 57
+        },
+        {
+          "caller": "saveSession",
+          "callee": "localStorage.setItem",
+          "lineNumber": 65
+        },
+        {
+          "caller": "saveSession",
+          "callee": "JSON.stringify",
+          "lineNumber": 65
+        },
+        {
+          "caller": "saveSession",
+          "callee": "localStorage.removeItem",
+          "lineNumber": 67
+        },
+        {
+          "caller": "resetData",
+          "callee": "seedData",
+          "lineNumber": 72
+        },
+        {
+          "caller": "resetData",
+          "callee": "saveData",
+          "lineNumber": 73
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 5,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/lib/teeTimes.test.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 25,
+      "nonEmptyLines": 22,
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/lib/teeTimes.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 52,
+      "nonEmptyLines": 45,
+      "functions": [
+        {
+          "name": "parseTimeToMinutes",
+          "startLine": 3,
+          "endLine": 6,
+          "params": [
+            "time"
+          ]
+        },
+        {
+          "name": "minutesToTimeString",
+          "startLine": 8,
+          "endLine": 12,
+          "params": [
+            "minutes"
+          ]
+        },
+        {
+          "name": "generateTeeTimeSlots",
+          "startLine": 14,
+          "endLine": 23,
+          "params": [
+            "club"
+          ]
+        },
+        {
+          "name": "teeTimeToIso",
+          "startLine": 25,
+          "endLine": 27,
+          "params": [
+            "date",
+            "time"
+          ]
+        },
+        {
+          "name": "getBookedTimesForDate",
+          "startLine": 29,
+          "endLine": 45,
+          "params": [
+            "bookings",
+            "clubId",
+            "date"
+          ]
+        },
+        {
+          "name": "isTeeTimeWithinClubHours",
+          "startLine": 47,
+          "endLine": 52,
+          "params": [
+            "club",
+            "time"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "generateTeeTimeSlots",
+          "line": 14,
+          "isDefault": false
+        },
+        {
+          "name": "teeTimeToIso",
+          "line": 25,
+          "isDefault": false
+        },
+        {
+          "name": "getBookedTimesForDate",
+          "line": 29,
+          "isDefault": false
+        },
+        {
+          "name": "isTeeTimeWithinClubHours",
+          "line": 47,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "parseTimeToMinutes",
+          "callee": "time.split(':').map",
+          "lineNumber": 4
+        },
+        {
+          "caller": "parseTimeToMinutes",
+          "callee": "time.split",
+          "lineNumber": 4
+        },
+        {
+          "caller": "minutesToTimeString",
+          "callee": "Math.floor",
+          "lineNumber": 9
+        },
+        {
+          "caller": "minutesToTimeString",
+          "callee": "String(h).padStart",
+          "lineNumber": 11
+        },
+        {
+          "caller": "minutesToTimeString",
+          "callee": "String",
+          "lineNumber": 11
+        },
+        {
+          "caller": "minutesToTimeString",
+          "callee": "String(m).padStart",
+          "lineNumber": 11
+        },
+        {
+          "caller": "minutesToTimeString",
+          "callee": "String",
+          "lineNumber": 11
+        },
+        {
+          "caller": "generateTeeTimeSlots",
+          "callee": "parseTimeToMinutes",
+          "lineNumber": 15
+        },
+        {
+          "caller": "generateTeeTimeSlots",
+          "callee": "parseTimeToMinutes",
+          "lineNumber": 16
+        },
+        {
+          "caller": "generateTeeTimeSlots",
+          "callee": "slots.push",
+          "lineNumber": 20
+        },
+        {
+          "caller": "generateTeeTimeSlots",
+          "callee": "minutesToTimeString",
+          "lineNumber": 20
+        },
+        {
+          "caller": "teeTimeToIso",
+          "callee": "new Date(`${date}T${time}:00`).toISOString",
+          "lineNumber": 26
+        },
+        {
+          "caller": "getBookedTimesForDate",
+          "callee": "d.toISOString().slice",
+          "lineNumber": 38
+        },
+        {
+          "caller": "getBookedTimesForDate",
+          "callee": "d.toISOString",
+          "lineNumber": 38
+        },
+        {
+          "caller": "getBookedTimesForDate",
+          "callee": "String(d.getHours()).padStart",
+          "lineNumber": 40
+        },
+        {
+          "caller": "getBookedTimesForDate",
+          "callee": "String",
+          "lineNumber": 40
+        },
+        {
+          "caller": "getBookedTimesForDate",
+          "callee": "d.getHours",
+          "lineNumber": 40
+        },
+        {
+          "caller": "getBookedTimesForDate",
+          "callee": "String(d.getMinutes()).padStart",
+          "lineNumber": 40
+        },
+        {
+          "caller": "getBookedTimesForDate",
+          "callee": "String",
+          "lineNumber": 40
+        },
+        {
+          "caller": "getBookedTimesForDate",
+          "callee": "d.getMinutes",
+          "lineNumber": 40
+        },
+        {
+          "caller": "getBookedTimesForDate",
+          "callee": "booked.add",
+          "lineNumber": 41
+        },
+        {
+          "caller": "isTeeTimeWithinClubHours",
+          "callee": "parseTimeToMinutes",
+          "lineNumber": 48
+        },
+        {
+          "caller": "isTeeTimeWithinClubHours",
+          "callee": "parseTimeToMinutes",
+          "lineNumber": 49
+        },
+        {
+          "caller": "isTeeTimeWithinClubHours",
+          "callee": "parseTimeToMinutes",
+          "lineNumber": 50
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 4,
+        "functionCount": 6,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/lib/tournaments/bookingBlock.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 35,
+      "nonEmptyLines": 31,
+      "functions": [
+        {
+          "name": "isCasualBookingBlocked",
+          "startLine": 5,
+          "endLine": 23,
+          "params": [
+            "tournaments",
+            "clubId",
+            "teeTimeIso"
+          ]
+        },
+        {
+          "name": "hasActiveBookingBlock",
+          "startLine": 25,
+          "endLine": 35,
+          "params": [
+            "tournaments",
+            "clubId"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "isCasualBookingBlocked",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "hasActiveBookingBlock",
+          "line": 25,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "isCasualBookingBlocked",
+          "callee": "new Date(teeTimeIso).getTime",
+          "lineNumber": 10
+        },
+        {
+          "caller": "isCasualBookingBlocked",
+          "callee": "Number.isNaN",
+          "lineNumber": 11
+        },
+        {
+          "caller": "isCasualBookingBlocked",
+          "callee": "tournaments.find",
+          "lineNumber": 14
+        },
+        {
+          "caller": "isCasualBookingBlocked",
+          "callee": "BLOCKING_STATUSES.has",
+          "lineNumber": 18
+        },
+        {
+          "caller": "isCasualBookingBlocked",
+          "callee": "new Date(t.startsAt).getTime",
+          "lineNumber": 19
+        },
+        {
+          "caller": "isCasualBookingBlocked",
+          "callee": "new Date(t.endsAt).getTime",
+          "lineNumber": 20
+        },
+        {
+          "caller": "hasActiveBookingBlock",
+          "callee": "Date.now",
+          "lineNumber": 26
+        },
+        {
+          "caller": "hasActiveBookingBlock",
+          "callee": "tournaments.some",
+          "lineNumber": 27
+        },
+        {
+          "caller": "hasActiveBookingBlock",
+          "callee": "BLOCKING_STATUSES.has",
+          "lineNumber": 31
+        },
+        {
+          "caller": "hasActiveBookingBlock",
+          "callee": "new Date(t.startsAt).getTime",
+          "lineNumber": 32
+        },
+        {
+          "caller": "hasActiveBookingBlock",
+          "callee": "new Date(t.endsAt).getTime",
+          "lineNumber": 33
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/lib/tournaments/groups.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 30,
+      "nonEmptyLines": 27,
+      "functions": [
+        {
+          "name": "isHandicapInGroup",
+          "startLine": 3,
+          "endLine": 7,
+          "params": [
+            "handicap",
+            "group"
+          ]
+        },
+        {
+          "name": "eligibleGroupsForHandicap",
+          "startLine": 9,
+          "endLine": 16,
+          "params": [
+            "groups",
+            "handicap"
+          ]
+        },
+        {
+          "name": "formatGroupLabel",
+          "startLine": 18,
+          "endLine": 30,
+          "params": [
+            "group"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "isHandicapInGroup",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "eligibleGroupsForHandicap",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "formatGroupLabel",
+          "line": 18,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "eligibleGroupsForHandicap",
+          "callee": "groups.filter",
+          "lineNumber": 14
+        },
+        {
+          "caller": "eligibleGroupsForHandicap",
+          "callee": "isHandicapInGroup",
+          "lineNumber": 14
+        },
+        {
+          "caller": "formatGroupLabel",
+          "callee": "parts.push",
+          "lineNumber": 22
+        },
+        {
+          "caller": "formatGroupLabel",
+          "callee": "parts.push",
+          "lineNumber": 24
+        },
+        {
+          "caller": "formatGroupLabel",
+          "callee": "parts.push",
+          "lineNumber": 26
+        },
+        {
+          "caller": "formatGroupLabel",
+          "callee": "parts.join",
+          "lineNumber": 29
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/lib/tournaments/normalize.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 62,
+      "nonEmptyLines": 55,
+      "functions": [
+        {
+          "name": "defaultGroups",
+          "startLine": 5,
+          "endLine": 7,
+          "params": []
+        },
+        {
+          "name": "normalizeGroups",
+          "startLine": 9,
+          "endLine": 20,
+          "params": [
+            "raw"
+          ]
+        },
+        {
+          "name": "normalizeTournament",
+          "startLine": 22,
+          "endLine": 51,
+          "params": [
+            "raw"
+          ]
+        },
+        {
+          "name": "endsAtWithEndOfDay",
+          "startLine": 53,
+          "endLine": 58,
+          "params": [
+            "startsAt"
+          ]
+        },
+        {
+          "name": "createDefaultGroups",
+          "startLine": 60,
+          "endLine": 62,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "normalizeTournament",
+          "line": 22,
+          "isDefault": false
+        },
+        {
+          "name": "createDefaultGroups",
+          "line": 60,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "defaultGroups",
+          "callee": "DEFAULT_TOURNAMENT_GROUP_TEMPLATES.map",
+          "lineNumber": 6
+        },
+        {
+          "caller": "defaultGroups",
+          "callee": "createId",
+          "lineNumber": 6
+        },
+        {
+          "caller": "normalizeGroups",
+          "callee": "Array.isArray",
+          "lineNumber": 10
+        },
+        {
+          "caller": "normalizeGroups",
+          "callee": "defaultGroups",
+          "lineNumber": 10
+        },
+        {
+          "caller": "normalizeGroups",
+          "callee": "raw.map",
+          "lineNumber": 11
+        },
+        {
+          "caller": "normalizeGroups",
+          "callee": "createId",
+          "lineNumber": 14
+        },
+        {
+          "caller": "normalizeTournament",
+          "callee": "new Date().toISOString",
+          "lineNumber": 37
+        },
+        {
+          "caller": "normalizeTournament",
+          "callee": "endsAtWithEndOfDay",
+          "lineNumber": 38
+        },
+        {
+          "caller": "normalizeTournament",
+          "callee": "normalizeGroups",
+          "lineNumber": 45
+        },
+        {
+          "caller": "endsAtWithEndOfDay",
+          "callee": "Number.isNaN",
+          "lineNumber": 55
+        },
+        {
+          "caller": "endsAtWithEndOfDay",
+          "callee": "d.getTime",
+          "lineNumber": 55
+        },
+        {
+          "caller": "endsAtWithEndOfDay",
+          "callee": "new Date().toISOString",
+          "lineNumber": 55
+        },
+        {
+          "caller": "endsAtWithEndOfDay",
+          "callee": "d.setHours",
+          "lineNumber": 56
+        },
+        {
+          "caller": "endsAtWithEndOfDay",
+          "callee": "d.toISOString",
+          "lineNumber": 57
+        },
+        {
+          "caller": "createDefaultGroups",
+          "callee": "defaultGroups",
+          "lineNumber": 61
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 2,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/pages/DashboardPage.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 155,
+      "nonEmptyLines": 145,
+      "functions": [
+        {
+          "name": "DashboardPage",
+          "startLine": 16,
+          "endLine": 155,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "DashboardPage",
+          "line": 16,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "DashboardPage",
+          "callee": "useTeevo",
+          "lineNumber": 17
+        },
+        {
+          "caller": "DashboardPage",
+          "callee": "currentUser.name.split",
+          "lineNumber": 24
+        },
+        {
+          "caller": "DashboardPage",
+          "callee": "getAccessibleClubIds",
+          "lineNumber": 29
+        },
+        {
+          "caller": "DashboardPage",
+          "callee": "data.clubs.map",
+          "lineNumber": 31
+        },
+        {
+          "caller": "DashboardPage",
+          "callee": "data.tournaments.filter",
+          "lineNumber": 34
+        },
+        {
+          "caller": "DashboardPage",
+          "callee": "clubIds.includes",
+          "lineNumber": 35
+        },
+        {
+          "caller": "DashboardPage",
+          "callee": "data.bookings.filter",
+          "lineNumber": 40
+        },
+        {
+          "caller": "DashboardPage",
+          "callee": "data.bookings.filter",
+          "lineNumber": 41
+        },
+        {
+          "caller": "DashboardPage",
+          "callee": "clubIds.includes",
+          "lineNumber": 41
+        },
+        {
+          "caller": "DashboardPage",
+          "callee": "formatDashboardGreeting",
+          "lineNumber": 67
+        },
+        {
+          "caller": "DashboardPage",
+          "callee": "currentUser.name.split",
+          "lineNumber": 67
+        },
+        {
+          "caller": "DashboardPage",
+          "callee": "getDashboardPageDescription",
+          "lineNumber": 68
+        },
+        {
+          "caller": "DashboardPage",
+          "callee": "stats.map",
+          "lineNumber": 72
+        },
+        {
+          "caller": "DashboardPage",
+          "callee": "myTournaments.slice(0, 5).map",
+          "lineNumber": 93
+        },
+        {
+          "caller": "DashboardPage",
+          "callee": "myTournaments.slice",
+          "lineNumber": 93
+        },
+        {
+          "caller": "DashboardPage",
+          "callee": "data.clubs.find",
+          "lineNumber": 94
+        },
+        {
+          "caller": "DashboardPage",
+          "callee": "formatDate",
+          "lineNumber": 106
+        },
+        {
+          "caller": "DashboardPage",
+          "callee": "formatDate",
+          "lineNumber": 106
+        },
+        {
+          "caller": "DashboardPage",
+          "callee": "myBookings.slice(0, 5).map",
+          "lineNumber": 126
+        },
+        {
+          "caller": "DashboardPage",
+          "callee": "myBookings.slice",
+          "lineNumber": 126
+        },
+        {
+          "caller": "DashboardPage",
+          "callee": "data.clubs.find",
+          "lineNumber": 127
+        },
+        {
+          "caller": "DashboardPage",
+          "callee": "data.users.find",
+          "lineNumber": 128
+        },
+        {
+          "caller": "DashboardPage",
+          "callee": "formatDateTime",
+          "lineNumber": 142
+        }
+      ],
+      "metrics": {
+        "importCount": 9,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/store/actions.test.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 55,
+      "nonEmptyLines": 50,
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/store/actions.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 487,
+      "nonEmptyLines": 438,
+      "functions": [
+        {
+          "name": "duplicateEmail",
+          "startLine": 18,
+          "endLine": 22,
+          "params": [
+            "data",
+            "email",
+            "excludeId"
+          ]
+        },
+        {
+          "name": "isValidTournamentRange",
+          "startLine": 24,
+          "endLine": 29,
+          "params": [
+            "startsAt",
+            "endsAt"
+          ]
+        },
+        {
+          "name": "createUser",
+          "startLine": 33,
+          "endLine": 45,
+          "params": [
+            "data",
+            "input"
+          ]
+        },
+        {
+          "name": "updateUser",
+          "startLine": 47,
+          "endLine": 63,
+          "params": [
+            "data",
+            "id",
+            "input"
+          ]
+        },
+        {
+          "name": "deleteUser",
+          "startLine": 65,
+          "endLine": 72,
+          "params": [
+            "data",
+            "id"
+          ]
+        },
+        {
+          "name": "createClub",
+          "startLine": 74,
+          "endLine": 77,
+          "params": [
+            "data",
+            "input"
+          ]
+        },
+        {
+          "name": "updateClub",
+          "startLine": 79,
+          "endLine": 82,
+          "params": [
+            "data",
+            "id",
+            "input"
+          ]
+        },
+        {
+          "name": "deleteClub",
+          "startLine": 84,
+          "endLine": 99,
+          "params": [
+            "data",
+            "id"
+          ]
+        },
+        {
+          "name": "createTournament",
+          "startLine": 101,
+          "endLine": 123,
+          "params": [
+            "data",
+            "input"
+          ]
+        },
+        {
+          "name": "updateTournament",
+          "startLine": 125,
+          "endLine": 149,
+          "params": [
+            "data",
+            "id",
+            "input"
+          ]
+        },
+        {
+          "name": "deleteTournament",
+          "startLine": 151,
+          "endLine": 161,
+          "params": [
+            "data",
+            "id"
+          ]
+        },
+        {
+          "name": "registerForTournament",
+          "startLine": 163,
+          "endLine": 223,
+          "params": [
+            "data",
+            "input"
+          ]
+        },
+        {
+          "name": "reviewRegistration",
+          "startLine": 225,
+          "endLine": 346,
+          "params": [
+            "data",
+            "input"
+          ]
+        },
+        {
+          "name": "createBooking",
+          "startLine": 348,
+          "endLine": 420,
+          "params": [
+            "data",
+            "input"
+          ]
+        },
+        {
+          "name": "updateBookingStatus",
+          "startLine": 422,
+          "endLine": 429,
+          "params": [
+            "data",
+            "id",
+            "status"
+          ]
+        },
+        {
+          "name": "createOrUpdateScorecard",
+          "startLine": 431,
+          "endLine": 480,
+          "params": [
+            "data",
+            "input"
+          ]
+        },
+        {
+          "name": "joinClub",
+          "startLine": 482,
+          "endLine": 487,
+          "params": [
+            "data",
+            "userId",
+            "clubId"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "createUser",
+          "line": 33,
+          "isDefault": false
+        },
+        {
+          "name": "updateUser",
+          "line": 47,
+          "isDefault": false
+        },
+        {
+          "name": "deleteUser",
+          "line": 65,
+          "isDefault": false
+        },
+        {
+          "name": "createClub",
+          "line": 74,
+          "isDefault": false
+        },
+        {
+          "name": "updateClub",
+          "line": 79,
+          "isDefault": false
+        },
+        {
+          "name": "deleteClub",
+          "line": 84,
+          "isDefault": false
+        },
+        {
+          "name": "createTournament",
+          "line": 101,
+          "isDefault": false
+        },
+        {
+          "name": "updateTournament",
+          "line": 125,
+          "isDefault": false
+        },
+        {
+          "name": "deleteTournament",
+          "line": 151,
+          "isDefault": false
+        },
+        {
+          "name": "registerForTournament",
+          "line": 163,
+          "isDefault": false
+        },
+        {
+          "name": "reviewRegistration",
+          "line": 225,
+          "isDefault": false
+        },
+        {
+          "name": "createBooking",
+          "line": 348,
+          "isDefault": false
+        },
+        {
+          "name": "updateBookingStatus",
+          "line": 422,
+          "isDefault": false
+        },
+        {
+          "name": "createOrUpdateScorecard",
+          "line": 431,
+          "isDefault": false
+        },
+        {
+          "name": "joinClub",
+          "line": 482,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "duplicateEmail",
+          "callee": "data.users.some",
+          "lineNumber": 19
+        },
+        {
+          "caller": "duplicateEmail",
+          "callee": "u.email.toLowerCase",
+          "lineNumber": 20
+        },
+        {
+          "caller": "duplicateEmail",
+          "callee": "email.toLowerCase",
+          "lineNumber": 20
+        },
+        {
+          "caller": "isValidTournamentRange",
+          "callee": "isNaN",
+          "lineNumber": 27
+        },
+        {
+          "caller": "isValidTournamentRange",
+          "callee": "start.getTime",
+          "lineNumber": 27
+        },
+        {
+          "caller": "isValidTournamentRange",
+          "callee": "isNaN",
+          "lineNumber": 27
+        },
+        {
+          "caller": "isValidTournamentRange",
+          "callee": "end.getTime",
+          "lineNumber": 27
+        },
+        {
+          "caller": "createUser",
+          "callee": "duplicateEmail",
+          "lineNumber": 37
+        },
+        {
+          "caller": "createUser",
+          "callee": "createId",
+          "lineNumber": 43
+        },
+        {
+          "caller": "updateUser",
+          "callee": "data.users.find",
+          "lineNumber": 52
+        },
+        {
+          "caller": "updateUser",
+          "callee": "duplicateEmail",
+          "lineNumber": 54
+        },
+        {
+          "caller": "updateUser",
+          "callee": "data.users.map",
+          "lineNumber": 61
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "data.users.filter",
+          "lineNumber": 68
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "data.bookings.filter",
+          "lineNumber": 69
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "data.scorecards.filter",
+          "lineNumber": 70
+        },
+        {
+          "caller": "createClub",
+          "callee": "createId",
+          "lineNumber": 75
+        },
+        {
+          "caller": "updateClub",
+          "callee": "data.clubs.map",
+          "lineNumber": 80
+        },
+        {
+          "caller": "deleteClub",
+          "callee": "data.tournaments.filter((t) => t.clubId === id).map",
+          "lineNumber": 86
+        },
+        {
+          "caller": "deleteClub",
+          "callee": "data.tournaments.filter",
+          "lineNumber": 86
+        },
+        {
+          "caller": "deleteClub",
+          "callee": "data.clubs.filter",
+          "lineNumber": 90
+        },
+        {
+          "caller": "deleteClub",
+          "callee": "data.users.map",
+          "lineNumber": 91
+        },
+        {
+          "caller": "deleteClub",
+          "callee": "data.tournaments.filter",
+          "lineNumber": 92
+        },
+        {
+          "caller": "deleteClub",
+          "callee": "data.tournamentRegistrations.filter",
+          "lineNumber": 93
+        },
+        {
+          "caller": "deleteClub",
+          "callee": "removedTournamentIds.has",
+          "lineNumber": 94
+        },
+        {
+          "caller": "deleteClub",
+          "callee": "data.bookings.filter",
+          "lineNumber": 96
+        },
+        {
+          "caller": "deleteClub",
+          "callee": "data.scorecards.filter",
+          "lineNumber": 97
+        },
+        {
+          "caller": "createTournament",
+          "callee": "data.clubs.find",
+          "lineNumber": 105
+        },
+        {
+          "caller": "createTournament",
+          "callee": "isValidTournamentRange",
+          "lineNumber": 107
+        },
+        {
+          "caller": "createTournament",
+          "callee": "data.tournaments.some",
+          "lineNumber": 110
+        },
+        {
+          "caller": "createTournament",
+          "callee": "isDateRangeOverlap",
+          "lineNumber": 113
+        },
+        {
+          "caller": "createTournament",
+          "callee": "createId",
+          "lineNumber": 121
+        },
+        {
+          "caller": "updateTournament",
+          "callee": "data.tournaments.find",
+          "lineNumber": 130
+        },
+        {
+          "caller": "updateTournament",
+          "callee": "data.clubs.find",
+          "lineNumber": 133
+        },
+        {
+          "caller": "updateTournament",
+          "callee": "data.tournaments.some",
+          "lineNumber": 135
+        },
+        {
+          "caller": "updateTournament",
+          "callee": "isDateRangeOverlap",
+          "lineNumber": 139
+        },
+        {
+          "caller": "updateTournament",
+          "callee": "data.tournaments.map",
+          "lineNumber": 147
+        },
+        {
+          "caller": "deleteTournament",
+          "callee": "data.tournaments.filter",
+          "lineNumber": 154
+        },
+        {
+          "caller": "deleteTournament",
+          "callee": "data.tournamentRegistrations.filter",
+          "lineNumber": 155
+        },
+        {
+          "caller": "deleteTournament",
+          "callee": "data.bookings.map",
+          "lineNumber": 156
+        },
+        {
+          "caller": "deleteTournament",
+          "callee": "data.scorecards.filter",
+          "lineNumber": 159
+        },
+        {
+          "caller": "registerForTournament",
+          "callee": "data.tournaments.find",
+          "lineNumber": 167
+        },
+        {
+          "caller": "registerForTournament",
+          "callee": "OPEN_REGISTRATION_STATUSES.has",
+          "lineNumber": 170
+        },
+        {
+          "caller": "registerForTournament",
+          "callee": "data.users.find",
+          "lineNumber": 174
+        },
+        {
+          "caller": "registerForTournament",
+          "callee": "tournament.groups.find",
+          "lineNumber": 185
+        },
+        {
+          "caller": "registerForTournament",
+          "callee": "eligibleGroupsForHandicap",
+          "lineNumber": 190
+        },
+        {
+          "caller": "registerForTournament",
+          "callee": "eligible.some",
+          "lineNumber": 191
+        },
+        {
+          "caller": "registerForTournament",
+          "callee": "data.tournamentRegistrations.find",
+          "lineNumber": 198
+        },
+        {
+          "caller": "registerForTournament",
+          "callee": "createId",
+          "lineNumber": 206
+        },
+        {
+          "caller": "registerForTournament",
+          "callee": "new Date().toISOString",
+          "lineNumber": 213
+        },
+        {
+          "caller": "registerForTournament",
+          "callee": "data.tournamentRegistrations.map",
+          "lineNumber": 219
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "data.tournamentRegistrations.find",
+          "lineNumber": 236
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "data.tournaments.find",
+          "lineNumber": 244
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "data.clubs.find",
+          "lineNumber": 249
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "data.tournamentRegistrations.map",
+          "lineNumber": 253
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "new Date().toISOString",
+          "lineNumber": 258
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "tournament.groups.find",
+          "lineNumber": 280
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "new Date(input.teeTime).getTime",
+          "lineNumber": 285
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "new Date(tournament.startsAt).getTime",
+          "lineNumber": 286
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "new Date(tournament.endsAt).getTime",
+          "lineNumber": 287
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "input.teeTime.slice",
+          "lineNumber": 295
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "String(new Date(input.teeTime).getHours()).padStart",
+          "lineNumber": 296
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "String",
+          "lineNumber": 296
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "new Date(input.teeTime).getHours",
+          "lineNumber": 296
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "String(new Date(input.teeTime).getMinutes()).padStart",
+          "lineNumber": 296
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "String",
+          "lineNumber": 296
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "new Date(input.teeTime).getMinutes",
+          "lineNumber": 296
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "isTeeTimeWithinClubHours",
+          "lineNumber": 298
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "teeTimeToIso",
+          "lineNumber": 305
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "data.bookings.some",
+          "lineNumber": 306
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "createId",
+          "lineNumber": 317
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "data.tournamentRegistrations.map",
+          "lineNumber": 325
+        },
+        {
+          "caller": "reviewRegistration",
+          "callee": "new Date().toISOString",
+          "lineNumber": 333
+        },
+        {
+          "caller": "createBooking",
+          "callee": "data.clubs.find",
+          "lineNumber": 358
+        },
+        {
+          "caller": "createBooking",
+          "callee": "isTeeTimeWithinClubHours",
+          "lineNumber": 361
+        },
+        {
+          "caller": "createBooking",
+          "callee": "teeTimeToIso",
+          "lineNumber": 368
+        },
+        {
+          "caller": "createBooking",
+          "callee": "data.bookings.some",
+          "lineNumber": 369
+        },
+        {
+          "caller": "createBooking",
+          "callee": "isCasualBookingBlocked",
+          "lineNumber": 380
+        },
+        {
+          "caller": "createBooking",
+          "callee": "data.tournaments.find",
+          "lineNumber": 393
+        },
+        {
+          "caller": "createBooking",
+          "callee": "new Date(teeTimeIso).getTime",
+          "lineNumber": 400
+        },
+        {
+          "caller": "createBooking",
+          "callee": "new Date(tournament.startsAt).getTime",
+          "lineNumber": 401
+        },
+        {
+          "caller": "createBooking",
+          "callee": "new Date(tournament.endsAt).getTime",
+          "lineNumber": 402
+        },
+        {
+          "caller": "createBooking",
+          "callee": "createId",
+          "lineNumber": 412
+        },
+        {
+          "caller": "updateBookingStatus",
+          "callee": "data.bookings.map",
+          "lineNumber": 427
+        },
+        {
+          "caller": "createOrUpdateScorecard",
+          "callee": "data.tournaments.find",
+          "lineNumber": 440
+        },
+        {
+          "caller": "createOrUpdateScorecard",
+          "callee": "data.clubs.find",
+          "lineNumber": 443
+        },
+        {
+          "caller": "createOrUpdateScorecard",
+          "callee": "input.holeScores.reduce",
+          "lineNumber": 455
+        },
+        {
+          "caller": "createOrUpdateScorecard",
+          "callee": "data.scorecards.find",
+          "lineNumber": 456
+        },
+        {
+          "caller": "createOrUpdateScorecard",
+          "callee": "data.scorecards.map",
+          "lineNumber": 461
+        },
+        {
+          "caller": "createOrUpdateScorecard",
+          "callee": "createId",
+          "lineNumber": 470
+        },
+        {
+          "caller": "createOrUpdateScorecard",
+          "callee": "new Date().toISOString",
+          "lineNumber": 477
+        },
+        {
+          "caller": "joinClub",
+          "callee": "data.users.map",
+          "lineNumber": 483
+        }
+      ],
+      "metrics": {
+        "importCount": 6,
+        "exportCount": 15,
+        "functionCount": 17,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "Frontend/src/types/entities.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 96,
+      "nonEmptyLines": 82,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

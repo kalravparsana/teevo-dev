@@ -1,0 +1,2063 @@
+{
+  "nodes": [
+    {
+      "id": "file:Frontend/src/lib/cn.ts",
+      "type": "file",
+      "name": "cn.ts",
+      "filePath": "Frontend/src/lib/cn.ts",
+      "summary": "Shared library module (cn.ts) providing utilities or API clients.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/cn.ts:cn",
+      "type": "function",
+      "name": "cn",
+      "filePath": "Frontend/src/lib/cn.ts",
+      "summary": "Function cn in cn.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/lib/dates.ts",
+      "type": "file",
+      "name": "dates.ts",
+      "filePath": "Frontend/src/lib/dates.ts",
+      "summary": "Shared library module (dates.ts) providing utilities or API clients.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:Frontend/src/lib/dates.ts:formatDate",
+      "type": "function",
+      "name": "formatDate",
+      "filePath": "Frontend/src/lib/dates.ts",
+      "summary": "Function formatDate in dates.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/dates.ts:formatDateTime",
+      "type": "function",
+      "name": "formatDateTime",
+      "filePath": "Frontend/src/lib/dates.ts",
+      "summary": "Function formatDateTime in dates.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/dates.ts:toDateInputValue",
+      "type": "function",
+      "name": "toDateInputValue",
+      "filePath": "Frontend/src/lib/dates.ts",
+      "summary": "Function toDateInputValue in dates.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/dates.ts:parseDateInput",
+      "type": "function",
+      "name": "parseDateInput",
+      "filePath": "Frontend/src/lib/dates.ts",
+      "summary": "Function parseDateInput in dates.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/dates.ts:toDateTimeLocalValue",
+      "type": "function",
+      "name": "toDateTimeLocalValue",
+      "filePath": "Frontend/src/lib/dates.ts",
+      "summary": "Function toDateTimeLocalValue in dates.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/dates.ts:parseDateTimeLocal",
+      "type": "function",
+      "name": "parseDateTimeLocal",
+      "filePath": "Frontend/src/lib/dates.ts",
+      "summary": "Function parseDateTimeLocal in dates.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/dates.ts:formatDateRange",
+      "type": "function",
+      "name": "formatDateRange",
+      "filePath": "Frontend/src/lib/dates.ts",
+      "summary": "Function formatDateRange in dates.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/dates.ts:isDateRangeOverlap",
+      "type": "function",
+      "name": "isDateRangeOverlap",
+      "filePath": "Frontend/src/lib/dates.ts",
+      "summary": "Function isDateRangeOverlap in dates.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/dates.ts:isTodayOrFuture",
+      "type": "function",
+      "name": "isTodayOrFuture",
+      "filePath": "Frontend/src/lib/dates.ts",
+      "summary": "Function isTodayOrFuture in dates.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/lib/images/readImageFile.test.ts",
+      "type": "file",
+      "name": "readImageFile.test.ts",
+      "filePath": "Frontend/src/lib/images/readImageFile.test.ts",
+      "summary": "Automated test suite (readImageFile.test.ts) validating application behavior.",
+      "tags": [
+        "test",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/lib/images/readImageFile.ts",
+      "type": "file",
+      "name": "readImageFile.ts",
+      "filePath": "Frontend/src/lib/images/readImageFile.ts",
+      "summary": "Shared library module (readImageFile.ts) providing utilities or API clients.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/images/readImageFile.ts:validateImageFile",
+      "type": "function",
+      "name": "validateImageFile",
+      "filePath": "Frontend/src/lib/images/readImageFile.ts",
+      "summary": "Function validateImageFile in readImageFile.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/images/readImageFile.ts:imageFileErrorMessage",
+      "type": "function",
+      "name": "imageFileErrorMessage",
+      "filePath": "Frontend/src/lib/images/readImageFile.ts",
+      "summary": "Function imageFileErrorMessage in readImageFile.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/images/readImageFile.ts:readImageFileAsDataUrl",
+      "type": "function",
+      "name": "readImageFileAsDataUrl",
+      "filePath": "Frontend/src/lib/images/readImageFile.ts",
+      "summary": "Function readImageFileAsDataUrl in readImageFile.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/lib/permissions.ts",
+      "type": "file",
+      "name": "permissions.ts",
+      "filePath": "Frontend/src/lib/permissions.ts",
+      "summary": "Shared library module (permissions.ts) providing utilities or API clients.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:Frontend/src/lib/permissions.ts:getNavItemsForRole",
+      "type": "function",
+      "name": "getNavItemsForRole",
+      "filePath": "Frontend/src/lib/permissions.ts",
+      "summary": "Function getNavItemsForRole in permissions.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/permissions.ts:canManageUsers",
+      "type": "function",
+      "name": "canManageUsers",
+      "filePath": "Frontend/src/lib/permissions.ts",
+      "summary": "Function canManageUsers in permissions.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/permissions.ts:canManageClubs",
+      "type": "function",
+      "name": "canManageClubs",
+      "filePath": "Frontend/src/lib/permissions.ts",
+      "summary": "Function canManageClubs in permissions.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/permissions.ts:canConfigureClub",
+      "type": "function",
+      "name": "canConfigureClub",
+      "filePath": "Frontend/src/lib/permissions.ts",
+      "summary": "Function canConfigureClub in permissions.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/permissions.ts:canManageTournaments",
+      "type": "function",
+      "name": "canManageTournaments",
+      "filePath": "Frontend/src/lib/permissions.ts",
+      "summary": "Function canManageTournaments in permissions.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/permissions.ts:canManageBookings",
+      "type": "function",
+      "name": "canManageBookings",
+      "filePath": "Frontend/src/lib/permissions.ts",
+      "summary": "Function canManageBookings in permissions.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/permissions.ts:canViewClub",
+      "type": "function",
+      "name": "canViewClub",
+      "filePath": "Frontend/src/lib/permissions.ts",
+      "summary": "Function canViewClub in permissions.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/permissions.ts:getAccessibleClubIds",
+      "type": "function",
+      "name": "getAccessibleClubIds",
+      "filePath": "Frontend/src/lib/permissions.ts",
+      "summary": "Function getAccessibleClubIds in permissions.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/lib/tournaments/constants.ts",
+      "type": "file",
+      "name": "constants.ts",
+      "filePath": "Frontend/src/lib/tournaments/constants.ts",
+      "summary": "Shared library module (constants.ts) providing utilities or API clients.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/tournaments/constants.ts:formatTournamentType",
+      "type": "function",
+      "name": "formatTournamentType",
+      "filePath": "Frontend/src/lib/tournaments/constants.ts",
+      "summary": "Function formatTournamentType in constants.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/tournaments/constants.ts:formatHandicapRange",
+      "type": "function",
+      "name": "formatHandicapRange",
+      "filePath": "Frontend/src/lib/tournaments/constants.ts",
+      "summary": "Function formatHandicapRange in constants.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/lib/validation/schemas.ts",
+      "type": "file",
+      "name": "schemas.ts",
+      "filePath": "Frontend/src/lib/validation/schemas.ts",
+      "summary": "Shared library module (schemas.ts) providing utilities or API clients.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:Frontend/src/lib/validation/schemas.ts:scorecardSchemaForHoleCount",
+      "type": "function",
+      "name": "scorecardSchemaForHoleCount",
+      "filePath": "Frontend/src/lib/validation/schemas.ts",
+      "summary": "Function scorecardSchemaForHoleCount in schemas.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/lib/validation/schemas.ts:formatZodErrors",
+      "type": "function",
+      "name": "formatZodErrors",
+      "filePath": "Frontend/src/lib/validation/schemas.ts",
+      "summary": "Function formatZodErrors in schemas.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/main.tsx",
+      "type": "file",
+      "name": "main.tsx",
+      "filePath": "Frontend/src/main.tsx",
+      "summary": "Frontend bootstrap entry point mounting the React application.",
+      "tags": [
+        "entry-point",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/pages/BookingsPage.tsx",
+      "type": "file",
+      "name": "BookingsPage.tsx",
+      "filePath": "Frontend/src/pages/BookingsPage.tsx",
+      "summary": "Route page component (BookingsPage.tsx) rendering a primary application screen.",
+      "tags": [
+        "component",
+        "routing",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:Frontend/src/pages/BookingsPage.tsx:BookingsPage",
+      "type": "function",
+      "name": "BookingsPage",
+      "filePath": "Frontend/src/pages/BookingsPage.tsx",
+      "summary": "Function BookingsPage in BookingsPage.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:Frontend/src/pages/ClubDetailPage.tsx",
+      "type": "file",
+      "name": "ClubDetailPage.tsx",
+      "filePath": "Frontend/src/pages/ClubDetailPage.tsx",
+      "summary": "Route page component (ClubDetailPage.tsx) rendering a primary application screen.",
+      "tags": [
+        "component",
+        "routing",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:Frontend/src/pages/ClubDetailPage.tsx:ClubDetailPage",
+      "type": "function",
+      "name": "ClubDetailPage",
+      "filePath": "Frontend/src/pages/ClubDetailPage.tsx",
+      "summary": "Function ClubDetailPage in ClubDetailPage.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:Frontend/src/pages/ClubsPage.tsx",
+      "type": "file",
+      "name": "ClubsPage.tsx",
+      "filePath": "Frontend/src/pages/ClubsPage.tsx",
+      "summary": "Route page component (ClubsPage.tsx) rendering a primary application screen.",
+      "tags": [
+        "component",
+        "routing",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:Frontend/src/pages/ClubsPage.tsx:ClubsPage",
+      "type": "function",
+      "name": "ClubsPage",
+      "filePath": "Frontend/src/pages/ClubsPage.tsx",
+      "summary": "Function ClubsPage in ClubsPage.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:Frontend/src/pages/LoginPage.tsx",
+      "type": "file",
+      "name": "LoginPage.tsx",
+      "filePath": "Frontend/src/pages/LoginPage.tsx",
+      "summary": "Route page component (LoginPage.tsx) rendering a primary application screen.",
+      "tags": [
+        "component",
+        "routing",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:Frontend/src/pages/LoginPage.tsx:LoginPage",
+      "type": "function",
+      "name": "LoginPage",
+      "filePath": "Frontend/src/pages/LoginPage.tsx",
+      "summary": "Function LoginPage in LoginPage.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:Frontend/src/pages/ScorecardsPage.tsx",
+      "type": "file",
+      "name": "ScorecardsPage.tsx",
+      "filePath": "Frontend/src/pages/ScorecardsPage.tsx",
+      "summary": "Route page component (ScorecardsPage.tsx) rendering a primary application screen.",
+      "tags": [
+        "component",
+        "routing",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:Frontend/src/pages/ScorecardsPage.tsx:ScorecardsPage",
+      "type": "function",
+      "name": "ScorecardsPage",
+      "filePath": "Frontend/src/pages/ScorecardsPage.tsx",
+      "summary": "Function ScorecardsPage in ScorecardsPage.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:Frontend/src/pages/TournamentDetailPage.tsx",
+      "type": "file",
+      "name": "TournamentDetailPage.tsx",
+      "filePath": "Frontend/src/pages/TournamentDetailPage.tsx",
+      "summary": "Route page component (TournamentDetailPage.tsx) rendering a primary application screen.",
+      "tags": [
+        "component",
+        "routing",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:Frontend/src/pages/TournamentDetailPage.tsx:TournamentDetailPage",
+      "type": "function",
+      "name": "TournamentDetailPage",
+      "filePath": "Frontend/src/pages/TournamentDetailPage.tsx",
+      "summary": "Function TournamentDetailPage in TournamentDetailPage.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:Frontend/src/pages/TournamentsPage.tsx",
+      "type": "file",
+      "name": "TournamentsPage.tsx",
+      "filePath": "Frontend/src/pages/TournamentsPage.tsx",
+      "summary": "Route page component (TournamentsPage.tsx) rendering a primary application screen.",
+      "tags": [
+        "component",
+        "routing",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:Frontend/src/pages/TournamentsPage.tsx:TournamentsPage",
+      "type": "function",
+      "name": "TournamentsPage",
+      "filePath": "Frontend/src/pages/TournamentsPage.tsx",
+      "summary": "Function TournamentsPage in TournamentsPage.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:Frontend/src/pages/UserManagementPage.tsx",
+      "type": "file",
+      "name": "UserManagementPage.tsx",
+      "filePath": "Frontend/src/pages/UserManagementPage.tsx",
+      "summary": "Route page component (UserManagementPage.tsx) rendering a primary application screen.",
+      "tags": [
+        "component",
+        "routing",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:Frontend/src/pages/UserManagementPage.tsx:UserManagementPage",
+      "type": "function",
+      "name": "UserManagementPage",
+      "filePath": "Frontend/src/pages/UserManagementPage.tsx",
+      "summary": "Function UserManagementPage in UserManagementPage.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:Frontend/src/routes/AppRoutes.tsx",
+      "type": "file",
+      "name": "AppRoutes.tsx",
+      "filePath": "Frontend/src/routes/AppRoutes.tsx",
+      "summary": "Routing configuration (AppRoutes.tsx) defining application navigation paths.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:Frontend/src/routes/AppRoutes.tsx:AppRoutes",
+      "type": "function",
+      "name": "AppRoutes",
+      "filePath": "Frontend/src/routes/AppRoutes.tsx",
+      "summary": "Function AppRoutes in AppRoutes.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:Frontend/src/store/TeevoContext.tsx",
+      "type": "file",
+      "name": "TeevoContext.tsx",
+      "filePath": "Frontend/src/store/TeevoContext.tsx",
+      "summary": "Application state module (TeevoContext.tsx) managing client-side data and actions.",
+      "tags": [
+        "state-management",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:Frontend/src/store/TeevoContext.tsx:TeevoProvider",
+      "type": "function",
+      "name": "TeevoProvider",
+      "filePath": "Frontend/src/store/TeevoContext.tsx",
+      "summary": "Function TeevoProvider in TeevoContext.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:Frontend/src/store/TeevoContext.tsx:useTeevo",
+      "type": "function",
+      "name": "useTeevo",
+      "filePath": "Frontend/src/store/TeevoContext.tsx",
+      "summary": "Function useTeevo in TeevoContext.tsx.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:Frontend/src/store/TeevoContext.tsx:emptyAppData",
+      "type": "function",
+      "name": "emptyAppData",
+      "filePath": "Frontend/src/store/TeevoContext.tsx",
+      "summary": "Function emptyAppData in TeevoContext.tsx.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:Frontend/src/lib/cn.ts",
+      "target": "function:Frontend/src/lib/cn.ts:cn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/cn.ts",
+      "target": "function:Frontend/src/lib/cn.ts:cn",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/dates.ts",
+      "target": "function:Frontend/src/lib/dates.ts:formatDate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/dates.ts",
+      "target": "function:Frontend/src/lib/dates.ts:formatDate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/dates.ts",
+      "target": "function:Frontend/src/lib/dates.ts:formatDateTime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/dates.ts",
+      "target": "function:Frontend/src/lib/dates.ts:formatDateTime",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/dates.ts",
+      "target": "function:Frontend/src/lib/dates.ts:toDateInputValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/dates.ts",
+      "target": "function:Frontend/src/lib/dates.ts:toDateInputValue",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/dates.ts",
+      "target": "function:Frontend/src/lib/dates.ts:parseDateInput",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/dates.ts",
+      "target": "function:Frontend/src/lib/dates.ts:parseDateInput",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/dates.ts",
+      "target": "function:Frontend/src/lib/dates.ts:toDateTimeLocalValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/dates.ts",
+      "target": "function:Frontend/src/lib/dates.ts:toDateTimeLocalValue",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/dates.ts",
+      "target": "function:Frontend/src/lib/dates.ts:parseDateTimeLocal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/dates.ts",
+      "target": "function:Frontend/src/lib/dates.ts:parseDateTimeLocal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/dates.ts",
+      "target": "function:Frontend/src/lib/dates.ts:formatDateRange",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/dates.ts",
+      "target": "function:Frontend/src/lib/dates.ts:formatDateRange",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/dates.ts",
+      "target": "function:Frontend/src/lib/dates.ts:isDateRangeOverlap",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/dates.ts",
+      "target": "function:Frontend/src/lib/dates.ts:isDateRangeOverlap",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/dates.ts",
+      "target": "function:Frontend/src/lib/dates.ts:isTodayOrFuture",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/dates.ts",
+      "target": "function:Frontend/src/lib/dates.ts:isTodayOrFuture",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/images/readImageFile.test.ts",
+      "target": "file:Frontend/src/lib/images/readImageFile.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/lib/images/readImageFile.ts",
+      "target": "file:Frontend/src/lib/images/readImageFile.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:Frontend/src/lib/images/readImageFile.ts",
+      "target": "function:Frontend/src/lib/images/readImageFile.ts:validateImageFile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/images/readImageFile.ts",
+      "target": "function:Frontend/src/lib/images/readImageFile.ts:validateImageFile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/images/readImageFile.ts",
+      "target": "function:Frontend/src/lib/images/readImageFile.ts:imageFileErrorMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/images/readImageFile.ts",
+      "target": "function:Frontend/src/lib/images/readImageFile.ts:imageFileErrorMessage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/images/readImageFile.ts",
+      "target": "function:Frontend/src/lib/images/readImageFile.ts:readImageFileAsDataUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/images/readImageFile.ts",
+      "target": "function:Frontend/src/lib/images/readImageFile.ts:readImageFileAsDataUrl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/permissions.ts",
+      "target": "file:Frontend/src/types/entities.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/lib/permissions.ts",
+      "target": "function:Frontend/src/lib/permissions.ts:getNavItemsForRole",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/permissions.ts",
+      "target": "function:Frontend/src/lib/permissions.ts:getNavItemsForRole",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/permissions.ts",
+      "target": "function:Frontend/src/lib/permissions.ts:canManageUsers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/permissions.ts",
+      "target": "function:Frontend/src/lib/permissions.ts:canManageUsers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/permissions.ts",
+      "target": "function:Frontend/src/lib/permissions.ts:canManageClubs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/permissions.ts",
+      "target": "function:Frontend/src/lib/permissions.ts:canManageClubs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/permissions.ts",
+      "target": "function:Frontend/src/lib/permissions.ts:canConfigureClub",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/permissions.ts",
+      "target": "function:Frontend/src/lib/permissions.ts:canConfigureClub",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/permissions.ts",
+      "target": "function:Frontend/src/lib/permissions.ts:canManageTournaments",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/permissions.ts",
+      "target": "function:Frontend/src/lib/permissions.ts:canManageTournaments",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/permissions.ts",
+      "target": "function:Frontend/src/lib/permissions.ts:canManageBookings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/permissions.ts",
+      "target": "function:Frontend/src/lib/permissions.ts:canManageBookings",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/permissions.ts",
+      "target": "function:Frontend/src/lib/permissions.ts:canViewClub",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/permissions.ts",
+      "target": "function:Frontend/src/lib/permissions.ts:canViewClub",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/permissions.ts",
+      "target": "function:Frontend/src/lib/permissions.ts:getAccessibleClubIds",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/permissions.ts",
+      "target": "function:Frontend/src/lib/permissions.ts:getAccessibleClubIds",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/tournaments/constants.ts",
+      "target": "file:Frontend/src/types/entities.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/lib/tournaments/constants.ts",
+      "target": "function:Frontend/src/lib/tournaments/constants.ts:formatTournamentType",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/tournaments/constants.ts",
+      "target": "function:Frontend/src/lib/tournaments/constants.ts:formatTournamentType",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/tournaments/constants.ts",
+      "target": "function:Frontend/src/lib/tournaments/constants.ts:formatHandicapRange",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/tournaments/constants.ts",
+      "target": "function:Frontend/src/lib/tournaments/constants.ts:formatHandicapRange",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/validation/schemas.ts",
+      "target": "file:Frontend/src/lib/clubs/holeCount.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/lib/validation/schemas.ts",
+      "target": "file:Frontend/src/lib/tournaments/constants.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/lib/validation/schemas.ts",
+      "target": "function:Frontend/src/lib/validation/schemas.ts:scorecardSchemaForHoleCount",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/validation/schemas.ts",
+      "target": "function:Frontend/src/lib/validation/schemas.ts:scorecardSchemaForHoleCount",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/lib/validation/schemas.ts",
+      "target": "function:Frontend/src/lib/validation/schemas.ts:formatZodErrors",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/lib/validation/schemas.ts",
+      "target": "function:Frontend/src/lib/validation/schemas.ts:formatZodErrors",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/main.tsx",
+      "target": "file:Frontend/src/App.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/main.tsx",
+      "target": "file:Frontend/src/index.css",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/BookingsPage.tsx",
+      "target": "file:Frontend/src/components/layout/PageHeader.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/BookingsPage.tsx",
+      "target": "file:Frontend/src/components/ui/Badge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/BookingsPage.tsx",
+      "target": "file:Frontend/src/components/ui/Button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/BookingsPage.tsx",
+      "target": "file:Frontend/src/components/ui/Card.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/BookingsPage.tsx",
+      "target": "file:Frontend/src/components/ui/EmptyState.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/BookingsPage.tsx",
+      "target": "file:Frontend/src/components/ui/Input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/BookingsPage.tsx",
+      "target": "file:Frontend/src/components/ui/Modal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/BookingsPage.tsx",
+      "target": "file:Frontend/src/components/ui/Select.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/BookingsPage.tsx",
+      "target": "file:Frontend/src/lib/copy/bookingsPage.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/BookingsPage.tsx",
+      "target": "file:Frontend/src/lib/dates.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/BookingsPage.tsx",
+      "target": "file:Frontend/src/lib/permissions.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/BookingsPage.tsx",
+      "target": "file:Frontend/src/lib/teeTimes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/BookingsPage.tsx",
+      "target": "file:Frontend/src/lib/tournaments/bookingBlock.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/BookingsPage.tsx",
+      "target": "file:Frontend/src/lib/validation/schemas.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/BookingsPage.tsx",
+      "target": "file:Frontend/src/store/TeevoContext.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/BookingsPage.tsx",
+      "target": "function:Frontend/src/pages/BookingsPage.tsx:BookingsPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/pages/BookingsPage.tsx",
+      "target": "function:Frontend/src/pages/BookingsPage.tsx:BookingsPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/pages/ClubDetailPage.tsx",
+      "target": "file:Frontend/src/components/clubs/ClubLogo.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ClubDetailPage.tsx",
+      "target": "file:Frontend/src/components/ui/Badge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ClubDetailPage.tsx",
+      "target": "file:Frontend/src/components/ui/Button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ClubDetailPage.tsx",
+      "target": "file:Frontend/src/components/ui/Card.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ClubDetailPage.tsx",
+      "target": "file:Frontend/src/components/ui/ImageUpload.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ClubDetailPage.tsx",
+      "target": "file:Frontend/src/components/ui/Input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ClubDetailPage.tsx",
+      "target": "file:Frontend/src/components/ui/Select.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ClubDetailPage.tsx",
+      "target": "file:Frontend/src/lib/clubs/holeCount.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ClubDetailPage.tsx",
+      "target": "file:Frontend/src/lib/dates.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ClubDetailPage.tsx",
+      "target": "file:Frontend/src/lib/permissions.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ClubDetailPage.tsx",
+      "target": "file:Frontend/src/lib/validation/schemas.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ClubDetailPage.tsx",
+      "target": "file:Frontend/src/store/TeevoContext.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ClubDetailPage.tsx",
+      "target": "function:Frontend/src/pages/ClubDetailPage.tsx:ClubDetailPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/pages/ClubDetailPage.tsx",
+      "target": "function:Frontend/src/pages/ClubDetailPage.tsx:ClubDetailPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/pages/ClubsPage.tsx",
+      "target": "file:Frontend/src/components/clubs/ClubLogo.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ClubsPage.tsx",
+      "target": "file:Frontend/src/components/layout/PageHeader.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ClubsPage.tsx",
+      "target": "file:Frontend/src/components/ui/Button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ClubsPage.tsx",
+      "target": "file:Frontend/src/components/ui/Card.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ClubsPage.tsx",
+      "target": "file:Frontend/src/components/ui/EmptyState.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ClubsPage.tsx",
+      "target": "file:Frontend/src/components/ui/ImageUpload.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ClubsPage.tsx",
+      "target": "file:Frontend/src/components/ui/Input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ClubsPage.tsx",
+      "target": "file:Frontend/src/components/ui/Modal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ClubsPage.tsx",
+      "target": "file:Frontend/src/components/ui/Select.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ClubsPage.tsx",
+      "target": "file:Frontend/src/lib/clubs/holeCount.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ClubsPage.tsx",
+      "target": "file:Frontend/src/lib/copy/clubsPage.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ClubsPage.tsx",
+      "target": "file:Frontend/src/lib/permissions.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ClubsPage.tsx",
+      "target": "file:Frontend/src/lib/validation/schemas.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ClubsPage.tsx",
+      "target": "file:Frontend/src/store/TeevoContext.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ClubsPage.tsx",
+      "target": "function:Frontend/src/pages/ClubsPage.tsx:ClubsPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/pages/ClubsPage.tsx",
+      "target": "function:Frontend/src/pages/ClubsPage.tsx:ClubsPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/pages/LoginPage.tsx",
+      "target": "file:Frontend/src/components/ui/Alert.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/LoginPage.tsx",
+      "target": "file:Frontend/src/components/ui/Button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/LoginPage.tsx",
+      "target": "file:Frontend/src/components/ui/Input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/LoginPage.tsx",
+      "target": "file:Frontend/src/data/seed.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/LoginPage.tsx",
+      "target": "file:Frontend/src/lib/api/config.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/LoginPage.tsx",
+      "target": "file:Frontend/src/lib/auth/cognito.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/LoginPage.tsx",
+      "target": "file:Frontend/src/store/TeevoContext.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/LoginPage.tsx",
+      "target": "function:Frontend/src/pages/LoginPage.tsx:LoginPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/pages/LoginPage.tsx",
+      "target": "function:Frontend/src/pages/LoginPage.tsx:LoginPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/pages/ScorecardsPage.tsx",
+      "target": "file:Frontend/src/components/layout/PageHeader.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ScorecardsPage.tsx",
+      "target": "file:Frontend/src/components/ui/Badge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ScorecardsPage.tsx",
+      "target": "file:Frontend/src/components/ui/Button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ScorecardsPage.tsx",
+      "target": "file:Frontend/src/components/ui/Card.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ScorecardsPage.tsx",
+      "target": "file:Frontend/src/components/ui/EmptyState.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ScorecardsPage.tsx",
+      "target": "file:Frontend/src/components/ui/Modal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ScorecardsPage.tsx",
+      "target": "file:Frontend/src/components/ui/Select.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ScorecardsPage.tsx",
+      "target": "file:Frontend/src/lib/clubs/holeCount.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ScorecardsPage.tsx",
+      "target": "file:Frontend/src/lib/copy/scorecardsPage.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ScorecardsPage.tsx",
+      "target": "file:Frontend/src/lib/dates.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ScorecardsPage.tsx",
+      "target": "file:Frontend/src/lib/permissions.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ScorecardsPage.tsx",
+      "target": "file:Frontend/src/store/TeevoContext.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/ScorecardsPage.tsx",
+      "target": "function:Frontend/src/pages/ScorecardsPage.tsx:ScorecardsPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/pages/ScorecardsPage.tsx",
+      "target": "function:Frontend/src/pages/ScorecardsPage.tsx:ScorecardsPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/pages/TournamentDetailPage.tsx",
+      "target": "file:Frontend/src/components/layout/PageHeader.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/TournamentDetailPage.tsx",
+      "target": "file:Frontend/src/components/tournaments/TournamentRegistrationsPanel.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/TournamentDetailPage.tsx",
+      "target": "file:Frontend/src/components/ui/Badge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/TournamentDetailPage.tsx",
+      "target": "file:Frontend/src/components/ui/Card.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/TournamentDetailPage.tsx",
+      "target": "file:Frontend/src/lib/dates.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/TournamentDetailPage.tsx",
+      "target": "file:Frontend/src/lib/permissions.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/TournamentDetailPage.tsx",
+      "target": "file:Frontend/src/lib/tournaments/constants.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/TournamentDetailPage.tsx",
+      "target": "file:Frontend/src/lib/tournaments/groups.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/TournamentDetailPage.tsx",
+      "target": "file:Frontend/src/store/TeevoContext.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/TournamentDetailPage.tsx",
+      "target": "function:Frontend/src/pages/TournamentDetailPage.tsx:TournamentDetailPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/pages/TournamentDetailPage.tsx",
+      "target": "function:Frontend/src/pages/TournamentDetailPage.tsx:TournamentDetailPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/pages/TournamentsPage.tsx",
+      "target": "file:Frontend/src/components/layout/PageHeader.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/TournamentsPage.tsx",
+      "target": "file:Frontend/src/components/tournaments/TournamentGroupEditor.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/TournamentsPage.tsx",
+      "target": "file:Frontend/src/components/ui/Badge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/TournamentsPage.tsx",
+      "target": "file:Frontend/src/components/ui/Button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/TournamentsPage.tsx",
+      "target": "file:Frontend/src/components/ui/Card.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/TournamentsPage.tsx",
+      "target": "file:Frontend/src/components/ui/EmptyState.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/TournamentsPage.tsx",
+      "target": "file:Frontend/src/components/ui/Input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/TournamentsPage.tsx",
+      "target": "file:Frontend/src/components/ui/Modal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/TournamentsPage.tsx",
+      "target": "file:Frontend/src/components/ui/Select.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/TournamentsPage.tsx",
+      "target": "file:Frontend/src/lib/copy/tournamentsPage.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/TournamentsPage.tsx",
+      "target": "file:Frontend/src/lib/dates.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/TournamentsPage.tsx",
+      "target": "file:Frontend/src/lib/permissions.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/TournamentsPage.tsx",
+      "target": "file:Frontend/src/lib/tournaments/constants.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/TournamentsPage.tsx",
+      "target": "file:Frontend/src/lib/tournaments/normalize.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/TournamentsPage.tsx",
+      "target": "file:Frontend/src/lib/validation/schemas.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/TournamentsPage.tsx",
+      "target": "file:Frontend/src/store/TeevoContext.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/TournamentsPage.tsx",
+      "target": "file:Frontend/src/types/entities.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/TournamentsPage.tsx",
+      "target": "function:Frontend/src/pages/TournamentsPage.tsx:TournamentsPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/pages/TournamentsPage.tsx",
+      "target": "function:Frontend/src/pages/TournamentsPage.tsx:TournamentsPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/pages/UserManagementPage.tsx",
+      "target": "file:Frontend/src/components/layout/PageHeader.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/UserManagementPage.tsx",
+      "target": "file:Frontend/src/components/ui/Badge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/UserManagementPage.tsx",
+      "target": "file:Frontend/src/components/ui/Button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/UserManagementPage.tsx",
+      "target": "file:Frontend/src/components/ui/Card.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/UserManagementPage.tsx",
+      "target": "file:Frontend/src/components/ui/Input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/UserManagementPage.tsx",
+      "target": "file:Frontend/src/components/ui/Modal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/UserManagementPage.tsx",
+      "target": "file:Frontend/src/components/ui/Select.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/UserManagementPage.tsx",
+      "target": "file:Frontend/src/lib/validation/schemas.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/UserManagementPage.tsx",
+      "target": "file:Frontend/src/store/TeevoContext.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/UserManagementPage.tsx",
+      "target": "file:Frontend/src/types/entities.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/pages/UserManagementPage.tsx",
+      "target": "function:Frontend/src/pages/UserManagementPage.tsx:UserManagementPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/pages/UserManagementPage.tsx",
+      "target": "function:Frontend/src/pages/UserManagementPage.tsx:UserManagementPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/routes/AppRoutes.tsx",
+      "target": "file:Frontend/src/components/auth/ProtectedRoute.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/routes/AppRoutes.tsx",
+      "target": "file:Frontend/src/components/auth/RoleGate.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/routes/AppRoutes.tsx",
+      "target": "file:Frontend/src/components/layout/AppShell.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/routes/AppRoutes.tsx",
+      "target": "file:Frontend/src/pages/AuthCallbackPage.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/routes/AppRoutes.tsx",
+      "target": "file:Frontend/src/pages/BookingsPage.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/routes/AppRoutes.tsx",
+      "target": "file:Frontend/src/pages/ClubDetailPage.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/routes/AppRoutes.tsx",
+      "target": "file:Frontend/src/pages/ClubsPage.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/routes/AppRoutes.tsx",
+      "target": "file:Frontend/src/pages/DashboardPage.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/routes/AppRoutes.tsx",
+      "target": "file:Frontend/src/pages/LoginPage.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/routes/AppRoutes.tsx",
+      "target": "file:Frontend/src/pages/ScorecardsPage.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/routes/AppRoutes.tsx",
+      "target": "file:Frontend/src/pages/TournamentDetailPage.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/routes/AppRoutes.tsx",
+      "target": "file:Frontend/src/pages/TournamentsPage.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/routes/AppRoutes.tsx",
+      "target": "file:Frontend/src/pages/UserManagementPage.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/routes/AppRoutes.tsx",
+      "target": "function:Frontend/src/routes/AppRoutes.tsx:AppRoutes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/routes/AppRoutes.tsx",
+      "target": "function:Frontend/src/routes/AppRoutes.tsx:AppRoutes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/store/TeevoContext.tsx",
+      "target": "file:Frontend/src/lib/api/client.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/store/TeevoContext.tsx",
+      "target": "file:Frontend/src/lib/api/config.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/store/TeevoContext.tsx",
+      "target": "file:Frontend/src/lib/api/teevoApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/store/TeevoContext.tsx",
+      "target": "file:Frontend/src/lib/auth/tokenStorage.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/store/TeevoContext.tsx",
+      "target": "file:Frontend/src/lib/storage.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/store/TeevoContext.tsx",
+      "target": "file:Frontend/src/store/actions.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/store/TeevoContext.tsx",
+      "target": "file:Frontend/src/types/entities.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:Frontend/src/store/TeevoContext.tsx",
+      "target": "function:Frontend/src/store/TeevoContext.tsx:TeevoProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/store/TeevoContext.tsx",
+      "target": "function:Frontend/src/store/TeevoContext.tsx:TeevoProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/store/TeevoContext.tsx",
+      "target": "function:Frontend/src/store/TeevoContext.tsx:useTeevo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:Frontend/src/store/TeevoContext.tsx",
+      "target": "function:Frontend/src/store/TeevoContext.tsx:useTeevo",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:Frontend/src/store/TeevoContext.tsx",
+      "target": "function:Frontend/src/store/TeevoContext.tsx:emptyAppData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

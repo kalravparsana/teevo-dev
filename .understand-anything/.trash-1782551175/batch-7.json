@@ -1,0 +1,1069 @@
+{
+  "nodes": [
+    {
+      "id": "file:backend/src/handlers/api.ts",
+      "type": "file",
+      "name": "api.ts",
+      "filePath": "backend/src/handlers/api.ts",
+      "summary": "AWS Lambda handler (api.ts) processing API requests.",
+      "tags": [
+        "api-handler",
+        "lambda",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/src/handlers/api.ts:handler",
+      "type": "function",
+      "name": "handler",
+      "filePath": "backend/src/handlers/api.ts",
+      "summary": "Function handler in api.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/src/handlers/router.ts",
+      "type": "file",
+      "name": "router.ts",
+      "filePath": "backend/src/handlers/router.ts",
+      "summary": "AWS Lambda handler (router.ts) processing API requests.",
+      "tags": [
+        "api-handler",
+        "lambda",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:backend/src/handlers/router.ts:matchRoute",
+      "type": "function",
+      "name": "matchRoute",
+      "filePath": "backend/src/handlers/router.ts",
+      "summary": "Function matchRoute in router.ts.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/src/handlers/router.ts:routeRequest",
+      "type": "function",
+      "name": "routeRequest",
+      "filePath": "backend/src/handlers/router.ts",
+      "summary": "Function routeRequest in router.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/src/handlers/router.ts:dispatch",
+      "type": "function",
+      "name": "dispatch",
+      "filePath": "backend/src/handlers/router.ts",
+      "summary": "Function dispatch in router.ts.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:backend/src/lib/auth.ts",
+      "type": "file",
+      "name": "auth.ts",
+      "filePath": "backend/src/lib/auth.ts",
+      "summary": "Shared library module (auth.ts) providing utilities or API clients.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:backend/src/lib/auth.ts:verifyBearerToken",
+      "type": "function",
+      "name": "verifyBearerToken",
+      "filePath": "backend/src/lib/auth.ts",
+      "summary": "Function verifyBearerToken in auth.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/src/lib/auth.ts:buildLoginUrl",
+      "type": "function",
+      "name": "buildLoginUrl",
+      "filePath": "backend/src/lib/auth.ts",
+      "summary": "Function buildLoginUrl in auth.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/src/lib/auth.ts:exchangeCodeForTokens",
+      "type": "function",
+      "name": "exchangeCodeForTokens",
+      "filePath": "backend/src/lib/auth.ts",
+      "summary": "Function exchangeCodeForTokens in auth.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/src/lib/config.ts",
+      "type": "file",
+      "name": "config.ts",
+      "filePath": "backend/src/lib/config.ts",
+      "summary": "Shared library module (config.ts) providing utilities or API clients.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/src/lib/config.ts:loadConfig",
+      "type": "function",
+      "name": "loadConfig",
+      "filePath": "backend/src/lib/config.ts",
+      "summary": "Function loadConfig in config.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/src/lib/dynamodb.ts",
+      "type": "file",
+      "name": "dynamodb.ts",
+      "filePath": "backend/src/lib/dynamodb.ts",
+      "summary": "Shared library module (dynamodb.ts) providing utilities or API clients.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/src/lib/dynamodb.ts:getDocClient",
+      "type": "function",
+      "name": "getDocClient",
+      "filePath": "backend/src/lib/dynamodb.ts",
+      "summary": "Function getDocClient in dynamodb.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/src/lib/dynamodb.ts:entityKeys",
+      "type": "function",
+      "name": "entityKeys",
+      "filePath": "backend/src/lib/dynamodb.ts",
+      "summary": "Function entityKeys in dynamodb.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/src/lib/dynamodb.ts:gsi1",
+      "type": "function",
+      "name": "gsi1",
+      "filePath": "backend/src/lib/dynamodb.ts",
+      "summary": "Function gsi1 in dynamodb.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/src/lib/dynamodb.ts:gsi2Email",
+      "type": "function",
+      "name": "gsi2Email",
+      "filePath": "backend/src/lib/dynamodb.ts",
+      "summary": "Function gsi2Email in dynamodb.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/src/lib/errors.ts",
+      "type": "file",
+      "name": "errors.ts",
+      "filePath": "backend/src/lib/errors.ts",
+      "summary": "Shared library module (errors.ts) providing utilities or API clients.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/src/lib/errors.ts:notFound",
+      "type": "function",
+      "name": "notFound",
+      "filePath": "backend/src/lib/errors.ts",
+      "summary": "Function notFound in errors.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/src/lib/errors.ts:validation",
+      "type": "function",
+      "name": "validation",
+      "filePath": "backend/src/lib/errors.ts",
+      "summary": "Function validation in errors.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/src/lib/errors.ts:unauthorized",
+      "type": "function",
+      "name": "unauthorized",
+      "filePath": "backend/src/lib/errors.ts",
+      "summary": "Function unauthorized in errors.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/src/lib/errors.ts:forbidden",
+      "type": "function",
+      "name": "forbidden",
+      "filePath": "backend/src/lib/errors.ts",
+      "summary": "Function forbidden in errors.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:backend/src/lib/errors.ts:AppError",
+      "type": "class",
+      "name": "AppError",
+      "filePath": "backend/src/lib/errors.ts",
+      "summary": "Class AppError in errors.ts.",
+      "tags": [
+        "exported",
+        "class"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:backend/src/lib/response.ts",
+      "type": "file",
+      "name": "response.ts",
+      "filePath": "backend/src/lib/response.ts",
+      "summary": "Shared library module (response.ts) providing utilities or API clients.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/src/lib/response.ts:json",
+      "type": "function",
+      "name": "json",
+      "filePath": "backend/src/lib/response.ts",
+      "summary": "Function json in response.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/src/lib/response.ts:corsHeaders",
+      "type": "function",
+      "name": "corsHeaders",
+      "filePath": "backend/src/lib/response.ts",
+      "summary": "Function corsHeaders in response.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/src/lib/response.ts:handleError",
+      "type": "function",
+      "name": "handleError",
+      "filePath": "backend/src/lib/response.ts",
+      "summary": "Function handleError in response.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/src/lib/types.ts",
+      "type": "file",
+      "name": "types.ts",
+      "filePath": "backend/src/lib/types.ts",
+      "summary": "Shared library module (types.ts) providing utilities or API clients.",
+      "tags": [
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:backend/src/services/domain.ts",
+      "type": "file",
+      "name": "domain.ts",
+      "filePath": "backend/src/services/domain.ts",
+      "summary": "Domain service module (domain.ts) implementing business logic and data access.",
+      "tags": [
+        "service",
+        "domain",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:backend/src/services/domain.ts:isCasualBookingBlocked",
+      "type": "function",
+      "name": "isCasualBookingBlocked",
+      "filePath": "backend/src/services/domain.ts",
+      "summary": "Function isCasualBookingBlocked in domain.ts.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/src/services/domain.ts:eligibleGroupsForHandicap",
+      "type": "function",
+      "name": "eligibleGroupsForHandicap",
+      "filePath": "backend/src/services/domain.ts",
+      "summary": "Function eligibleGroupsForHandicap in domain.ts.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/src/services/domain.ts:persistAppData",
+      "type": "function",
+      "name": "persistAppData",
+      "filePath": "backend/src/services/domain.ts",
+      "summary": "Function persistAppData in domain.ts.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/src/services/domain.ts:mutate",
+      "type": "function",
+      "name": "mutate",
+      "filePath": "backend/src/services/domain.ts",
+      "summary": "Function mutate in domain.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/src/services/domain.ts:ensureUserForAuth",
+      "type": "function",
+      "name": "ensureUserForAuth",
+      "filePath": "backend/src/services/domain.ts",
+      "summary": "Function ensureUserForAuth in domain.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/src/services/repository.ts",
+      "type": "file",
+      "name": "repository.ts",
+      "filePath": "backend/src/services/repository.ts",
+      "summary": "Domain service module (repository.ts) implementing business logic and data access.",
+      "tags": [
+        "service",
+        "domain",
+        "typescript",
+        "teevo"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:backend/src/services/repository.ts:listByType",
+      "type": "function",
+      "name": "listByType",
+      "filePath": "backend/src/services/repository.ts",
+      "summary": "Function listByType in repository.ts.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/src/services/repository.ts:putEntity",
+      "type": "function",
+      "name": "putEntity",
+      "filePath": "backend/src/services/repository.ts",
+      "summary": "Function putEntity in repository.ts.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/src/services/repository.ts:findUserByEmail",
+      "type": "function",
+      "name": "findUserByEmail",
+      "filePath": "backend/src/services/repository.ts",
+      "summary": "Function findUserByEmail in repository.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/src/services/repository.ts:loadAppData",
+      "type": "function",
+      "name": "loadAppData",
+      "filePath": "backend/src/services/repository.ts",
+      "summary": "Function loadAppData in repository.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/src/services/repository.ts:createPresignedUpload",
+      "type": "function",
+      "name": "createPresignedUpload",
+      "filePath": "backend/src/services/repository.ts",
+      "summary": "Function createPresignedUpload in repository.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/src/services/repository.ts:seedAll",
+      "type": "function",
+      "name": "seedAll",
+      "filePath": "backend/src/services/repository.ts",
+      "summary": "Function seedAll in repository.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/src/services/repository.ts:clearTable",
+      "type": "function",
+      "name": "clearTable",
+      "filePath": "backend/src/services/repository.ts",
+      "summary": "Function clearTable in repository.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/src/services/repository.ts:requireUser",
+      "type": "function",
+      "name": "requireUser",
+      "filePath": "backend/src/services/repository.ts",
+      "summary": "Function requireUser in repository.ts.",
+      "tags": [
+        "exported",
+        "function"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:backend/src/handlers/api.ts",
+      "target": "file:backend/src/handlers/router.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/src/handlers/api.ts",
+      "target": "function:backend/src/handlers/api.ts:handler",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/handlers/api.ts",
+      "target": "function:backend/src/handlers/api.ts:handler",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:backend/src/handlers/router.ts",
+      "target": "file:backend/src/lib/auth.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/src/handlers/router.ts",
+      "target": "file:backend/src/lib/config.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/src/handlers/router.ts",
+      "target": "file:backend/src/lib/errors.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/src/handlers/router.ts",
+      "target": "file:backend/src/lib/response.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/src/handlers/router.ts",
+      "target": "file:backend/src/lib/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/src/handlers/router.ts",
+      "target": "file:backend/src/services/domain.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/src/handlers/router.ts",
+      "target": "file:backend/src/services/repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/src/handlers/router.ts",
+      "target": "function:backend/src/handlers/router.ts:matchRoute",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/handlers/router.ts",
+      "target": "function:backend/src/handlers/router.ts:routeRequest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/handlers/router.ts",
+      "target": "function:backend/src/handlers/router.ts:routeRequest",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:backend/src/handlers/router.ts",
+      "target": "function:backend/src/handlers/router.ts:dispatch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/lib/auth.ts",
+      "target": "file:backend/src/lib/config.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/src/lib/auth.ts",
+      "target": "file:backend/src/lib/errors.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/src/lib/auth.ts",
+      "target": "file:backend/src/lib/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/src/lib/auth.ts",
+      "target": "function:backend/src/lib/auth.ts:verifyBearerToken",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/lib/auth.ts",
+      "target": "function:backend/src/lib/auth.ts:verifyBearerToken",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:backend/src/lib/auth.ts",
+      "target": "function:backend/src/lib/auth.ts:buildLoginUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/lib/auth.ts",
+      "target": "function:backend/src/lib/auth.ts:buildLoginUrl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:backend/src/lib/auth.ts",
+      "target": "function:backend/src/lib/auth.ts:exchangeCodeForTokens",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/lib/auth.ts",
+      "target": "function:backend/src/lib/auth.ts:exchangeCodeForTokens",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:backend/src/lib/config.ts",
+      "target": "function:backend/src/lib/config.ts:loadConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/lib/config.ts",
+      "target": "function:backend/src/lib/config.ts:loadConfig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:backend/src/lib/dynamodb.ts",
+      "target": "file:backend/src/lib/config.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/src/lib/dynamodb.ts",
+      "target": "function:backend/src/lib/dynamodb.ts:getDocClient",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/lib/dynamodb.ts",
+      "target": "function:backend/src/lib/dynamodb.ts:getDocClient",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:backend/src/lib/dynamodb.ts",
+      "target": "function:backend/src/lib/dynamodb.ts:entityKeys",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/lib/dynamodb.ts",
+      "target": "function:backend/src/lib/dynamodb.ts:entityKeys",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:backend/src/lib/dynamodb.ts",
+      "target": "function:backend/src/lib/dynamodb.ts:gsi1",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/lib/dynamodb.ts",
+      "target": "function:backend/src/lib/dynamodb.ts:gsi1",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:backend/src/lib/dynamodb.ts",
+      "target": "function:backend/src/lib/dynamodb.ts:gsi2Email",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/lib/dynamodb.ts",
+      "target": "function:backend/src/lib/dynamodb.ts:gsi2Email",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:backend/src/lib/errors.ts",
+      "target": "function:backend/src/lib/errors.ts:notFound",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/lib/errors.ts",
+      "target": "function:backend/src/lib/errors.ts:notFound",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:backend/src/lib/errors.ts",
+      "target": "function:backend/src/lib/errors.ts:validation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/lib/errors.ts",
+      "target": "function:backend/src/lib/errors.ts:validation",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:backend/src/lib/errors.ts",
+      "target": "function:backend/src/lib/errors.ts:unauthorized",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/lib/errors.ts",
+      "target": "function:backend/src/lib/errors.ts:unauthorized",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:backend/src/lib/errors.ts",
+      "target": "function:backend/src/lib/errors.ts:forbidden",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/lib/errors.ts",
+      "target": "function:backend/src/lib/errors.ts:forbidden",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:backend/src/lib/errors.ts",
+      "target": "class:backend/src/lib/errors.ts:AppError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/lib/errors.ts",
+      "target": "class:backend/src/lib/errors.ts:AppError",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:backend/src/lib/response.ts",
+      "target": "file:backend/src/lib/errors.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/src/lib/response.ts",
+      "target": "function:backend/src/lib/response.ts:json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/lib/response.ts",
+      "target": "function:backend/src/lib/response.ts:json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:backend/src/lib/response.ts",
+      "target": "function:backend/src/lib/response.ts:corsHeaders",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/lib/response.ts",
+      "target": "function:backend/src/lib/response.ts:corsHeaders",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:backend/src/lib/response.ts",
+      "target": "function:backend/src/lib/response.ts:handleError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/lib/response.ts",
+      "target": "function:backend/src/lib/response.ts:handleError",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:backend/src/services/domain.ts",
+      "target": "file:backend/src/lib/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/src/services/domain.ts",
+      "target": "file:backend/src/services/repository.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/src/services/domain.ts",
+      "target": "function:backend/src/services/domain.ts:isCasualBookingBlocked",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/services/domain.ts",
+      "target": "function:backend/src/services/domain.ts:eligibleGroupsForHandicap",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/services/domain.ts",
+      "target": "function:backend/src/services/domain.ts:persistAppData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/services/domain.ts",
+      "target": "function:backend/src/services/domain.ts:mutate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/services/domain.ts",
+      "target": "function:backend/src/services/domain.ts:mutate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:backend/src/services/domain.ts",
+      "target": "function:backend/src/services/domain.ts:ensureUserForAuth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/services/domain.ts",
+      "target": "function:backend/src/services/domain.ts:ensureUserForAuth",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:backend/src/services/repository.ts",
+      "target": "file:backend/src/lib/config.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/src/services/repository.ts",
+      "target": "file:backend/src/lib/dynamodb.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/src/services/repository.ts",
+      "target": "file:backend/src/lib/errors.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/src/services/repository.ts",
+      "target": "file:backend/src/lib/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/src/services/repository.ts",
+      "target": "function:backend/src/services/repository.ts:listByType",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/services/repository.ts",
+      "target": "function:backend/src/services/repository.ts:putEntity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/services/repository.ts",
+      "target": "function:backend/src/services/repository.ts:findUserByEmail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/services/repository.ts",
+      "target": "function:backend/src/services/repository.ts:findUserByEmail",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:backend/src/services/repository.ts",
+      "target": "function:backend/src/services/repository.ts:loadAppData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/services/repository.ts",
+      "target": "function:backend/src/services/repository.ts:loadAppData",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:backend/src/services/repository.ts",
+      "target": "function:backend/src/services/repository.ts:createPresignedUpload",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/services/repository.ts",
+      "target": "function:backend/src/services/repository.ts:createPresignedUpload",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:backend/src/services/repository.ts",
+      "target": "function:backend/src/services/repository.ts:seedAll",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/services/repository.ts",
+      "target": "function:backend/src/services/repository.ts:seedAll",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:backend/src/services/repository.ts",
+      "target": "function:backend/src/services/repository.ts:clearTable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/services/repository.ts",
+      "target": "function:backend/src/services/repository.ts:clearTable",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:backend/src/services/repository.ts",
+      "target": "function:backend/src/services/repository.ts:requireUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:backend/src/services/repository.ts",
+      "target": "function:backend/src/services/repository.ts:requireUser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}
