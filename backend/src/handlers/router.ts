@@ -29,6 +29,7 @@ function parseBody(event: APIGatewayProxyEventV2): unknown {
 
 function matchRoute(method: string, path: string): { pattern: RegExp; params: string[] } | null {
   const routes: Array<{ method: string; pattern: string; params: string[] }> = [
+    { method: 'GET', pattern: '^/health$', params: [] },
     { method: 'GET', pattern: '^/api/v1/health$', params: [] },
     { method: 'GET', pattern: '^/api/v1/auth/login-url$', params: [] },
     { method: 'POST', pattern: '^/api/v1/auth/callback$', params: [] },
@@ -106,6 +107,7 @@ export async function routeRequest(
   const pathParams = extractParams(path, match);
   const body = parseBody(event);
   const isPublic =
+    path === '/health' ||
     path === '/api/v1/health' ||
     path === '/api/v1/auth/login-url' ||
     path === '/api/v1/auth/callback';
@@ -133,7 +135,7 @@ async function dispatch(
 ): Promise<APIGatewayProxyStructuredResultV2> {
   const { path, method, body, pathParams, origin } = ctx;
 
-  if (path === '/api/v1/health' && method === 'GET') {
+  if ((path === '/health' || path === '/api/v1/health') && method === 'GET') {
     return json(200, { status: 'ok' }, origin, corsOrigins);
   }
 

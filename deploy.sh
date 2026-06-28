@@ -70,6 +70,30 @@ prepare_backend_lambda_artifact() {
   rm -f "$zip_file"
 }
 
+sync_lambda_code_from_s3() {
+  local params="$ROOT/backend/parameters.json"
+  [[ -f "$params" ]] || return 0
+
+  local bucket key env_name function_name
+  bucket="$(read_cfn_param "$params" "LambdaCodeS3Bucket")"
+  key="$(read_cfn_param "$params" "LambdaCodeS3Key")"
+  env_name="$(read_cfn_param "$params" "EnvironmentName")"
+  [[ -n "$bucket" && -n "$key" && -n "$env_name" ]] || return 0
+
+  function_name="${env_name}-api"
+  if ! aws lambda get-function --function-name "$function_name" >/dev/null 2>&1; then
+    echo "Lambda function $function_name not found yet; skipping code sync" >&2
+    return 0
+  fi
+
+  echo "Updating Lambda code for $function_name from s3://${bucket}/${key}" >&2
+  aws lambda update-function-code \
+    --function-name "$function_name" \
+    --s3-bucket "$bucket" \
+    --s3-key "$key" >/dev/null
+  aws lambda wait function-updated-v2 --function-name "$function_name"
+}
+
 prepare_backend_artifact() {
   local bucket=""
   if [[ -f "$ROOT/backend/parameters.json" ]]; then
@@ -144,6 +168,7 @@ deploy_cloudformation_layer() {
 main() {
   if [[ "$INFRA_STACK" == "cloudformation" ]]; then
     prepare_backend_artifact
+    sync_lambda_code_from_s3
     deploy_cloudformation_layer "$ROOT/backend" "$BACKEND_STACK_NAME" &
     local backend_pid=$!
     deploy_cloudformation_layer "$FRONTEND_LAYER_DIR" "$FRONTEND_STACK_NAME" &
