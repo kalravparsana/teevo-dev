@@ -1,6 +1,7 @@
 import type { APIGatewayProxyEventV2, APIGatewayProxyStructuredResultV2 } from 'aws-lambda';
 import { randomBytes } from 'node:crypto';
 import { loadConfig } from '../lib/config.js';
+import { healthResponse } from '../lib/health.js';
 import { buildLoginUrl, exchangeCodeForTokens, verifyBearerToken } from '../lib/auth.js';
 import { forbidden, unauthorized } from '../lib/errors.js';
 import { corsHeaders, handleError, json } from '../lib/response.js';
@@ -95,7 +96,7 @@ export async function routeRequest(
   const path = event.rawPath;
 
   if (method === 'GET' && (path === '/health' || path === '/api/v1/health')) {
-    return json(200, { status: 'ok' }, origin, ['*']);
+    return healthResponse(origin);
   }
 
   const cfg = loadConfig();
@@ -141,7 +142,7 @@ async function dispatch(
   const { path, method, body, pathParams, origin } = ctx;
 
   if ((path === '/health' || path === '/api/v1/health') && method === 'GET') {
-    return json(200, { status: 'ok' }, origin, corsOrigins);
+    return healthResponse(origin);
   }
 
   if (path === '/api/v1/auth/login-url' && method === 'GET') {

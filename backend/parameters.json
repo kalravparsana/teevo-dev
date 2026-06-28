@@ -13,6 +13,6 @@
   },
   {
     "ParameterKey": "CorsOrigins",
-    "ParameterValue": "http://localhost:5173"
+    "ParameterValue": "http://localhost:5173,https://d2n47vebuqk8rp.cloudfront.net"
   }
 ]
