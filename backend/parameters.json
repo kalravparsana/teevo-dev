@@ -1,15 +1,15 @@
 [
   {
     "ParameterKey": "EnvironmentName",
-    "ParameterValue": "teevo"
+    "ParameterValue": "teevo-stage"
   },
   {
     "ParameterKey": "LambdaCodeS3Bucket",
-    "ParameterValue": "teevo-lambda-artifacts-placeholder"
+    "ParameterValue": "teevo-stage-assets"
   },
   {
     "ParameterKey": "LambdaCodeS3Key",
-    "ParameterValue": "api/lambda.zip"
+    "ParameterValue": "teevo-stage-api"
   },
   {
     "ParameterKey": "CorsOrigins",

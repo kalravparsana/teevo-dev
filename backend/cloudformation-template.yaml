@@ -172,7 +172,6 @@ Resources:
           OAUTH_REDIRECT_URI: http://localhost:5173/auth/callback
           JWT_ISSUER: !Sub 'https://cognito-idp.${AWS::Region}.amazonaws.com/${CognitoUserPool}'
           CORS_ORIGINS: !Ref CorsOrigins
-          AWS_REGION: !Ref AWS::Region
 
   HttpApi:
     Type: AWS::ApiGatewayV2::Api

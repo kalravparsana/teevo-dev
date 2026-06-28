@@ -1,7 +1,7 @@
 [
   {
     "ParameterKey": "EnvironmentName",
-    "ParameterValue": "teevo"
+    "ParameterValue": "teevo-stage"
   },
   {
     "ParameterKey": "CustomDomainName",
