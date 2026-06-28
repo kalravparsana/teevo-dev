@@ -90,10 +90,15 @@ function requireRole(user: User, roles: User['role'][]): void {
 export async function routeRequest(
   event: APIGatewayProxyEventV2,
 ): Promise<APIGatewayProxyStructuredResultV2> {
-  const cfg = loadConfig();
   const origin = event.headers.origin;
   const method = event.requestContext.http.method;
   const path = event.rawPath;
+
+  if (method === 'GET' && (path === '/health' || path === '/api/v1/health')) {
+    return json(200, { status: 'ok' }, origin, ['*']);
+  }
+
+  const cfg = loadConfig();
 
   if (method === 'OPTIONS') {
     return { statusCode: 204, headers: corsHeaders(origin, cfg.corsOrigins) };
