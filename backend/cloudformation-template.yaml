@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: '2010-09-09'
-Description: Teevo serverless backend — API Gateway, Lambda, DynamoDB, Cognito, S3 uploads
+Description: Teevo serverless backend - API Gateway, Lambda, DynamoDB, Cognito, S3 uploads
 
 Parameters:
   EnvironmentName:
@@ -140,6 +140,7 @@ Resources:
                   - dynamodb:DeleteItem
                   - dynamodb:Query
                   - dynamodb:Scan
+                  - dynamodb:DescribeTable
                 Resource:
                   - !GetAtt TeevoTable.Arn
                   - !Sub '${TeevoTable.Arn}/index/*'
@@ -172,7 +173,6 @@ Resources:
           OAUTH_REDIRECT_URI: http://localhost:5173/auth/callback
           JWT_ISSUER: !Sub 'https://cognito-idp.${AWS::Region}.amazonaws.com/${CognitoUserPool}'
           CORS_ORIGINS: !Ref CorsOrigins
-          AWS_REGION: !Ref AWS::Region
 
   HttpApi:
     Type: AWS::ApiGatewayV2::Api

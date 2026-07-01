@@ -1,6 +1,7 @@
 import type { APIGatewayProxyEventV2, APIGatewayProxyStructuredResultV2 } from 'aws-lambda';
 import { randomBytes } from 'node:crypto';
 import { loadConfig } from '../lib/config.js';
+import { healthResponse } from '../lib/health.js';
 import { buildLoginUrl, exchangeCodeForTokens, verifyBearerToken } from '../lib/auth.js';
 import { forbidden, unauthorized } from '../lib/errors.js';
 import { corsHeaders, handleError, json } from '../lib/response.js';
@@ -29,6 +30,7 @@ function parseBody(event: APIGatewayProxyEventV2): unknown {
 
 function matchRoute(method: string, path: string): { pattern: RegExp; params: string[] } | null {
   const routes: Array<{ method: string; pattern: string; params: string[] }> = [
+    { method: 'GET', pattern: '^/health$', params: [] },
     { method: 'GET', pattern: '^/api/v1/health$', params: [] },
     { method: 'GET', pattern: '^/api/v1/auth/login-url$', params: [] },
     { method: 'POST', pattern: '^/api/v1/auth/callback$', params: [] },
@@ -89,10 +91,15 @@ function requireRole(user: User, roles: User['role'][]): void {
 export async function routeRequest(
   event: APIGatewayProxyEventV2,
 ): Promise<APIGatewayProxyStructuredResultV2> {
-  const cfg = loadConfig();
   const origin = event.headers.origin;
   const method = event.requestContext.http.method;
   const path = event.rawPath;
+
+  if (method === 'GET' && (path === '/health' || path === '/api/v1/health')) {
+    return healthResponse(origin);
+  }
+
+  const cfg = loadConfig();
 
   if (method === 'OPTIONS') {
     return { statusCode: 204, headers: corsHeaders(origin, cfg.corsOrigins) };
@@ -106,6 +113,7 @@ export async function routeRequest(
   const pathParams = extractParams(path, match);
   const body = parseBody(event);
   const isPublic =
+    path === '/health' ||
     path === '/api/v1/health' ||
     path === '/api/v1/auth/login-url' ||
     path === '/api/v1/auth/callback';
@@ -133,8 +141,8 @@ async function dispatch(
 ): Promise<APIGatewayProxyStructuredResultV2> {
   const { path, method, body, pathParams, origin } = ctx;
 
-  if (path === '/api/v1/health' && method === 'GET') {
-    return json(200, { status: 'ok' }, origin, corsOrigins);
+  if ((path === '/health' || path === '/api/v1/health') && method === 'GET') {
+    return healthResponse(origin);
   }
 
   if (path === '/api/v1/auth/login-url' && method === 'GET') {

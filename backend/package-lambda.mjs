@@ -10,6 +10,7 @@ const archive = archiver('zip', { zlib: { level: 9 } });
 const stream = createWriteStream(output);
 
 archive.pipe(stream);
+archive.file('package.json', { name: 'package.json' });
 archive.directory('dist/', false);
 archive.directory('node_modules/', 'node_modules');
 archive.finalize();
